@@ -1,114 +1,841 @@
-﻿<!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <title>首页</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<style> 
+BODY{background-color:rgba(138,162,157,.4);background-attachment: fixed;
+font:'微软雅黑';
+font-family:'微软雅黑';
+face:'微软雅黑';
+}
+a{                           
+  text-decoration:none;
+}
+@-webkit-keyframes yidong{ 
+0%{
+filter:alpha(opacity=0); -moz-opacity:0; -khtml-opacity: 0; opacity: 0; 
+-o-opacity:0;
+-ms-opacity:0;
+-webkit-opacity:0;
+}
+100% {
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity:1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+}
+@-moz-keyframes yidong{ 
+0%{
+filter:alpha(opacity=0); -moz-opacity:0; -khtml-opacity: 0; opacity: 0; 
+-o-opacity:0;
+-ms-opacity:0;
+-webkit-opacity:0;
+}
+100% {
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity:1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+}
+@-ms-keyframes yidong{ 
+0%{
+filter:alpha(opacity=0); -moz-opacity:0; -khtml-opacity: 0; opacity: 0; 
+-o-opacity:0;
+-ms-opacity:0;
+-webkit-opacity:0;
+}
+100% {
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity:1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+}
+@-o-keyframes yidong{ 
+0%{
+filter:alpha(opacity=0); -moz-opacity:0; -khtml-opacity: 0; opacity: 0; 
+-o-opacity:0;
+-ms-opacity:0;
+-webkit-opacity:0;
+}
+100% {
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity:1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+}
+@keyframes yidong{ 
+0%{
+filter:alpha(opacity=0); -moz-opacity:0; -khtml-opacity: 0; opacity: 0; 
+-o-opacity:0;
+-ms-opacity:0;
+-webkit-opacity:0;
+}
+100% {
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity:1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+}
+ol{
+list-style:none;
+text-align:center;
+}
+.end{font-size:18px; text-align:left;
+border-top-right-radius:500px; border-bottom-left-radius:500px;
+-o-border-top-right-radius:500px; -o-border-bottom-left-radius:500px;
+-ms-border-top-right-radius:500px; -ms-border-bottom-left-radius:500px;
+-moz-border-top-right-radius:500px; -moz-border-bottom-left-radius:500px;
+-webkit-border-top-right-radius:500px; -webkit-border-bottom-left-radius:500px;
+-moz-box-shadow:0 0 9px #939593;
+-webkit-box-shadow:0 0 9px #939593;
+-o-box-shadow:0 0 9px #939593;
+-ms-box-shadow:0 0 9px #939593;
+box-shadow:0 0 9px #939593;
+background-color:rgba(224,214,202,.4);
+}
+.end li{
+font:'楷体';
+font-family:'楷体';
+face:'楷体';
+text-shadow:0 0 3px #a3a9a2;color:#000000;
+-o-text-shadow:0 0 3px #a3a9a2;
+-webkit-text-shadow:0 0 3px #a3a9a2;
+-moz-text-shadow:0 0 3px #a3a9a2;
+-ms-text-shadow:0 0 3px #a3a9a2;
+}
+.menu-item{ 
+height:510px;
+width:760px;
+-webkit-transform: rotateX(85deg);
+-webkit-transform-style: preserve-3d;
+-moz-transform: rotateX(85deg);
+-moz-transform-style: preserve-3d;
+-ms-transform: rotateX(85deg);
+-ms-transform-style: preserve-3d;
+-o-transform: rotateX(85deg);
+-o-transform-style: preserve-3d;
+transform: rotateX(85deg);
+transform-style: preserve-3d;
+animation: yidong3 4s linear; 
+-o-animation: yidong3 4s linear;
+-ms-animation: yidong3 4s linear;
+-moz-animation: yidong3 4s linear;
+-webkit-animation: yidong3 4s linear;
+animation-fill-mode:forwards; 
+-o-animation-fill-mode:forwards;
+-webkit-animation-fill-mode:forwards;
+-moz-animation-fill-mode:forwards;
+-ms-animation-fill-mode:forwards;
+z-index:99;
+}
+@-webkit-keyframes yidong3 { 
+0%{
+-webkit-transform: rotateX(85deg);
+-moz-transform: rotateX(85deg);
+-ms-transform: rotateX(85deg);
+-o-transform: rotateX(85deg);
+transform: rotateX(85deg);
+}
+100% {
+-webkit-transform: rotateX(0deg);
+-o-transform: rotateX(0deg);
+-ms-transform: rotateX(0deg);
+-moz-transform: rotateX(0deg);
+transform: rotateX(0deg);
+}
+}
+@-moz-keyframes yidong3 { 
+0%{
+-webkit-transform: rotateX(85deg);
+-moz-transform: rotateX(85deg);
+-ms-transform: rotateX(85deg);
+-o-transform: rotateX(85deg);
+transform: rotateX(85deg);
+}
+100% {
+-webkit-transform: rotateX(0deg);
+-o-transform: rotateX(0deg);
+-ms-transform: rotateX(0deg);
+-moz-transform: rotateX(0deg);
+transform: rotateX(0deg);
+}
+}
+@-ms-keyframes yidong3 { 
+0%{
+-webkit-transform: rotateX(85deg);
+-moz-transform: rotateX(85deg);
+-ms-transform: rotateX(85deg);
+-o-transform: rotateX(85deg);
+transform: rotateX(85deg);
+}
+100% {
+-webkit-transform: rotateX(0deg);
+-o-transform: rotateX(0deg);
+-ms-transform: rotateX(0deg);
+-moz-transform: rotateX(0deg);
+transform: rotateX(0deg);
+}
+}
+@-o-keyframes yidong3 { 
+0%{
+-webkit-transform: rotateX(85deg);
+-moz-transform: rotateX(85deg);
+-ms-transform: rotateX(85deg);
+-o-transform: rotateX(85deg);
+transform: rotateX(85deg);
+}
+100% {
+-webkit-transform: rotateX(0deg);
+-o-transform: rotateX(0deg);
+-ms-transform: rotateX(0deg);
+-moz-transform: rotateX(0deg);
+transform: rotateX(0deg);
+}
+}
+@keyframes yidong3 { 
+0%{
+-webkit-transform: rotateX(85deg);
+-moz-transform: rotateX(85deg);
+-ms-transform: rotateX(85deg);
+-o-transform: rotateX(85deg);
+transform: rotateX(85deg);
+}
+100% {
+-webkit-transform: rotateX(0deg);
+-o-transform: rotateX(0deg);
+-ms-transform: rotateX(0deg);
+-moz-transform: rotateX(0deg);
+transform: rotateX(0deg);
+}
+}
+.dropdown1{
+background:#EDEDED;
+background-size:380px 510px;
+width:50%;
+height:510px;
+-webkit-box-shadow:0 0 26px #9E9E9E; 
+-moz-box-shadow:0 0 26px #9E9E9E; 
+-o-box-shadow:0 0 26px #9E9E9E; 
+-ms-box-shadow:0 0 26px #9E9E9E; 
+box-shadow:0 0 26px #9E9E9E; 
+-webkit-transform:perspective(1000px) rotateY(160deg) rotateX(0deg); 
+-webkit-transform-origin:right;
+transform: perspective(1000px) rotateY(160deg) rotateX(0deg); 
+transform-origin:right;
+-moz-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-moz-transform-origin:right;
+-ms-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-ms-transform-origin:right;
+-o-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-o-transform-origin:right;
+-webkit-animation: yidong2 12s linear;
+animation: yidong2 12s linear; 
+-o-animation: yidong2 12s linear;
+-ms-animation: yidong2 12s linear;
+-moz-animation: yidong2 12s linear;
+animation-fill-mode:forwards; 
+-o-animation-fill-mode:forwards;
+-webkit-animation-fill-mode:forwards;
+-moz-animation-fill-mode:forwards;
+-ms-animation-fill-mode:forwards;
+-webkit-animation-delay:4s;
+-o-animation-delay:4s;
+-moz-animation-delay:4s;
+-ms-animation-delay:4s;
+animation-delay:4s;
+}
+@-webkit-keyframes yidong2 { 
+0%{
+transform: perspective(1000px) rotateY(160deg) rotateX(0deg); 
+transform-origin:right;
+-webkit-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-webkit-transform-origin:right;
+-moz-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-moz-transform-origin:right;
+-ms-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-ms-transform-origin:right;
+-o-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-o-transform-origin:right;
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity:1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+80% {
+transform: perspective(1000px) rotateY(10deg) rotateX(0deg); 
+transform-origin:right;
+-webkit-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-webkit-transform-origin:right;
+-moz-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-moz-transform-origin:right;
+-ms-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-ms-transform-origin:right;
+-o-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-o-transform-origin:right;
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity:1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+100% {
+transform: perspective(1000px) rotateY(10deg) rotateX(0deg); 
+transform-origin:right;
+-webkit-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-webkit-transform-origin:right;
+-moz-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-moz-transform-origin:right;
+-ms-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-ms-transform-origin:right;
+-o-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-o-transform-origin:right;
+}
+}
+@keyframes yidong2 { 
+0%{
+transform: perspective(1000px) rotateY(160deg) rotateX(0deg); 
+transform-origin:right;
+-webkit-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-webkit-transform-origin:right;
+-moz-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-moz-transform-origin:right;
+-ms-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-ms-transform-origin:right;
+-o-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-o-transform-origin:right;
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity:1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+80% {
+transform: perspective(1000px) rotateY(10deg) rotateX(0deg); 
+transform-origin:right;
+-webkit-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-webkit-transform-origin:right;
+-moz-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-moz-transform-origin:right;
+-ms-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-ms-transform-origin:right;
+-o-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-o-transform-origin:right;
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity:1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+100% {
+transform: perspective(1000px) rotateY(10deg) rotateX(0deg); 
+transform-origin:right;
+-webkit-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-webkit-transform-origin:right;
+-moz-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-moz-transform-origin:right;
+-ms-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-ms-transform-origin:right;
+-o-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-o-transform-origin:right;
+}
+}
+@-moz-keyframes yidong2 { 
+0%{
+transform: perspective(1000px) rotateY(160deg) rotateX(0deg); 
+transform-origin:right;
+-webkit-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-webkit-transform-origin:right;
+-moz-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-moz-transform-origin:right;
+-ms-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-ms-transform-origin:right;
+-o-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-o-transform-origin:right;
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity:1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+80% {
+transform: perspective(1000px) rotateY(10deg) rotateX(0deg); 
+transform-origin:right;
+-webkit-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-webkit-transform-origin:right;
+-moz-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-moz-transform-origin:right;
+-ms-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-ms-transform-origin:right;
+-o-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-o-transform-origin:right;
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity:1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+100% {
+transform: perspective(1000px) rotateY(10deg) rotateX(0deg); 
+transform-origin:right;
+-webkit-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-webkit-transform-origin:right;
+-moz-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-moz-transform-origin:right;
+-ms-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-ms-transform-origin:right;
+-o-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-o-transform-origin:right;
+}
+}
+@-ms-keyframes yidong2 { 
+0%{
+transform: perspective(1000px) rotateY(160deg) rotateX(0deg); 
+transform-origin:right;
+-webkit-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-webkit-transform-origin:right;
+-moz-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-moz-transform-origin:right;
+-ms-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-ms-transform-origin:right;
+-o-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-o-transform-origin:right;
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity:1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+80% {
+transform: perspective(1000px) rotateY(10deg) rotateX(0deg); 
+transform-origin:right;
+-webkit-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-webkit-transform-origin:right;
+-moz-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-moz-transform-origin:right;
+-ms-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-ms-transform-origin:right;
+-o-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-o-transform-origin:right;
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity:1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+100% {
+transform: perspective(1000px) rotateY(10deg) rotateX(0deg); 
+transform-origin:right;
+-webkit-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-webkit-transform-origin:right;
+-moz-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-moz-transform-origin:right;
+-ms-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-ms-transform-origin:right;
+-o-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-o-transform-origin:right;
+}
+}
+@-o-keyframes yidong2 { 
+0%{
+transform: perspective(1000px) rotateY(160deg) rotateX(0deg); 
+transform-origin:right;
+-webkit-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-webkit-transform-origin:right;
+-moz-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-moz-transform-origin:right;
+-ms-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-ms-transform-origin:right;
+-o-transform: perspective(1000px) rotateY(160deg) rotateX(0deg);
+-o-transform-origin:right;
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity:1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+80% {
+transform: perspective(1000px) rotateY(10deg) rotateX(0deg); 
+transform-origin:right;
+-webkit-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-webkit-transform-origin:right;
+-moz-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-moz-transform-origin:right;
+-ms-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-ms-transform-origin:right;
+-o-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-o-transform-origin:right;
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity:1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+100% {
+transform: perspective(1000px) rotateY(10deg) rotateX(0deg); 
+transform-origin:right;
+-webkit-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-webkit-transform-origin:right;
+-moz-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-moz-transform-origin:right;
+-ms-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-ms-transform-origin:right;
+-o-transform: perspective(1000px) rotateY(10deg) rotateX(0deg);
+-o-transform-origin:right;
+}
+}
+.dropdown2{
+background:#EDEDED;
+background-size:380px 510px;
+width:50%;
+height:510px;
+-webkit-box-shadow:0 0 26px #9E9E9E; 
+-moz-box-shadow:0 0 26px #9E9E9E; 
+-o-box-shadow:0 0 26px #9E9E9E; 
+-ms-box-shadow:0 0 26px #9E9E9E; 
+box-shadow:0 0 26px #9E9E9E; 
+transform: perspective(1000px) rotateY(-10deg) rotateX(0deg); 
+transform-origin:left;
+-webkit-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-webkit-transform-origin: left;
+-o-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-o-transform-origin: left;
+-ms-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-ms-transform-origin: left;
+-moz-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-moz-transform-origin: left;
+-webkit-animation: away 12s linear;
+animation: away 12s linear; 
+-o-animation: away 12s linear;
+-ms-animation: away 12s linear;
+-moz-animation: away 12s linear;
+-webkit-animation-delay:4s;
+-o-animation-delay:4s;
+-moz-animation-delay:4s;
+-ms-animation-delay:4s;
+animation-delay:4s;
+animation-fill-mode:forwards; 
+-o-animation-fill-mode:forwards;
+-webkit-animation-fill-mode:forwards;
+-moz-animation-fill-mode:forwards;
+-ms-animation-fill-mode:forwards;
+}
+@-webkit-keyframes away{ 
+0%{
+transform: perspective(1000px) rotateY(-10deg) rotateX(0deg); 
+transform-origin:left;
+-webkit-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-webkit-transform-origin: left;
+-o-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-o-transform-origin: left;
+-ms-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-ms-transform-origin: left;
+-moz-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-moz-transform-origin: left;
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity: 1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+80%{
+transform: perspective(1000px) rotateY(-10deg) rotateX(0deg); 
+transform-origin:left;
+-webkit-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-webkit-transform-origin: left;
+-o-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-o-transform-origin: left;
+-ms-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-ms-transform-origin: left;
+-moz-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-moz-transform-origin: left;
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity: 1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+100% {
+transform: perspective(1000px) rotateY(-10deg) rotateX(0deg); 
+transform-origin:left;
+-webkit-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-webkit-transform-origin: left;
+-o-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-o-transform-origin: left;
+-ms-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-ms-transform-origin: left;
+-moz-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-moz-transform-origin: left;
+}
+}
+@-o-keyframes away{ 
+0%{
+transform: perspective(1000px) rotateY(-10deg) rotateX(0deg); 
+transform-origin:left;
+-webkit-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-webkit-transform-origin: left;
+-o-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-o-transform-origin: left;
+-ms-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-ms-transform-origin: left;
+-moz-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-moz-transform-origin: left;
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity: 1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+80%{
+transform: perspective(1000px) rotateY(-10deg) rotateX(0deg); 
+transform-origin:left;
+-webkit-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-webkit-transform-origin: left;
+-o-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-o-transform-origin: left;
+-ms-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-ms-transform-origin: left;
+-moz-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-moz-transform-origin: left;
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity: 1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+100% {
+transform: perspective(1000px) rotateY(-10deg) rotateX(0deg); 
+transform-origin:left;
+-webkit-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-webkit-transform-origin: left;
+-o-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-o-transform-origin: left;
+-ms-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-ms-transform-origin: left;
+-moz-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-moz-transform-origin: left;
+}
+}
+@-moz-keyframes away{ 
+0%{
+transform: perspective(1000px) rotateY(-10deg) rotateX(0deg); 
+transform-origin:left;
+-webkit-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-webkit-transform-origin: left;
+-o-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-o-transform-origin: left;
+-ms-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-ms-transform-origin: left;
+-moz-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-moz-transform-origin: left;
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity: 1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+80%{
+transform: perspective(1000px) rotateY(-10deg) rotateX(0deg); 
+transform-origin:left;
+-webkit-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-webkit-transform-origin: left;
+-o-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-o-transform-origin: left;
+-ms-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-ms-transform-origin: left;
+-moz-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-moz-transform-origin: left;
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity: 1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+100% {
+transform: perspective(1000px) rotateY(-10deg) rotateX(0deg); 
+transform-origin:left;
+-webkit-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-webkit-transform-origin: left;
+-o-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-o-transform-origin: left;
+-ms-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-ms-transform-origin: left;
+-moz-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-moz-transform-origin: left;
+}
+}
+@-ms-keyframes away{ 
+0%{
+transform: perspective(1000px) rotateY(-10deg) rotateX(0deg); 
+transform-origin:left;
+-webkit-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-webkit-transform-origin: left;
+-o-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-o-transform-origin: left;
+-ms-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-ms-transform-origin: left;
+-moz-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-moz-transform-origin: left;
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity: 1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+80%{
+transform: perspective(1000px) rotateY(-10deg) rotateX(0deg); 
+transform-origin:left;
+-webkit-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-webkit-transform-origin: left;
+-o-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-o-transform-origin: left;
+-ms-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-ms-transform-origin: left;
+-moz-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-moz-transform-origin: left;
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity: 1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+100% {
+transform: perspective(1000px) rotateY(-10deg) rotateX(0deg); 
+transform-origin:left;
+-webkit-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-webkit-transform-origin: left;
+-o-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-o-transform-origin: left;
+-ms-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-ms-transform-origin: left;
+-moz-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-moz-transform-origin: left;
+}
+}
+@keyframes away{ 
+0%{
+transform: perspective(1000px) rotateY(-10deg) rotateX(0deg); 
+transform-origin:left;
+-webkit-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-webkit-transform-origin: left;
+-o-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-o-transform-origin: left;
+-ms-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-ms-transform-origin: left;
+-moz-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-moz-transform-origin: left;
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity: 1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+80%{
+transform: perspective(1000px) rotateY(-10deg) rotateX(0deg); 
+transform-origin:left;
+-webkit-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-webkit-transform-origin: left;
+-o-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-o-transform-origin: left;
+-ms-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-ms-transform-origin: left;
+-moz-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-moz-transform-origin: left;
+filter:alpha(opacity=1); -moz-opacity:1; -khtml-opacity: 1; opacity:1; 
+-o-opacity:1;
+-ms-opacity:1;
+-webkit-opacity:1;
+}
+100% {
+transform: perspective(1000px) rotateY(-10deg) rotateX(0deg); 
+transform-origin:left;
+-webkit-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-webkit-transform-origin: left;
+-o-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-o-transform-origin: left;
+-ms-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-ms-transform-origin: left;
+-moz-transform: perspective(1000px) rotateY(-10deg) rotateX(0deg);
+-moz-transform-origin: left;
+}
+}
+.love { 
+font-family:'华文行楷'; 
+font: "华文行楷";
+face: "华文行楷";
+font-size: 100px;
+font-weight:bold;
+color:rgba(250,250,250,.5);
+z-index:10;
+text-align: center;
+}
 
-    <!-- Bootstrap -->
-    <link href="res/css/bootstrap.min.css" rel="stylesheet">
-	<link href="res/css/index.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Note</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">首页</a></li>
-            <li><a href="#about">笔记</a></li>
-            <li><a href="#contact">网站推荐</a></li>
-          </ul>
-          
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">个人简历<span class="sr-only">(current)</span></a></li>
-            <li><a href="#">secret</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-	
-	<div class="main">
-	<div id="myCarousel" class="carousel slide">
-	   <!-- 轮播（Carousel）指标 -->
-	   <ol class="carousel-indicators">
-	      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-	   </ol>   
-	   <!-- 轮播（Carousel）项目 -->
-	   <div class="carousel-inner">
-	      <div class="item active">
-	         <img src="res/image/one.png" style="width:100%;height:400px;"/>
-	         <!-- <div class="carousel-caption">标题 1</div> -->
-	      </div>
-	   </div>
-	</div> 
-	
- <!--    <div class="container">
 
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-      </div>
+.letter {
+font-family:'华文行楷'; 
+font: "华文行楷";
+face: "华文行楷";
+font-size:100px;
+font-weight:bold;
+text-shadow: 0 0 .25em #68C5F7, 0 0 .35em #C0C6C9, 0 0 .45em transparent, 0 0 .55em transparent, 0 0 .65em transparent;
+-o-text-shadow: 0 0 .25em #68C5F7, 0 0 .35em #C0C6C9, 0 0 .45em transparent, 0 0 .55em transparent, 0 0 .65em transparent;
+-webkit-text-shadow: 0 0 .25em #68C5F7, 0 0 .35em #C0C6C9, 0 0 .45em transparent, 0 0 .55em transparent, 0 0 .65em transparent;
+-ms-text-shadow: 0 0 .25em #68C5F7, 0 0 .35em #C0C6C9, 0 0 .45em transparent, 0 0 .55em transparent, 0 0 .65em transparent;
+-moz-text-shadow: 0 0 .25em #68C5F7, 0 0 .35em #C0C6C9, 0 0 .45em transparent, 0 0 .55em transparent, 0 0 .65em transparent;
+}
 
-    </div> --><!-- /.container -->
+.letter:nth-child(1) {
+-webkit-animation: twinkle 2.7s infinite 0.9s;
+-o-animation: twinkle 2.7s infinite 0.9s;
+-moz-animation: twinkle 2.7s infinite 0.9s;
+-ms-animation: twinkle 2.7s infinite 0.9s;
+animation: twinkle 2.7s infinite 0.9s;
+motion-offset: 5.55556%;
+}
+.letter:nth-child(2) {
+-webkit-animation: twinkle 2.7s infinite 2.1s;
+animation: twinkle 2.7s infinite 2.1s;
+-o-animation: twinkle 2.7s infinite 2.1s;
+-ms-animation: twinkle 2.7s infinite 2.1s;
+-moz-animation: twinkle 2.7s infinite 2.1s;
+motion-offset: 11.11111%;
+}
+@-webkit-keyframes twinkle { 
+50% {
+text-shadow: 0 0 .25em #9AADAB, 0 0 .35em #9AADAB, 0 0 .45em #9A74FF, 0 0 .55em #9AADAB, 0 0 .65em #9AADAB;
+}
+}
+@-o-keyframes twinkle {
+50% {
+text-shadow: 0 0 .25em #9AADAB, 0 0 .35em #9AADAB, 0 0 .45em #9A74FF, 0 0 .55em #9AADAB, 0 0 .65em #9AADAB;
+}
+}
+@-ms-keyframes twinkle {
+50% {
+text-shadow: 0 0 .25em #9AADAB, 0 0 .35em #9AADAB, 0 0 .45em #9A74FF, 0 0 .55em #9AADAB, 0 0 .65em #9AADAB;
+}
+}
+@-moz-keyframes twinkle {
+50% {
+text-shadow: 0 0 .25em #9AADAB, 0 0 .35em #9AADAB, 0 0 .45em #9A74FF, 0 0 .55em #9AADAB, 0 0 .65em #9AADAB;
+}
+}
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <!-- <div class="jumbotron">
-      <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-      </div>
-    </div> -->
-
-    <div class="disc">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>新浪微博</h2>
-          <p>二次元的世界</p>
-          <p><a class="btn btn-default" href="http://weibo.com/1869717284/profile?rightmod=1&wvr=6&mod=personinfo" role="button">查看详情 &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>宣传贴集中营</h2>
-          <p>Try my best to do everything well</p>
-          <p><a class="btn btn-default" href="http://blog.sina.com.cn/s/blog_6f719f240102xlrq.html" role="button">查看详情 &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>CSS合集</h2>
-          <p>介绍常用的CSS相关内容</p>
-          <p><a class="btn btn-default" href="#" role="button">查看详情 &raquo;</a></p>
-        </div>
-      </div>
-    </div>
-    </div>
-      
-	<footer class="footer navbar-inverse">
-      <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
-      </div>
-    </footer>
-    
-    
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="res/js/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="res/js/bootstrap.min.js"></script>
-  </body>
+@keyframes twinkle {
+50% {
+text-shadow: 0 0 .25em #9AADAB, 0 0 .35em #9AADAB, 0 0 .45em #9A74FF, 0 0 .55em #9AADAB, 0 0 .65em #9AADAB;
+}
+}
+</style>
+</head>
+<body>
+	<CENTER>
+	<table class="menu-item" STYLE="z-index:99;position:absolute;top:300px;left:30%;" width=760px align=center> 
+		<tr>
+		<td class="dropdown1">
+			<table> 
+				<tr>
+					<td class="love" style="position:relative;left:60px;top:-60px;">
+						<span class="letter" style="position:relative;top:80px;left:40px;">城</span><br/><span class="letter" style="position:relative;top:80px;left:40px;">郊</span>
+						<br/><span class="letter" style="position:relative;top:80px;left:40px;">园</span>
+					</td>
+				</tr>
+			</table>
+		</td>
+		<td class="dropdown2">
+			<img src='http://img10.5sing.kgimg.com/m/T1XTKNBKKv1R4cSCrK.png' width=300px height=350px class='img'/>
+		</td>
+		</tr>
+	</table>
+	</CENTER>
+</body>
+</html>
+</body>
 </html>
