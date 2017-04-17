@@ -1,0 +1,1082 @@
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>金鹿浅遥</title>
+    <style type="text/css">
+      body {
+        background:#ABC2A4;
+        filter:alpha(opacity=0.8); -moz-opacity:0.8; -khtml-opacity: 0.8; opacity: 0.8; 
+        -o-opacity:0.8;
+        -ms-opacity:0.8;
+        -webkit-opacity:0.8;
+        overflow-x: hidden;
+      }
+      .bg-flower {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+      }
+      .bg-flower li {
+        position: absolute;
+        list-style: none;
+        display: block;
+        width: 60px;
+        height: 80px;
+        border-radius: 40% 10% 50% 15%;
+        -o-border-radius:40% 10% 50% 15%;
+        -webkit-border-radius:40% 10% 50% 15%;
+        -moz-border-radius:40% 10% 50% 15%;
+        -ms-border-radius:40% 10% 50% 15%;
+        background-color:rgba(103,138,94, 0.3);
+        bottom:-90px;
+        -webkit-animation: square 20s infinite;
+        animation: square 20s infinite;
+        -o-animation: square 20s infinite;
+        -moz-animation: square 20s infinite;
+        -ms-animation: square 20s infinite;
+        z-index: 99;
+      }
+      .bg-flower li:nth-child(1) {
+        left: 10%;
+      }
+      .bg-flower li:nth-child(2) {
+        left: 20%;
+        width: 40px;
+        height: 70px;
+        -webkit-animation-delay: 2s;
+        -o-animation-delay: 2s;
+        -ms-animation-delay: 2s;
+        -moz-animation-delay: 2s;
+        animation-delay: 2s;
+        -webkit-animation-duration: 17s;
+        -o-animation-duration: 17s;
+        -ms-animation-duration: 17s;
+        -moz-animation-duration: 17s;
+        animation-duration: 17s;
+      }
+      .bg-flower li:nth-child(3) {
+        left: 25%;
+        -webkit-animation-delay: 4s;
+        -o-animation-delay: 4s;
+        -ms-animation-delay: 4s;
+        -moz-animation-delay: 4s;
+        animation-delay: 4s;
+      }
+      .bg-flower li:nth-child(4) {
+        left: 40%;
+        width: 20px;
+        height: 50px;
+        -webkit-animation-duration: 25s;
+        -o-animation-duration: 25s;
+        -ms-animation-duration: 25s;
+        -moz-animation-duration: 25s;
+        animation-duration: 25s;
+        background-color: rgba(255, 255, 255, 0.3);
+      }
+      .bg-flower li:nth-child(5) {
+        left: 70%;
+      }
+      .bg-flower li:nth-child(6) {
+        left: 80%;
+        width: 50px;
+        height: 80px;
+        -webkit-animation-delay: 3s;
+        -o-animation-delay: 3s;
+        -moz-animation-delay: 3s;
+        -ms-animation-delay: 3s;
+        animation-delay: 3s;
+        background-color: rgba(255, 255, 255, 0.2);
+      }
+      .bg-flower li:nth-child(7) {
+        left: 32%;
+        width: 60px;
+        height: 80px;
+        -webkit-animation-delay: 7s;
+        -o-animation-delay: 7s;
+        -ms-animation-delay: 7s;
+        -moz-animation-delay: 7s;
+        animation-delay: 7s;
+        background-color: rgba(255, 255, 255, 0.3);
+      }
+      .bg-flower li:nth-child(8) {
+        left: 65%;
+        width: 30px;
+        height: 50px;
+        -webkit-animation-delay: 15s;
+        -o-animation-delay: 15s;
+        -ms-animation-delay: 15s;
+        -moz-animation-delay: 15s;
+                animation-delay: 15s;
+        -webkit-animation-duration: 40s;
+        -o-animation-duration: 40s;
+        -ms-animation-duration: 40s;
+        -moz-animation-duration: 40s;
+                animation-duration: 40s;
+      }
+      .bg-flower li:nth-child(9) {
+        left: 25%;
+        width: 10px;
+        height: 10px;
+        -webkit-animation-delay: 3s;
+        -o-animation-delay: 3s;
+        -ms-animation-delay:3s;
+        -moz-animation-delay:3s;
+                animation-delay:3s;
+        -webkit-animation-duration: 30s;
+        -o-animation-duration: 30s;
+        -ms-animation-duration: 30s;
+        -moz-animation-duration: 30s;
+                animation-duration: 30s;
+        background-color: rgba(255, 255, 255, 0.3);
+      }
+      .bg-flower li:nth-child(11) {
+        left: 25%;
+        width: 10px;
+        height: 10px;
+        -webkit-animation-delay: 3s;
+        -o-animation-delay: 3s;
+        -ms-animation-delay:3s;
+        -moz-animation-delay:3s;
+                animation-delay:3s;
+        -webkit-animation-duration: 20s;
+        -o-animation-duration: 20s;
+        -ms-animation-duration: 20s;
+        -moz-animation-duration: 20s;
+                animation-duration: 20s;
+        background-color: rgba(255, 255, 255, 0.4);
+      }
+       .bg-flower li:nth-child(12) {
+        left: 25%;
+        width: 10px;
+        height: 10px;
+        -webkit-animation-duration: 25s;
+        -o-animation-duration: 25s;
+        -ms-animation-duration: 25s;
+        -moz-animation-duration: 25s;
+                animation-duration: 25s;
+        background-color: rgba(255, 255, 255, 0.5);
+      }
+      .bg-flower li:nth-child(10) {
+        left: 90%;
+        width: 110px;
+        height: 140px;
+        -webkit-animation-delay:12s;
+        -o-animation-delay:12s;
+        -ms-animation-delay:12s;
+        -moz-animation-delay:12s;
+                animation-delay:12s;
+      }
+      @-webkit-keyframes square {
+        0% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+        }
+        100% {
+          -webkit-transform: translateY(-1000px) rotate(600deg);
+                  transform: translateY(-1000px) rotate(600deg);
+        }
+      }
+      @keyframes square {
+        0% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+        }
+        100% {
+          -webkit-transform: translateY(-1000px) rotate(600deg);
+                  transform: translateY(-1000px) rotate(600deg);
+        }
+      }
+       @-o-keyframes square {
+        0% {
+          -o-transform: translateY(0);
+                  transform: translateY(0);
+        }
+        100% {
+          -o-transform: translateY(-1000px) rotate(600deg);
+                  transform: translateY(-1000px) rotate(600deg);
+        }
+      }
+       @-ms-keyframes square {
+        0% {
+          -ms-transform: translateY(0);
+                  transform: translateY(0);
+        }
+        100% {
+          -ms-transform: translateY(-1000px) rotate(600deg);
+                  transform: translateY(-1000px) rotate(600deg);
+        }
+      }
+       @-moz-keyframes square {
+        0% {
+          -moz-transform: translateY(0);
+                  transform: translateY(0);
+        }
+        100% {
+          -moz-transform: translateY(-1000px) rotate(600deg);
+                  transform: translateY(-1000px) rotate(600deg);
+        }
+      }
+      .slice{
+        position: relative;
+        width: 625px;
+        height: 1035px;
+        border: 8px solid rgba(255,255,255,.6);
+        -webkit-perspective:1000px;
+        -moz-perspective:1000px;
+        -ms-perspective:1000px;
+        -o-perspective:1000px;
+        perspective:1000px;
+        top:310px;
+        left: 12%;
+        z-index: 2;
+      }
+      .slice img{
+        position: absolute;
+      }
+      .slice .view{
+        width:174px;
+        height: 1100px;
+        z-index: 99;
+        -webkit-transform-style:preserve-3d;
+        -ms-transform-style:preserve-3d;
+        -o-transform-style:preserve-3d;
+        -moz-transform-style:preserve-3d;
+        transform-style:preserve-3d;
+        -webkit-transform-origin:left center;
+        transform-origin:left center;
+        -moz-transform-origin:left center;
+        -ms-transform-origin:left center;
+        -o-transform-origin:left center;
+        -webkit-transition:-webkit-transform 150ms ease-in-out;
+        -moz-transition:-moz-transform 150ms ease-in-out;
+        -ms-transition:-ms-transform 150ms ease-in-out;
+        -o-transition:-o-transform 150ms ease-in-out;
+        transition:transform 150ms ease-in-out;
+      }
+      .slice .pic2,
+      .slice .pic3,
+      .slice .pic4,
+      .slice .pic5{
+        -webkit-transform:translate3d(174px,0,0);
+        -ms-transform:translate3d(174px,0,0);
+        -moz-transform:translate3d(174px,0,0);
+        -o-transform:translate3d(174px,0,0);
+        transform:translate3d(174px,0,0);
+      }
+      .slice .pic1{
+        background:url(http://wx4.sinaimg.cn/mw690/6f719f24ly1fepxq4wg5fj20jg0t6b29.jpg) no-repeat;
+        background-position: 0px 0px;
+      }
+      .slice .pic2{
+        background:url(http://wx4.sinaimg.cn/mw690/6f719f24ly1fepxq4wg5fj20jg0t6b29.jpg) no-repeat;
+        background-position: -174px 0px;
+      }
+      .slice .pic3{
+        background:url(http://wx4.sinaimg.cn/mw690/6f719f24ly1fepxq4wg5fj20jg0t6b29.jpg) no-repeat;
+        background-position: -348px 0px;
+      }
+      .slice .pic4{
+        background:url(http://wx4.sinaimg.cn/mw690/6f719f24ly1fepxq4wg5fj20jg0t6b29.jpg) no-repeat;
+        background-position: -522px 0px;
+      }
+      .slice .pic5{
+        background:url(http://wx1.sinaimg.cn/mw690/6f719f24ly1fepqda54xkj20o80w6tuh.jpg) no-repeat;
+        background-position: -698px 0px;
+      }
+      .slice .pic2{
+        -webkit-transform:translate3d(174px,0,0) rotate3d(0,1,0,-35deg);
+        -moz-transform:translate3d(174px,0,0) rotate3d(0,1,0,-35deg);
+        -ms-transform:translate3d(174px,0,0) rotate3d(0,1,0,-35deg);
+        -o-transform:translate3d(174px,0,0) rotate3d(0,1,0,-35deg);
+        transform:translate3d(174px,0,0) rotate3d(0,1,0,-35deg);
+      }
+      .slice .pic3,
+      .slice .pic5{
+        -webkit-transform:translate3d(174px,0,0) rotate3d(0,1,0,70deg);
+        -moz-transform:translate3d(174px,0,0) rotate3d(0,1,0,70deg);
+        -ms-transform:translate3d(174px,0,0) rotate3d(0,1,0,70deg);
+        -o-transform:translate3d(174px,0,0) rotate3d(0,1,0,70deg);
+        transform:translate3d(174px,0,0) rotate3d(0,1,0,70deg);
+      }
+      .slice .pic2{
+        -webkit-transform:translate3d(174px,0,0) rotate3d(0,1,0,-30deg);
+        -moz-transform:translate3d(174px,0,0) rotate3d(0,1,0,-30deg);
+        -ms-transform:translate3d(174px,0,0) rotate3d(0,1,0,-45deg);
+        -o-transform:translate3d(174px,0,0) rotate3d(0,1,0,-30deg);
+        transform:translate3d(174px,0,0) rotate3d(0,1,0,-30deg);
+      }
+      .slice .pic4{
+        -webkit-transform:translate3d(174px,0,0) rotate3d(0,1,0,-60deg);
+        -moz-transform:translate3d(174px,0,0) rotate3d(0,1,0,-60deg);
+        -ms-transform:translate3d(174px,0,0) rotate3d(0,1,0,-60deg);
+        -o-transform:translate3d(174px,0,0) rotate3d(0,1,0,-60deg);
+        transform:translate3d(174px,0,0) rotate3d(0,1,0,-60deg);
+      }
+      .box {
+        background-color:rgba(255,255,255,.6);
+        width: 50px;
+        height:90px;
+        -webkit-border-radius:50%;
+        -moz-border-radius:50%;
+        -ms-border-radius:50%;
+        -o-border-radius:50%;
+        border-radius:50%;
+        position: absolute;
+        left:50%;
+        top:100px;
+        overflow: hidden;
+        transform-origin:center bottom;
+        animation:box_to_point 6s ease-in-out;
+        -o-transform-origin:center bottom;
+        -o-animation:box_to_point 6s ease-in-out;
+        -webkit-transform-origin:center bottom;
+        -webkit-animation:box_to_point 6s ease-in-out;
+        -moz-transform-origin:center bottom;
+        -moz-animation:box_to_point 6s ease-in-out;
+        -ms-transform-origin:center bottom;
+        -ms-animation:box_to_point 6s ease-in-out;
+        z-index:1;
+        animation-fill-mode:forwards; 
+        -o-animation-fill-mode:forwards;
+        -webkit-animation-fill-mode:forwards;
+        -moz-animation-fill-mode:forwards;
+        -ms-animation-fill-mode:forwards;
+      }
+
+      @keyframes box_to_point{
+        0% {
+          width: 50px;
+          height:90px;
+          -webkit-border-radius:50%;
+          -moz-border-radius:50%;
+          -ms-border-radius:50%;
+          -o-border-radius:50%;
+          border-radius:50%;
+          position: absolute;
+          left:50%;
+          top:100px;
+          }
+        50% {
+          width: 50px;
+          height:90px;
+          -webkit-border-radius:50%;
+          -moz-border-radius:50%;
+          -ms-border-radius:50%;
+          -o-border-radius:50%;
+          border-radius:50%;
+          position: absolute;
+          left:50%;
+          top:900px;
+        }
+         100% {
+          width: 80%;
+          height: 1100px;
+          border-radius: 12px;
+          -o-border-radius: 12px;
+          -webkit-border-radius: 12px;
+          -moz-border-radius: 12px;
+          -ms-border-radius: 12px;
+          background-color:rgba(255,255,255,0.5);
+          position: absolute;
+          left: 10%;
+          top:300px;
+        }
+      }
+       @-moz-keyframes box_to_point{
+        0% {
+          width: 50px;
+          height:90px;
+          -webkit-border-radius:50%;
+          -moz-border-radius:50%;
+          -ms-border-radius:50%;
+          -o-border-radius:50%;
+          border-radius:50%;
+          position: absolute;
+          left:50%;
+          top:100px;
+          }
+        50% {
+          width: 50px;
+          height:90px;
+          -webkit-border-radius:50%;
+          -moz-border-radius:50%;
+          -ms-border-radius:50%;
+          -o-border-radius:50%;
+          border-radius:50%;
+          position: absolute;
+          left:50%;
+          top:900px;
+        }
+         100% {
+          width: 80%;
+          height: 1100px;
+          border-radius: 12px;
+          -o-border-radius: 12px;
+          -webkit-border-radius: 12px;
+          -moz-border-radius: 12px;
+          -ms-border-radius: 12px;
+          background-color:rgba(255,255,255,0.5);
+          position: absolute;
+          left: 10%;
+          top:300px;
+        }
+      }
+       @-ms-keyframes box_to_point{
+        0% {
+          width: 50px;
+          height:90px;
+          -webkit-border-radius:50%;
+          -moz-border-radius:50%;
+          -ms-border-radius:50%;
+          -o-border-radius:50%;
+          border-radius:50%;
+          position: absolute;
+          left:50%;
+          top:100px;
+          }
+        50% {
+          width: 50px;
+          height:90px;
+          -webkit-border-radius:50%;
+          -moz-border-radius:50%;
+          -ms-border-radius:50%;
+          -o-border-radius:50%;
+          border-radius:50%;
+          position: absolute;
+          left:50%;
+          top:900px;
+        }
+         100% {
+          width: 80%;
+          height: 1100px;
+          border-radius: 12px;
+          -o-border-radius: 12px;
+          -webkit-border-radius: 12px;
+          -moz-border-radius: 12px;
+          -ms-border-radius: 12px;
+          background-color:rgba(255,255,255,0.5);
+          position: absolute;
+          left: 10%;
+          top:300px;
+        }
+      }
+       @-webkit-keyframes box_to_point{
+        0% {
+          width: 50px;
+          height:90px;
+          -webkit-border-radius:50%;
+          -moz-border-radius:50%;
+          -ms-border-radius:50%;
+          -o-border-radius:50%;
+          border-radius:50%;
+          position: absolute;
+          left:50%;
+          top:100px;
+          }
+        50% {
+          width: 50px;
+          height:90px;
+          -webkit-border-radius:50%;
+          -moz-border-radius:50%;
+          -ms-border-radius:50%;
+          -o-border-radius:50%;
+          border-radius:50%;
+          position: absolute;
+          left:50%;
+          top:900px;
+        }
+         100% {
+          width: 80%;
+          height: 1100px;
+          border-radius: 12px;
+          -o-border-radius: 12px;
+          -webkit-border-radius: 12px;
+          -moz-border-radius: 12px;
+          -ms-border-radius: 12px;
+          background-color:rgba(255,255,255,0.5);
+          position: absolute;
+          left: 10%;
+          top:300px;
+        }
+      }
+       @-o-keyframes box_to_point{
+        0% {
+          width: 50px;
+          height:90px;
+          -webkit-border-radius:50%;
+          -moz-border-radius:50%;
+          -ms-border-radius:50%;
+          -o-border-radius:50%;
+          border-radius:50%;
+          position: absolute;
+          left:50%;
+          top:100px;
+          }
+        50% {
+          width: 50px;
+          height:90px;
+          -webkit-border-radius:50%;
+          -moz-border-radius:50%;
+          -ms-border-radius:50%;
+          -o-border-radius:50%;
+          border-radius:50%;
+          position: absolute;
+          left:50%;
+          top:900px;
+        }
+         100% {
+          width: 80%;
+          height: 1100px;
+          border-radius: 12px;
+          -o-border-radius: 12px;
+          -webkit-border-radius: 12px;
+          -moz-border-radius: 12px;
+          -ms-border-radius: 12px;
+          background-color:rgba(255,255,255,0.5);
+          position: absolute;
+          left: 10%;
+          top:300px;
+        }
+      }
+      ol{
+        list-style:none;
+        text-align:center;          
+      }
+      ol li{
+        text-shadow:0 0 3px #a3a9a2;
+      }
+      #circle { 
+        animation: ripple 2s linear infinite; 
+        -webkit-animation: ripple 2s linear infinite;
+        -o-animation: ripple 2s linear infinite;
+        -ms-animation: ripple 2s linear infinite;
+        -moz-animation: ripple 2s linear infinite;
+        display:block;
+        width:370px;
+        height:370px;
+        border-radius:50%;
+        -moz-border-radius:50%;
+        -o-border-radius:50%;
+        -ms-border-radius:50%;
+        -webkit-border-radius:50%;
+        background:url("http://wx2.sinaimg.cn/mw690/6f719f24ly1fepwwdwyyqj20e70dwdna.jpg") no-repeat center center;
+        background-size:370px 370px;
+        box-shadow: 0 0 0 15px rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.1), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 10px rgba(171,194,164, 0.1);
+        -webkit-box-shadow:0 0 0 15px rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.1), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 10px rgba(171,194,164, 0.1);
+        -ms-box-shadow:0 0 0 15px rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.1), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 10px rgba(171,194,164, 0.1);
+        -moz-box-shadow:0 0 0 15px rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.1), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 10px rgba(171,194,164, 0.1);
+        -o-box-shadow:0 0 0 15px rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.1), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 10px rgba(171,194,164, 0.1);
+      }
+      @keyframes ripple { 
+      0% {
+      box-shadow: 0 0 0 0 rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 25px rgba(171,194,164, 0.2), 0 0 0 40px rgba(171,194,164, 0.3);
+      -webkit-box-shadow:0 0 0 0 rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 25px rgba(171,194,164, 0.2), 0 0 0 40px rgba(171,194,164, 0.3);
+      -moz-box-shadow: 0 0 0 0 rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 25px rgba(171,194,164, 0.2), 0 0 0 40px rgba(171,194,164, 0.3);
+      -ms-box-shadow:0 0 0 0 rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 25px rgba(171,194,164, 0.2), 0 0 0 40px rgba(171,194,164, 0.3);
+      -o-box-shadow: 0 0 0 0 rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 25px rgba(171,194,164, 0.2), 0 0 0 40px rgba(171,194,164, 0.3);
+      }
+      100% {
+      box-shadow: 0 0 0 10px rgba(171,194,164, 0.3), 0 0 0 15px rgba(171,194,164, 0.2), 0 0 0 30px rgba(171,194,164, 0.2), 0 0 0 45px rgba(171,194,164, 0);
+      -webkit-box-shadow: 0 0 0 10px rgba(171,194,164, 0.3), 0 0 0 15px rgba(171,194,164, 0.2), 0 0 0 30px rgba(171,194,164, 0.2), 0 0 0 45px rgba(171,194,164, 0);
+      -ms-box-shadow: 0 0 0 10px rgba(171,194,164, 0.3), 0 0 0 20px 15px(171,194,164, 0.2), 0 0 0 30px rgba(171,194,164, 0.2), 0 0 0 45px rgba(171,194,164, 0);
+      -moz-box-shadow: 0 0 0 10px rgba(171,194,164, 0.3), 0 0 0 15px rgba(171,194,164, 0.2), 0 0 0 30px rgba(171,194,164, 0.2), 0 0 0 45px rgba(171,194,164, 0);
+      -o-box-shadow: 0 0 0 10px rgba(171,194,164, 0.3), 0 0 0 15px rgba(171,194,164, 0.2), 0 0 0 30px rgba(171,194,164, 0.2), 0 0 0 45px rgba(171,194,164, 0);
+      }
+      }
+      @-webkit-keyframes ripple { 
+      0% {
+      box-shadow: 0 0 0 0 rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 25px rgba(171,194,164, 0.2), 0 0 0 40px rgba(171,194,164, 0.3);
+      -webkit-box-shadow:0 0 0 0 rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 25px rgba(171,194,164, 0.2), 0 0 0 40px rgba(171,194,164, 0.3);
+      -moz-box-shadow: 0 0 0 0 rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 25px rgba(171,194,164, 0.2), 0 0 0 40px rgba(171,194,164, 0.3);
+      -ms-box-shadow:0 0 0 0 rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 25px rgba(171,194,164, 0.2), 0 0 0 40px rgba(171,194,164, 0.3);
+      -o-box-shadow: 0 0 0 0 rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 25px rgba(171,194,164, 0.2), 0 0 0 40px rgba(171,194,164, 0.3);
+      }
+      100% {
+      box-shadow: 0 0 0 10px rgba(171,194,164, 0.3), 0 0 0 15px rgba(171,194,164, 0.2), 0 0 0 30px rgba(171,194,164, 0.2), 0 0 0 45px rgba(171,194,164, 0);
+      -webkit-box-shadow: 0 0 0 10px rgba(171,194,164, 0.3), 0 0 0 15px rgba(171,194,164, 0.2), 0 0 0 30px rgba(171,194,164, 0.2), 0 0 0 45px rgba(171,194,164, 0);
+      -ms-box-shadow: 0 0 0 10px rgba(171,194,164, 0.3), 0 0 0 20px 15px(171,194,164, 0.2), 0 0 0 30px rgba(171,194,164, 0.2), 0 0 0 45px rgba(171,194,164, 0);
+      -moz-box-shadow: 0 0 0 10px rgba(171,194,164, 0.3), 0 0 0 15px rgba(171,194,164, 0.2), 0 0 0 30px rgba(171,194,164, 0.2), 0 0 0 45px rgba(171,194,164, 0);
+      -o-box-shadow: 0 0 0 10px rgba(171,194,164, 0.3), 0 0 0 15px rgba(171,194,164, 0.2), 0 0 0 30px rgba(171,194,164, 0.2), 0 0 0 45px rgba(171,194,164, 0);
+      }
+      }
+      @-moz-keyframes ripple { 
+      0% {
+      box-shadow: 0 0 0 0 rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 25px rgba(171,194,164, 0.2), 0 0 0 40px rgba(171,194,164, 0.3);
+      -webkit-box-shadow:0 0 0 0 rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 25px rgba(171,194,164, 0.2), 0 0 0 40px rgba(171,194,164, 0.3);
+      -moz-box-shadow: 0 0 0 0 rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 25px rgba(171,194,164, 0.2), 0 0 0 40px rgba(171,194,164, 0.3);
+      -ms-box-shadow:0 0 0 0 rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 25px rgba(171,194,164, 0.2), 0 0 0 40px rgba(171,194,164, 0.3);
+      -o-box-shadow: 0 0 0 0 rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 25px rgba(171,194,164, 0.2), 0 0 0 40px rgba(171,194,164, 0.3);
+      }
+      100% {
+      box-shadow: 0 0 0 10px rgba(171,194,164, 0.3), 0 0 0 15px rgba(171,194,164, 0.2), 0 0 0 30px rgba(171,194,164, 0.2), 0 0 0 45px rgba(171,194,164, 0);
+      -webkit-box-shadow: 0 0 0 10px rgba(171,194,164, 0.3), 0 0 0 15px rgba(171,194,164, 0.2), 0 0 0 30px rgba(171,194,164, 0.2), 0 0 0 45px rgba(171,194,164, 0);
+      -ms-box-shadow: 0 0 0 10px rgba(171,194,164, 0.3), 0 0 0 20px 15px(171,194,164, 0.2), 0 0 0 30px rgba(171,194,164, 0.2), 0 0 0 45px rgba(171,194,164, 0);
+      -moz-box-shadow: 0 0 0 10px rgba(171,194,164, 0.3), 0 0 0 15px rgba(171,194,164, 0.2), 0 0 0 30px rgba(171,194,164, 0.2), 0 0 0 45px rgba(171,194,164, 0);
+      -o-box-shadow: 0 0 0 10px rgba(171,194,164, 0.3), 0 0 0 15px rgba(171,194,164, 0.2), 0 0 0 30px rgba(171,194,164, 0.2), 0 0 0 45px rgba(171,194,164, 0);
+      }
+      }
+      @-ms-keyframes ripple { 
+      0% {
+      box-shadow: 0 0 0 0 rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 25px rgba(171,194,164, 0.2), 0 0 0 40px rgba(171,194,164, 0.3);
+      -webkit-box-shadow:0 0 0 0 rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 25px rgba(171,194,164, 0.2), 0 0 0 40px rgba(171,194,164, 0.3);
+      -moz-box-shadow: 0 0 0 0 rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 25px rgba(171,194,164, 0.2), 0 0 0 40px rgba(171,194,164, 0.3);
+      -ms-box-shadow:0 0 0 0 rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 25px rgba(171,194,164, 0.2), 0 0 0 40px rgba(171,194,164, 0.3);
+      -o-box-shadow: 0 0 0 0 rgba(171,194,164, 0.3), 0 0 0 10px rgba(171,194,164, 0.2), 0 0 0 25px rgba(171,194,164, 0.2), 0 0 0 40px rgba(171,194,164, 0.3);
+      }
+      100% {
+      box-shadow: 0 0 0 10px rgba(171,194,164, 0.3), 0 0 0 15px rgba(171,194,164, 0.2), 0 0 0 30px rgba(171,194,164, 0.2), 0 0 0 45px rgba(171,194,164, 0);
+      -webkit-box-shadow: 0 0 0 10px rgba(171,194,164, 0.3), 0 0 0 15px rgba(171,194,164, 0.2), 0 0 0 30px rgba(171,194,164, 0.2), 0 0 0 45px rgba(171,194,164, 0);
+      -ms-box-shadow: 0 0 0 10px rgba(171,194,164, 0.3), 0 0 0 20px 15px(171,194,164, 0.2), 0 0 0 30px rgba(171,194,164, 0.2), 0 0 0 45px rgba(171,194,164, 0);
+      -moz-box-shadow: 0 0 0 10px rgba(171,194,164, 0.3), 0 0 0 15px rgba(171,194,164, 0.2), 0 0 0 30px rgba(171,194,164, 0.2), 0 0 0 45px rgba(171,194,164, 0);
+      -o-box-shadow: 0 0 0 10px rgba(171,194,164, 0.3), 0 0 0 15px rgba(171,194,164, 0.2), 0 0 0 30px rgba(171,194,164, 0.2), 0 0 0 45px rgba(171,194,164, 0);
+      }
+      }
+      @-o-keyframes ripple { 
+      0% {
+      box-shadow: 0 0 0 0 rgba(211,135,163, 0.3), 0 0 0 10px rgba(211,135,163, 0.2), 0 0 0 25px rgba(211,135,163, 0.2), 0 0 0 40px rgba(211,135,163, 0.3);
+      -webkit-box-shadow:0 0 0 0 rgba(211,135,163, 0.3), 0 0 0 10px rgba(211,135,163, 0.2), 0 0 0 25px rgba(211,135,163, 0.2), 0 0 0 40px rgba(211,135,163, 0.3);
+      -moz-box-shadow: 0 0 0 0 rgba(211,135,163, 0.3), 0 0 0 10px rgba(211,135,163, 0.2), 0 0 0 25px rgba(211,135,163, 0.2), 0 0 0 40px rgba(211,135,163, 0.3);
+      -ms-box-shadow:0 0 0 0 rgba(211,135,163, 0.3), 0 0 0 10px rgba(211,135,163, 0.2), 0 0 0 25px rgba(211,135,163, 0.2), 0 0 0 40px rgba(211,135,163, 0.3);
+      -o-box-shadow: 0 0 0 0 rgba(211,135,163, 0.3), 0 0 0 10px rgba(211,135,163, 0.2), 0 0 0 25px rgba(211,135,163, 0.2), 0 0 0 40px rgba(211,135,163, 0.3);
+      }
+      100% {
+      box-shadow: 0 0 0 10px rgba(211,135,163, 0.3), 0 0 0 15px rgba(211,135,163, 0.2), 0 0 0 30px rgba(211,135,163, 0.2), 0 0 0 45px rgba(211,135,163, 0);
+      -webkit-box-shadow: 0 0 0 10px rgba(211,135,163, 0.3), 0 0 0 15px rgba(211,135,163, 0.2), 0 0 0 30px rgba(211,135,163, 0.2), 0 0 0 45px rgba(211,135,163, 0);
+      -ms-box-shadow: 0 0 0 10px rgba(211,135,163, 0.3), 0 0 0 20px 15px(211,135,163, 0.2), 0 0 0 30px rgba(211,135,163, 0.2), 0 0 0 45px rgba(211,135,163, 0);
+      -moz-box-shadow: 0 0 0 10px rgba(211,135,163, 0.3), 0 0 0 15px rgba(211,135,163, 0.2), 0 0 0 30px rgba(211,135,163, 0.2), 0 0 0 45px rgba(211,135,163, 0);
+      -o-box-shadow: 0 0 0 10px rgba(211,135,163, 0.3), 0 0 0 15px rgba(211,135,163, 0.2), 0 0 0 30px rgba(211,135,163, 0.2), 0 0 0 45px rgba(211,135,163, 0);
+      }
+      }
+      .sc {
+      z-index:99;
+      width: 300px;
+      height:370px;
+      border-radius:15px;
+      -webkit-border-radius:15px;
+      -o-border-radius:15px;
+      -ms-border-radius:15px;
+      -moz-border-radius:15px;
+      background-color:rgba(239,233,221,.7);
+      overflow: hidden;
+      position: relative;
+      top:30px;
+      left:420px;
+      }
+      .staff{ 
+        width:27px;
+        line-height:27px;
+        height:350px;
+        list-STYLE:none;display:inline-block;padding:4px 1px;margin:1px 3px;
+        font-size:18px;
+        color:#000;
+        -webkit-border-radius: 3px;
+        -o-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -mz-border-radius: 3px;
+        border-radius: 3px;
+        text-align:center;
+        text-shadow:0 0 3px #a3a9a2;
+        -o-text-shadow:0 0 3px #a3a9a2;
+        -moz-text-shadow:0 0 3px #a3a9a2;
+        -webkit-text-shadow:0 0 3px #a3a9a2;
+        -ms-text-shadow:0 0 3px #a3a9a2;
+        vertical-align:top;
+        z-index:5;
+        border-left:1px dashed #4D6846;
+        font-family:'楷体'; 
+        font: "楷体";
+        face: "楷体";
+        overflow:hidden;
+      }
+      .staff:hover{ 
+        -webkit-transform: scale(0.95); 
+        -ms-transform: scale(0.95); 
+        -moz-transform: scale(0.95); 
+        -o-transform: scale(0.95);
+        transform: scale(0.95);
+        cursor:pointer;
+      }
+      .letter { 
+      font-family:'华文行楷'; 
+      font: "华文行楷";
+      face: "华文行楷";
+      font-size:140px;
+      font-weight:bold;
+      text-shadow: 0 0 .25em #74996A, 0 0 .35em #74996A, 0 0 .45em transparent, 0 0 .55em transparent, 0 0 .65em transparent;
+      -o-text-shadow: 0 0 .25em #74996A, 0 0 .35em #74996A, 0 0 .45em transparent, 0 0 .55em transparent, 0 0 .65em transparent;
+      -webkit-text-shadow: 0 0 .25em #74996A, 0 0 .35em #74996A, 0 0 .45em transparent, 0 0 .55em transparent, 0 0 .65em transparent;
+      -ms-text-shadow: 0 0 .25em #74996A, 0 0 .35em #74996A, 0 0 .45em transparent, 0 0 .55em transparent, 0 0 .65em transparent;
+      -moz-text-shadow: 0 0 .25em #74996A, 0 0 .35em #74996A, 0 0 .45em transparent, 0 0 .55em transparent, 0 0 .65em transparent;
+      color:rgba(255,255,255,.6);
+      z-index: 100;
+      }
+
+      .letter:nth-child(1) {
+      -webkit-animation: twinkle 2.7s infinite 0.9s;
+      -o-animation: twinkle 2.7s infinite 0.9s;
+      -moz-animation: twinkle 2.7s infinite 0.9s;
+      -ms-animation: twinkle 2.7s infinite 0.9s;
+      animation: twinkle 2.7s infinite 0.9s;
+      motion-offset: 5.55556%;
+      }
+      .letter:nth-child(2) {
+      -webkit-animation: twinkle 3.7s infinite 2.1s;
+      animation: twinkle 3.7s infinite 2.1s;
+      -o-animation: twinkle 3.7s infinite 2.1s;
+      -ms-animation: twinkle 3.7s infinite 2.1s;
+      -moz-animation: twinkle 3.7s infinite 2.1s;
+      motion-offset: 11.11111%;
+      }
+      .letter:nth-child(3) {
+      -webkit-animation: twinkle 4s infinite 2.3s;
+      animation: twinkle 4s infinite 2.3s;
+      -o-animation: twinkle 4s infinite 2.3s;
+      -ms-animation: twinkle 4s infinite 2.3s;
+      -moz-animation: twinkle 4s infinite 2.3s;
+      motion-offset: 22.22222%;
+      }
+      .letter:nth-child(4) {
+      -webkit-animation: twinkle 5s infinite 3s;
+      animation: twinkle 5s infinite 3s;
+      -o-animation: twinkle 5s infinite 3s;
+      -ms-animation: twinkle 5s infinite 3s;
+      -moz-animation: twinkle 5s infinite 3s;
+      motion-offset: 33%;
+      }
+      @-webkit-keyframes twinkle { 
+      50% {
+      text-shadow: 0 0 .25em rgba(255,255,255,.4), 0 0 .35em rgba(255,255,255,.4), 0 0 .45em rgba(255,255,255,.4), 0 0 .55em #E8D9B1, 0 0 .65em rgba(255,255,255,.4);
+      }
+      }
+      @-o-keyframes twinkle {
+      50% {
+      text-shadow: 0 0 .25em rgba(255,255,255,.4), 0 0 .35em rgba(255,255,255,.4), 0 0 .45em rgba(255,255,255,.4), 0 0 .55em #E8D9B1, 0 0 .65em rgba(255,255,255,.4);
+      }
+      }
+      @-ms-keyframes twinkle {
+      50% {
+       text-shadow: 0 0 .25em rgba(255,255,255,.4), 0 0 .35em rgba(255,255,255,.4), 0 0 .45em rgba(255,255,255,.4), 0 0 .55em #E8D9B1, 0 0 .65em rgba(255,255,255,.4);
+      }
+      }
+      @-moz-keyframes twinkle {
+      50% {
+     text-shadow: 0 0 .25em rgba(255,255,255,.4), 0 0 .35em rgba(255,255,255,.4), 0 0 .45em rgba(255,255,255,.4), 0 0 .55em #E8D9B1, 0 0 .65em rgba(255,255,255,.4);
+      }
+      }
+
+      @keyframes twinkle {
+      50% {
+      text-shadow: 0 0 .25em rgba(255,255,255,.4), 0 0 .35em rgba(255,255,255,.4), 0 0 .45em rgba(255,255,255,.4), 0 0 .55em #E8D9B1, 0 0 .65em rgba(255,255,255,.4);
+      }
+      }
+
+      a{text-decoration: none;} 
+      .contents{
+        height:auto; 
+        width:300px;
+        background:rgba(142,184,141,.5);
+        box-shadow:0 0 9px #98C477;
+        -webkit-box-shadow:0 0 12px #98C477;
+        -o-box-shadow:0 0 12px #98C477;
+        -moz-box-shadow:0 0 12px #98C477;
+        -ms-box-shadow:0 0 12px #98C477;
+      }
+      .menu1 td{ 
+      font:'楷体';
+      font-family:'楷体';
+      width:20px;
+      line-height:20px;
+      face:'楷体';filter:alpha(opacity=80);-moz-opacity:0.8;-ms-opacity:0.8;-webkit-opacity:0.8;-o-opacity:0.8; -khtml-opacity:0.8; opacity:0.8;
+      color:#000000;
+      font-size:18px;
+      border-top:1px solid #BFDBA7;border-bottom:1px solid #BFDBA7;text-align:center;
+      margin-bottom:5px;
+      border-left:5px solid #BFDBA7;border-right:5px solid #BFDBA7;
+      background-color:rgba(255,255,255,.4);
+      text-shadow:0 0 2px #a3a9a2;-webkit-text-shadow:0 0 2px #a3a9a2;-o-text-shadow:0 0 2px #a3a9a2;-moz-text-shadow:0 0 2px #a3a9a2;-ms-text-shadow:0 0 2px #a3a9a2;
+      padding-top:20px;
+      }
+      .menu1 td:hover{
+      -webkit-transform: scale(0.95); 
+      -ms-transform: scale(0.95); 
+      -moz-transform: scale(0.95); 
+      -o-transform: scale(0.95);
+      transform: scale(0.95);
+      cursor:pointer;
+      }
+      .menu1{
+      overflow:hidden;
+      border:1px dashed #BFDBA7;
+      -webkit-border-radius:16px;
+      -o-border-radius:16px;
+      -moz-border-radius:16px;
+      -ms-border-radius:16px;
+      border-radius:16px
+      }
+      .link{ 
+        animation:go 5s ease infinite;-webkit-animation:go 5s ease infinite;-moz-animation:go 5s ease infinite;
+        -o-animation:go 5s ease infinite;-ms-animation:go 5s ease infinite;width:60px;height:60px;text-align:center;
+        background-color:rgba(191,219,167,.6);
+        text-shadow:0 0 3px #a3a9a2;
+        -o-text-shadow:0 0 3px #a3a9a2;
+        -moz-text-shadow:0 0 3px #a3a9a2;
+        -webkit-text-shadow:0 0 3px #a3a9a2;
+        -ms-text-shadow:0 0 3px #a3a9a2;
+        BORDER-RADIUS:50%;-moz-border-radius: 50%;-webkit-border-radius:50%;-o-border-radius:50%;-ms-border-radius: 50%;font-size:22px;
+        WIDTH:60px; HEIGHT:60px;
+        }
+        @keyframes go { 0% {transform:rotateY(0deg);} 25% { transform:rotateY(90deg);} 50% { transform:rotateY(180deg);} 
+        75% { transform:rotateY(90deg);} 100% { transform:rotateY(0deg);}}
+
+        @-webkit-keyframes go { 0% {transform:rotateY(0deg);} 25% { -webkit-transform:rotateY(90deg);} 50% { -webkit-transform:rotateY(180deg);}
+        75% { -webkit-transform:rotateY(270deg);} 100% { -webkit-transform:rotateY(360deg);}} 
+        @-moz-keyframes wobble { 0% {transform:rotateY(0deg);} 25% { -moz-transform:rotateY(90deg);} 50% { -moz-transform:rotateY(180deg);} 
+        75% { -moz-transform:rotateY(270deg);} 100% {-moz-transform:rotateY(360deg);}}
+
+        @-o-keyframes go { 0% {transform:rotateY(0deg);} 25% { -o-transform:rotateY(90deg);} 50% { -o-transform:rotateY(180deg);}
+        75% { -o-transform:rotateY(270deg);} 100% { -o-transform:rotateY(360deg);}}
+
+        @-ms-keyframes go { 0% {transform:rotateY(0deg);} 25% { -ms-transform:rotateY(90deg);} 50% { -ms-transform:rotateY(180deg);} 
+        75% { -ms-transform:rotateY(270deg);} 100% { -ms-transform:rotateY(360deg);}}
+        #link2{
+        animation:go 10s ease infinite;-webkit-animation:go 10s ease infinite;-moz-animation:go 10s ease infinite;
+        -o-animation:go 10s ease infinite;-ms-animation:go 10s ease infinite;width:60px;height:60px;text-align:center;
+        background-color:rgba(191,219,167,.6);
+        BORDER-RADIUS:50%;-moz-border-radius: 50%;-webkit-border-radius:50%;-o-border-radius:50%;-ms-border-radius: 50%;font-size:21px;
+        text-shadow:0 0 3px #a3a9a2;
+        -o-text-shadow:0 0 3px #a3a9a2;
+        -moz-text-shadow:0 0 3px #a3a9a2;
+        -webkit-text-shadow:0 0 3px #a3a9a2;
+        -ms-text-shadow:0 0 3px #a3a9a2;
+        WIDTH:60px; HEIGHT:60px;
+        }
+        #link3{
+        animation:go 15s ease infinite;-webkit-animation:go 15s ease infinite;-moz-animation:go 15s ease infinite;
+        -o-animation:go 15s ease infinite;-ms-animation:go 15s ease infinite;width:60px;height:60px;text-align:center;
+        background-color:rgba(191,219,167,.6);
+        BORDER-RADIUS:50%;-moz-border-radius: 50%;-webkit-border-radius:50%;-o-border-radius:50%;-ms-border-radius: 50%;font-size:21px;
+        text-shadow:0 0 3px #a3a9a2;
+        o-text-shadow:0 0 3px #a3a9a2;
+        -moz-text-shadow:0 0 3px #a3a9a2;
+        -webkit-text-shadow:0 0 3px #a3a9a2;
+        -ms-text-shadow:0 0 3px #a3a9a2;
+        WIDTH:60px; HEIGHT:60px;
+        }
+        .geci{
+          z-index:99;
+          width: 400px;
+          height:520px;
+          border-radius:15px;
+          -webkit-border-radius:15px;
+          -o-border-radius:15px;
+          -ms-border-radius:15px;
+          -moz-border-radius:15px;
+          background-color:rgba(239,233,221,.7);
+          overflow: hidden;
+          position: relative;
+          top:30px;
+          left:420px;
+        }
+        .ed td{
+        text-align:center;
+        border-bottom:1px dashed #4D6846;
+        font-family:'楷体'; 
+        font: "楷体";
+        face: "楷体";
+        overflow:hidden;
+        width:400px;
+        font-size: 18px;
+        }
+    </style>
+  </head>
+  <body>
+    <section style="position:absolute;top:400px;left:36%;">
+      <section class="letter" style="position:relative;top:0px;">金</section>
+      <section class="letter" style="position:relative;top:40px;">鹿</section>
+      <section class="letter" style="position:relative;top:80px;">浅</section>
+      <section class="letter" style="position:relative;top:120px;">遥</section>
+    </section>
+    <table style="z-index:101; position:absolute;left:13%;top:321px;">
+            <tr>
+              <td>
+                <table style="z-index:100;"> 
+                  <tr>
+                    <TD WIDTH=30 HEIGHT=240px STYLE='BORDER-RIGHT:1PX SOLID #39403E;'></TD><TD WIDTH=30></TD>
+                  </TR>
+                  <TR>
+                    <td COLSPAN='2' WIDTH=60px HEIGHT=60px id='link3'><a href="" target=_blank style='color:#000;WIDTH=60px'><b style='color=#000000'>荔枝</b></td>
+                  </TR>
+                  <TR>
+                    <td COLSPAN='2' WIDTH=60px HEIGHT=60px id='link2'><a href="" target=_blank style='color:#000;WIDTH=60px'><b style='color=#000000'>网盘</b></td>
+                  </TR>
+                </table>
+                </td>
+                <td>
+                <table style="z-index:100;"> 
+                  <tr>
+                    <TD WIDTH=30 HEIGHT=340px STYLE='BORDER-RIGHT:1PX SOLID #39403E;'></TD><TD WIDTH=30></TD>
+                  </TR>
+                  <TR>
+                    <td COLSPAN='2' WIDTH=60px HEIGHT=60px id='link3'><a href="" target=_blank style='color:#000;WIDTH=60px'><b style='color=#000000'>喜马</b></td>
+                  </TR>
+                  <TR> 
+                    <td COLSPAN='2' WIDTH=60px HEIGHT=60px class="link"><a href="" target=_blank style='color:#000;WIDTH=60px'><b style='color=#000000'>猫耳</b></td>
+                  </TR>
+                </table>
+              </td>
+            </tr>
+    </table>
+    <ol class="bg-flower">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ol>
+    <section class='slice'>
+      <section class='view pic1'>
+        <span class="overlay"></span>
+        <section class='view pic2'>
+          <span class="overlay"></span>
+          <section class='view pic3'>
+            <span class="overlay"></span>
+            <section class='view pic4'>
+              <span class="overlay"></span>
+              <section class='view pic5'>
+                <span class="overlay"></span>
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <section class="box">
+          <table style="position:absolute;left:50%;">
+            <tr>
+              <td id='circle' style="position:absolute;top:50px;"></td>
+              <td width=300px height=370px class='sc' style="overflow:hidden;word-wrap:break-word;">
+                <table height=370px style="overflow:hidden;word-wrap:break-word;" align=center> 
+                  <tr>
+                    <td class="staff"><font>原著<br/>：<br/>吾玉</font></td> 
+                    <td class="staff" style="color:#6D7D00;"><font>策划<br/>：<br/>蜥蜴</font><span style="color:#32432E;font-size:16px;"> 无陌家族</span></td>
+                    <td class="staff"><font>编剧<br/>：<br/>萝卜</font><span style="color:#32432E;font-size:16px;"> 无陌家族</span></td>
+                    <td class="staff" style="color:#6D7D00;"><font>导演<br/>：<br/>冒不冒泡儿</font><span style="color:#32432E;font-size:16px;"> 无陌家族</span></td>
+                    <td class="staff"><font>后期<br/>：<br/>白衣漪</font><span style="color:#32432E;font-size:16px;"> 鹿鸣声社</span></td>
+                    <td class="staff" style="color:#6D7D00;"><font>宣传<br/>：<br/>城郊园</font><span style="color:#32432E;font-size:16px;"><br/>A<br/>l<br/>w<br/>a<br/>y<br/>s</span></td>
+                    <td class="staff" style="border-right:1px dashed #4D6846;"><font>美工<br/>：<br/>蜥蜴</font><span style="color:#32432E;font-size:16px;"> 无陌家族</span></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+           <table height=370px style="position:relative;left:10%;top:520px;" align=center class='geci'> 
+              <tr>
+                <td>
+                    <MARQUEE onmouseover='this.stop()' onmouseout='this.start()' direction=up scrollamount=4 HEIGHT=370px WIDTH=400px>
+                      <table class="ed" HEIGHT=370px WIDTH=400px>
+                        <tr>
+                          <td style="text-align:center;font-size:20px;">浅情遥殇</td>
+                        </tr>
+                        <tr>
+                          <td>山月不知心底事 惊鸿一面为君痴</td>
+                        </tr>
+                        <tr>
+                          <td>此生回眸终将误 大梦一场谁先知</td>
+                        </tr>
+                        <tr>
+                          <td>翠叶凋落金鹿坠 芬芳浅付已难追</td>
+                        </tr>
+                        <tr>
+                          <td>红妆顾盼冷月遥 辜负风月何人赔</td>
+                        </tr>
+                        <tr>
+                          <td>离人乱 聚亦难终将散</td>
+                        </tr>
+                          <td>沧海皆已变 怎敌只影阑珊</td>
+                        </tr>
+                        <tr>
+                          <td>情蛊断 纵使人间百年 此情殇非我所盼</td>
+                        </tr>
+                        <tr>
+                          <td>翠叶凋落金鹿坠 芬芳浅付已难追</td>
+                        </tr>
+                        <tr>
+                          <td>红妆顾盼冷月遥 辜负风月何人赔</td>
+                        </tr>
+                        <tr>
+                          <td>离人乱 聚亦难终将散</td>
+                        </tr>
+                        <tr>
+                          <td>沧海皆已变 怎敌只影阑珊</td>
+                        </tr>
+                        <tr>
+                          <td>情蛊断 纵使人间百年 此情殇非我所盼</td>
+                        </tr>
+                        <tr>
+                          <td>离人乱 聚亦难终将散 沧海皆已变</td>
+                        </tr>
+                        <tr>
+                          <td>怎敌只影阑珊 情蛊断</td>
+                        </tr>
+                        <tr>
+                          <td>纵使人间百年 此情殇非我所盼</td>
+                        </tr>
+                        <tr>
+                          <td>此生无悔魂梦牵 愿君今世可余欢…………</td>
+                        </tr>
+                      </table>
+                    </MARQUEE>
+                </td>
+              </tr>
+          </table>
+          <TABLE CELLPADDING=0 CELLSPACING=0 style="position: relative;left:76%;top:-50px;">
+            <TR>
+              <TD WIDTH=18 HEIGHT=15 BGCOLOR=#B2B2B2 STYLE='position:relative;Z-INDEX:2;BORDER-RADIUS:100%;-webkit-BORDER-RADIUS:100%;-o-BORDER-RADIUS:100%;-ms-BORDER-RADIUS:100%;-moz-BORDER-RADIUS:100%;box-shadow:0 0 8px #A7CF94' ></TD>
+              <TD WIDTH=315 style='border-top:4px solid rgba(142,184,141,.8);position:relative;top:6px;'></TD>
+              <TD WIDTH=18 HEIGHT=15 BGCOLOR=#B2B2B2 STYLE='position:relative;Z-INDEX:2;BORDER-RADIUS:100%;-webkit-BORDER-RADIUS:100%;-o-BORDER-RADIUS:100%;-ms-BORDER-RADIUS:100%;-moz-BORDER-RADIUS:100%;box-shadow:0 0 8px #A7CF94'></TD>
+            </TR>
+            <tr>
+              <td WIDTH=10></td>
+              <TD class='contents' align=center>
+                <table class="menu1" align=center width=300px HEIGHT=550px> 
+                <tr>
+                  <td style="border-right:1px dashed #A7CF94;vertical-align:top"width=20px>颜浅遥<br/>：<br/>白衣漪<span style="color:#2B3926;font-size:16px;"> 鹿鸣声社</span><br/><br/>E<br/>D<br/>：<br/>浅情遥殇
+                  </td>
+                  <td style="border-right:1px dashed #A7CF94;vertical-align:top"width=20px>裴彦<br/>：<br/>蜥蜴<span style="color:#2B3926;font-size:16px;"> 无陌家族</span><br/><br/><br/><br/>原曲<br/>：<br/>红颜旧
+                  </td>
+                  <td style="border-right:1px dashed #A7CF94;vertical-align:top"width=20px>夫子甲<br/>：<br/>丐丐<span style="color:#2B3926;font-size:16px;"> 无陌家族</span><br/><br/><br/>填词<br/>：<br/>落苏</td>
+                  <td style="border-right:1px dashed #A7CF94;vertical-align:top"width=20px>老夫子<br/>:<br/>木头<span style="color:#2B3926;font-size:16px;"><br/>1<br/>0<br/>音社</span><br/><br/><br/>翻唱<br/>：<br/>世卿<span style="color:#2B3926;font-size:16px;"> 无陌家族</span></td>
+                  <td style="border-right:1px dashed #A7CF94;vertical-align:top"width=20px>丫鬟甲<br/>：<br/>源子<span style="color:#2B3926;font-size:16px;"> 桑梓工作室</span><br/><br/>后期<br/>：<br/>关关<span style="color:#2B3926;font-size:16px;"> 无陌家族</span></td>
+                  <td style="border-right:1px dashed #A7CF94;vertical-align:top"width=20px>丫鬟乙<br/>：<br/>染尘<span style="color:#2B3926;font-size:16px;"> 无陌家族</span></td>
+                  <td style="border-right:1px dashed #A7CF94;vertical-align:top"width=20px>老鸨<br/>：<br/>染尘<span style="color:#2B3926;font-size:16px;"> 无陌家族</span></td>
+                  <td style="border-right:1px dashed #A7CF94;vertical-align:top"width=20px>妓女甲<br/>：<br/>不哭</td>
+                  <td style="border-right:1px dashed #A7CF94;vertical-align:top"width=20px>曲烟<br/>：<br/>酒精<span style="color:#2B3926;font-size:16px;"> 无陌家族</span></td>
+                  <td style="border-right:1px dashed #A7CF94;vertical-align:top"width=20px>旁白<br/>：<br/>泽木<span style="color:#2B3926;font-size:16px;"> 无陌家族</span></td>
+                </tr>
+                </table>  
+              </TD>
+              <td WIDTH=10></td>
+            </tr>
+            <TR>
+              <TD WIDTH=18 HEIGHT=15 BGCOLOR=#B2B2B2 STYLE='position:relative;Z-INDEX:2;BORDER-RADIUS:100%;-webkit-BORDER-RADIUS:100%;-o-BORDER-RADIUS:100%;-ms-BORDER-RADIUS:100%;-moz-BORDER-RADIUS:100%;box-shadow:0 0 8px #A7CF94'></TD>
+              <TD WIDTH=315 style='border-top:4px solid rgba(142,184,141,.8);position:relative;top:6px;'></TD>
+              <TD WIDTH=18 HEIGHT=15 BGCOLOR=#B2B2B2 STYLE='position:relative;Z-INDEX:2;BORDER-RADIUS:100%;-webkit-BORDER-RADIUS:100%;-o-BORDER-RADIUS:100%;-ms-BORDER-RADIUS:100%;-moz-BORDER-RADIUS:100%;box-shadow:0 0 8px #A7CF94'></TD>
+            </TR>
+          </TABLE>
+      </section>
+    </section> 
+  </body>
+</html>
