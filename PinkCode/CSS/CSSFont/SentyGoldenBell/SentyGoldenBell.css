@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "SentyGoldenBell";
+    src: url("SentyGoldenBell.eot"); /* IE9 */
+    src: url("SentyGoldenBell.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    
+    url("SentyGoldenBell.woff") format("woff"), /* chrome、firefox */
+    url("SentyGoldenBell.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    
+    url("SentyGoldenBell.svg#SentyGoldenBell") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+
