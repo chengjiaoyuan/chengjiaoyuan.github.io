@@ -1,15 +1,12 @@
-@charset "utf-8";
+@charset "UTF-8";
+
 @font-face {
-    font-family: "SentyGoldenBell";
-    src: url("SentyGoldenBell.eot"); /* IE9 */
-    src: url("SentyGoldenBell.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    
-    url("SentyGoldenBell.woff") format("woff"), /* chrome、firefox */
-    url("SentyGoldenBell.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
-    
-    url("SentyGoldenBell.svg#SentyGoldenBell") format("svg"); /* iOS 4.1- */
-    font-style: normal;
-    font-weight: normal;
+  font-family: "SentyGoldenBell";
+  src: url("SentyGoldenBell.woff2") format("woff2"),
+       url("SentyGoldenBell.woff") format("woff"),
+       url("SentyGoldenBell.ttf") format("truetype"),
+       url("SentyGoldenBell.eot") format("embedded-opentype"),
+       url("SentyGoldenBell.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-
-
