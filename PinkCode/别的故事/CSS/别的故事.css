@@ -96,7 +96,7 @@
 	        -webkit-border-radius:50%;
 	        -moz-border-radius:50%;
 	        -ms-border-radius:50%;
-	        background-color:rgba(177,223,236, 0.4);
+	        background-color:rgba(255,255,255, 0.8);
 	        bottom:-100px;
 	        -webkit-animation: square 8s infinite;
 	        animation: square 8s infinite;
