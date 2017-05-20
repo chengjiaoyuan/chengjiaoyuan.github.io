@@ -9,6 +9,9 @@
 		a{
 		  text-decoration: none;
 		  color: #000;
+		font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
 		}
 		.bg-flower {
 			background-color:#B7D5CE;
@@ -588,7 +591,7 @@
 		.sky {
   			height:500px; 
 position:relative;
-top:-300px;
+top:300px;
 left:0px;
 width:100%;
 		}
@@ -653,6 +656,9 @@ width:100%;
 	      -webkit-animation-fill-mode:forwards;
 	      -moz-animation-fill-mode:forwards;
 	      -ms-animation-fill-mode:forwards;
+		    font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
 	    }
 	     #txt02 {
 	      position:absolute;
@@ -678,6 +684,9 @@ width:100%;
 	      -webkit-animation-fill-mode:forwards;
 	      -moz-animation-fill-mode:forwards;
 	      -ms-animation-fill-mode:forwards;
+		  font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
 	    }
 	    @keyframes stxt02_move{
 	      0% {
@@ -900,6 +909,9 @@ width:100%;
 			-moz-border-radius:25px;
 			-ms-border-radius:25px;
 			border-radius:25px;
+		      font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
 		}
 		 @keyframes show{
 	        0% {
@@ -1254,6 +1266,9 @@ width:100%;
 			font-size: 20px;
 			text-align: center;
 			overflow: hidden;
+			  font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
 		}
 		.castAction{
         position: relative;
@@ -1471,6 +1486,9 @@ width:100%;
 	      font-size:23px;
 	      color:#fff;
 	      background-color:rgba(113,162,149,.4);
+		      font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
 	      }
 	    .staff li:hover{
 	        background-color:rgba(113,162,149,.6);
@@ -1492,6 +1510,9 @@ width:100%;
 	        font-size:24px;
 	        margin:0px 4px;
 	        font-weight:lighter;
+		      font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
 	    }
 	    .cast li span:nth-child(odd){
 	        background-color:rgba(255,255,255,.5);
