@@ -1545,51 +1545,51 @@ width:100%;
 	    }
 	    @keyframes guodu{
 	      0% {
-	        background-color:rgba(215,207,235,.4);
+	        background-color:rgba(255,255,255,.4);
 	        height: 0px;
 	      }
 	      100% {
-	        background-color:rgba(215,207,235,.4);
+	        background-color:rgba(255,255,255,.4);
 	        height: 125px;
 	      }
 	    }
 	     @-webkit-keyframes guodu{
 	       0% {
-	        background-color:rgba(215,207,235,.4);
+	        background-color:rgba(255,255,255,.4);
 	        height: 0px;
 	      }
 	      100% {
-	        background-color:rgba(215,207,235,.4);
+	        background-color:rgba(255,255,255,.4);
 	        height: 125px;
 	      }
 	    }
 	     @-moz-keyframes guodu{
 	       0% {
-	        background-color:rgba(215,207,235,.4);
+	        background-color:rgba(255,255,255,.4);
 	        height: 0px;
 	      }
 	      100% {
-	        background-color:rgba(215,207,235,.4);
+	        background-color:rgba(255,255,255,.4);
 	        height: 125px;
 	      }
 	    }
 	     @-ms-keyframes guodu{
 	      0% {
-	        background-color:rgba(215,207,235,.4);
+	        background-color:rgba(255,255,255,.4);
 	        height: 0px;
 	      }
 	      100% {
-	        background-color:rgba(215,207,235,.4);
+	        background-color:rgba(255,255,255,.4);
 	        height: 125px;
 	      }
 	    }
 	     @-o-keyframes guodu{
 	      0% {
-	        background-color:rgba(215,207,235,.4);
+	        background-color:rgba(255,255,255,.4);
 	        height: 0px;
 	      }
 	      100% {
-	        background-color:rgba(215,207,235,.4);
+	        background-color:rgba(255,255,255,.4);
 	        height: 125px;
 	      }
 	    }
