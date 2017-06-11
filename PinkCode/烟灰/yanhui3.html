@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+   <link rel='stylesheet' href='http://chengjiaoyuan.github.io/PinkCode/CSS/CSSFont/英文/juice/orange juice 2.0.css' media='screen' title='no title' charset='utf-8'>
+    <link rel='stylesheet' href='https://chengjiaoyuan.github.io/PinkCode/CSS/CSSFont/%E9%9D%92%E8%91%B1%E4%BD%93/%E5%AD%97%E4%BD%93%E7%AE%A1%E5%AE%B6%E9%9D%92%E8%91%B1%E4%BD%93.css' media='screen' title='no title' charset='utf-8'>
+	<style>
+		body{
+			background-color:#FCF9E6;
+			margin-left:-950px; 
+			width:1900px;
+			position:relative;
+			left:50%;
+			font-family:"楷体";face:"楷体";font:"楷体";
+		}
+		span{
+			font-family:"字体管家青葱体";face:"字体管家青葱体";font:"字体管家青葱体";
+		}
+		ol{
+			list-style:none;
+			text-align:center;
+		}
+		a{text-decoration: none;color:#000;}
+		.bg-flower {
+	        position: absolute;
+	        top: 0;
+	        left: 0;
+	        width: 100%;
+	        height:2300px;
+	      }
+	      .bg-flower li {
+	        position: absolute;
+	        list-style: none;
+	        display: block;
+	        width: 80px;
+	        height: 80px;
+	        background-color:rgba(226,101,78, 0.3);
+	        bottom:-90px;
+	        -webkit-animation: square 20s infinite;
+	        animation: square 20s infinite;
+	        -o-animation: square 20s infinite;
+	        -moz-animation: square 20s infinite;
+	        -ms-animation: square 20s infinite;
+	        z-index: 99;
+	      }
+	      .bg-flower li:nth-child(1) {
+	        left: 10%;
+	        background-color: rgba(123,171,155, 0.3);
+	      }
+	      .bg-flower li:nth-child(2) {
+	        left: 20%;
+	        border-radius:50%;
+	        -o-border-radius:50%;
+	        -webkit-border-radius:50%;
+	        -moz-border-radius:50%;
+	        -ms-border-radius:50%;
+	        width: 60px;
+	        height: 60px;
+	        -webkit-animation-delay: 2s;
+	        -o-animation-delay: 2s;
+	        -ms-animation-delay: 2s;
+	        -moz-animation-delay: 2s;
+	        animation-delay: 2s;
+	        -webkit-animation-duration: 17s;
+	        -o-animation-duration: 17s;
+	        -ms-animation-duration: 17s;
+	        -moz-animation-duration: 17s;
+	        animation-duration: 17s;
+	        background-color: rgba(123,171,155, 0.3);
+	      }
+	      .bg-flower li:nth-child(3) {
+	        left: 25%;
+	        -webkit-animation-delay: 4s;
+	        -o-animation-delay: 4s;
+	        -ms-animation-delay: 4s;
+	        -moz-animation-delay: 4s;
+	        animation-delay: 4s;
+	        background-color: rgba(102,113,115, 0.3);
+	      }
+	      .bg-flower li:nth-child(4) {
+	        left: 40%;
+	        width: 50px;
+	        height: 50px;
+	        border-radius:50%;
+	        -o-border-radius:50%;
+	        -webkit-border-radius:50%;
+	        -moz-border-radius:50%;
+	        -ms-border-radius:50%;
+	        -webkit-animation-duration: 25s;
+	        -o-animation-duration: 25s;
+	        -ms-animation-duration: 25s;
+	        -moz-animation-duration: 25s;
+	        animation-duration: 25s;
+	        background-color: rgba(123,171,155, 0.2);
+	      }
+	      .bg-flower li:nth-child(5) {
+	        left: 70%;
+	      }
+	      .bg-flower li:nth-child(6) {
+	        left: 80%;
+	        width: 80px;
+	        height: 80px;
+	        border-radius:50%;
+	        -o-border-radius:50%;
+	        -webkit-border-radius:50%;
+	        -moz-border-radius:50%;
+	        -ms-border-radius:50%;
+	        -webkit-animation-delay: 3s;
+	        -o-animation-delay: 3s;
+	        -moz-animation-delay: 3s;
+	        -ms-animation-delay: 3s;
+	        animation-delay: 3s;
+	        background-color: rgba(117,177,155, 0.3);
+	      }
+	      .bg-flower li:nth-child(7) {
+	        left: 32%;
+	        width: 60px;
+	        height: 60px;
+	        -webkit-animation-delay: 7s;
+	        -o-animation-delay: 7s;
+	        -ms-animation-delay: 7s;
+	        -moz-animation-delay: 7s;
+	        animation-delay: 7s;
+	        background-color: rgba(242,211,128, 0.4);
+	      }
+	      .bg-flower li:nth-child(8) {
+	        left: 65%;
+	        width: 50px;
+	        height: 50px;
+	        -webkit-animation-delay: 15s;
+	        -o-animation-delay: 15s;
+	        -ms-animation-delay: 15s;
+	        -moz-animation-delay: 15s;
+	                animation-delay: 15s;
+	        -webkit-animation-duration: 40s;
+	        -o-animation-duration: 40s;
+	        -ms-animation-duration: 40s;
+	        -moz-animation-duration: 40s;
+	                animation-duration: 40s;
+	         background-color: rgba(242,211,128, 0.4);
+	      }
+	      .bg-flower li:nth-child(9) {
+	        left: 25%;
+	        width: 20px;
+	        height: 20px;
+	        -webkit-animation-delay: 3s;
+	        -o-animation-delay: 3s;
+	        -ms-animation-delay:3s;
+	        -moz-animation-delay:3s;
+	                animation-delay:3s;
+	        -webkit-animation-duration: 30s;
+	        -o-animation-duration: 30s;
+	        -ms-animation-duration: 30s;
+	        -moz-animation-duration: 30s;
+	                animation-duration: 30s;
+	        background-color: rgba(157,53,53, 0.2);
+	      }
+	      .bg-flower li:nth-child(11) {
+	        left: 25%;
+	        width: 10px;
+	        height: 10px;
+	        -webkit-animation-delay: 3s;
+	        -o-animation-delay: 3s;
+	        -ms-animation-delay:3s;
+	        -moz-animation-delay:3s;
+	                animation-delay:3s;
+	        -webkit-animation-duration: 20s;
+	        -o-animation-duration: 20s;
+	        -ms-animation-duration: 20s;
+	        -moz-animation-duration: 20s;
+	                animation-duration: 20s;
+	        background-color: rgba(123,171,155, 0.3);
+	      }
+	       .bg-flower li:nth-child(12) {
+	        left: 25%;
+	        width: 40px;
+	        height: 40px;
+	        -webkit-animation-duration: 25s;
+	        -o-animation-duration: 25s;
+	        -ms-animation-duration: 25s;
+	        -moz-animation-duration: 25s;
+	                animation-duration: 25s;
+	        background-color: rgba(172,199,229, 0.2);
+	      }
+	      .bg-flower li:nth-child(10) {
+	        left: 90%;
+	        width: 110px;
+	        height: 110px;
+	        border-radius:50%;
+	        -o-border-radius:50%;
+	        -webkit-border-radius:50%;
+	        -moz-border-radius:50%;
+	        -ms-border-radius:50%;
+	        -webkit-animation-delay:4s;
+	        -o-animation-delay:4s;
+	        -ms-animation-delay:4s;
+	        -moz-animation-delay:4s;
+	                animation-delay:4s;
+	         background-color: rgba(242,211,128, 0.4);
+	      }
+	      .bg-flower li:nth-child(11) {
+	        left: 36%;
+	        width: 90px;
+	        height: 90px;
+	        -webkit-animation-delay:3s;
+	        -o-animation-delay:3s;
+	        -ms-animation-delay:3s;
+	        -moz-animation-delay:3s;
+	                animation-delay:3s;
+	        background-color: rgba(242,211,128, 0.4);
+	      }
+	      .bg-flower li:nth-child(12) {
+	        left: 30%;
+	        width: 50px;
+	        height: 50px;
+	        border-radius:50%;
+	        -o-border-radius:50%;
+	        -webkit-border-radius:50%;
+	        -moz-border-radius:50%;
+	        -ms-border-radius:50%;
+	        -webkit-animation-delay:5s;
+	        -o-animation-delay:5s;
+	        -ms-animation-delay:5s;
+	        -moz-animation-delay:5s;
+	                animation-delay:5s;
+	        background-color: rgba(242,211,128, 0.3);
+	      }
+	      .bg-flower li:nth-child(13) {
+	        left: 20%;
+	        width: 30px;
+	        height: 30px;
+	      }
+	      .bg-flower li:nth-child(14) {
+	        left: 56%;
+	        width: 100px;
+	        height: 100px;
+	        -webkit-animation-delay:6s;
+	        -o-animation-delay:6s;
+	        -ms-animation-delay:6s;
+	        -moz-animation-delay:6s;
+	                animation-delay:6s;
+	        background-color: rgba(123,171,155, 0.3);
+	      }
+	      .bg-flower li:nth-child(15) {
+	        left: 45%;
+	        width: 60px;
+	        height: 60px;
+	        background-color: rgba(242,211,128, 0.3);
+	      }
+	      .bg-flower li:nth-child(16) {
+	        left: 5%;
+	        width: 40px;
+	        height: 40px;
+	        -webkit-animation-delay:9s;
+	        -o-animation-delay:9s;
+	        -ms-animation-delay:9s;
+	        -moz-animation-delay:9s;
+	                animation-delay:9s;
+	         background-color: rgba(242,211,128, 0.3);
+	      }
+	      @-webkit-keyframes square {
+	        0% {
+	          -webkit-transform: translateY(0);
+	                  transform: translateY(0);
+	        }
+	        100% {
+	          -webkit-transform: translateY(-1800px) rotate(600deg);
+	                  transform: translateY(-1800px) rotate(600deg);
+	        }
+	      }
+	      @keyframes square {
+	        0% {
+	          -webkit-transform: translateY(0px);
+	                  transform: translateY(0px);
+	        }
+	        100% {
+	          -webkit-transform: translateY(-1800px) rotate(600deg);
+	                  transform: translateY(-1800px) rotate(600deg);
+	        }
+	      }
+	       @-o-keyframes square {
+	        0% {
+	          -o-transform: translateY(0);
+	                  transform: translateY(0);
+	        }
+	        100% {
+	          -o-transform: translateY(-1800px) rotate(600deg);
+	                  transform: translateY(-1800px) rotate(600deg);
+	        }
+	      }
+	       @-ms-keyframes square {
+	        0% {
+	          -ms-transform: translateY(0);
+	                  transform: translateY(0);
+	        }
+	        100% {
+	          -ms-transform: translateY(-1800px) rotate(600deg);
+	                  transform: translateY(-1800px) rotate(600deg);
+	        }
+	      }
+	       @-moz-keyframes square {
+	        0% {
+	          -moz-transform: translateY(0);
+	                  transform: translateY(0);
+	        }
+	        100% {
+	          -moz-transform: translateY(-1800px) rotate(600deg);
+	                  transform: translateY(-1800px) rotate(600deg);
+	        }
+	    } 
+	    ::-webkit-scrollbar {WIDTH: 12px;} 
+	    ::-webkit-scrollbar-track { border-radius: 10px; background-color: rgba(129,206,196, 0.6); } 
+	    ::-webkit-scrollbar-thumb { border-radius: 10px; background-color: rgba(129,206,196, 0.5); } 
+	    ::-o-scrollbar {WIDTH: 12px;} 
+	    ::-o-scrollbar-track { border-radius: 10px; background-color: rgba(25, 147, 147, 0.4); } 
+	    ::-o-scrollbar-thumb { border-radius: 10px; background-color: rgba(25, 147, 147, 0.5); } 
+	    ::-moz-scrollbar {WIDTH: 12px;} 
+	    ::-moz-scrollbar-track { border-radius: 10px; background-color: rgba(25, 147, 147, 0.4); } 
+	    ::-moz-scrollbar-thumb { border-radius: 10px; background-color: rgba(25, 147, 147, 0.5); } 
+	    ::-ms-scrollbar {WIDTH: 12px;} 
+	    ::-ms-scrollbar-track { border-radius: 10px; background-color: rgba(25, 147, 147, 0.4); } 
+	    ::-ms-scrollbar-thumb { border-radius: 10px; background-color: rgba(25, 147, 147, 0.5); } 
+	    ::scrollbar {WIDTH: 12px;} 
+	    ::scrollbar-track { border-radius: 10px; background-color: rgba(25, 147, 147, 0.4); } 
+	    ::scrollbar-thumb { border-radius: 10px; background-color: rgba(25, 147, 147, 0.5); } 
+	    .pic1{
+			-webkit-animation: pic1 3s ease-in-out;
+	        animation: pic1 3s ease-in-out;
+	        -o-animation: pic1 3s ease-in-out;
+	        -moz-animation: pic1 3s ease-in-out;
+	        -ms-animation: pic1 3s ease-in-out;
+	        animation-fill-mode:forwards; 
+			-o-animation-fill-mode:forwards;
+			-webkit-animation-fill-mode:forwards;
+			-moz-animation-fill-mode:forwards;
+			-ms-animation-fill-mode:forwards;
+	    }
+	    @keyframes pic1 {
+	        0% {
+	          	position:relative;
+	          	left:0px;
+	            top:0px;
+	        }
+	        100% {
+	          	position:relative;
+	            left:900px;
+	            top:-100px;
+	        }
+	    }
+	    @-ms-keyframes pic1 {
+	        0% {
+	          	position:relative;
+	          	left:0px;
+	            top:0px;
+	        }
+	        100% {
+	          	position:relative;
+	            left:900px;
+	            top:-100px;
+	        }
+	    }
+	    @-moz-keyframes pic1 {
+	        0% {
+	          	position:relative;
+	          	left:0px;
+	            top:0px;
+	        }
+	        100% {
+	          	position:relative;
+	            left:900px;
+	            top:-100px;
+	        }
+	    }
+	    @-webkit-keyframes pic1 {
+	        0% {
+	          	position:relative;
+	          	left:0px;
+	            top:0px;
+	        }
+	        100% {
+	          	position:relative;
+	            left:900px;
+	            top:-100px;
+	        }
+	    }
+	    @-o-keyframes pic1 {
+	        0% {
+	          	position:relative;
+	          	left:0px;
+	            top:0px;
+	        }
+	        100% {
+	          	position:relative;
+	            left:900px;
+	            top:-100px;
+	        }
+	    }
+	    .pic2{
+			-webkit-animation: pic2 3s ease-in-out;
+	        animation: pic2 3s ease-in-out;
+	        -o-animation: pic2 3s ease-in-out;
+	        -moz-animation: pic2 3s ease-in-out;
+	        -ms-animation: pic2 3s ease-in-out;
+	        animation-fill-mode:forwards; 
+			-o-animation-fill-mode:forwards;
+			-webkit-animation-fill-mode:forwards;
+			-moz-animation-fill-mode:forwards;
+			-ms-animation-fill-mode:forwards;
+	    }
+	    @keyframes pic2 {
+	        0% {
+	          	position:relative;
+	          	left:0px;
+	            top:0px;
+	        }
+	        100% {
+	          	position:relative;
+	            left:-520px;
+	            top:100px;
+	        }
+	    }
+	    @-ms-keyframes pic2 {
+	        0% {
+	          	position:relative;
+	          	left:0px;
+	            top:0px;
+	        }
+	        100% {
+	          	position:relative;
+	            left:-520px;
+	            top:100px;
+	        }
+	    }
+	     @-moz-keyframes pic2 {
+	        0% {
+	          	position:relative;
+	          	left:0px;
+	            top:0px;
+	        }
+	        100% {
+	          	position:relative;
+	            left:-520px;
+	            top:100px;
+	        }
+	    }
+	    @-webkit-keyframes pic2 {
+	        0% {
+	          	position:relative;
+	          	left:0px;
+	            top:0px;
+	        }
+	        100% {
+	          	position:relative;
+	            left:-520px;
+	            top:100px;
+	        }
+	    }
+	    @-o-keyframes pic2 {
+	        0% {
+	          	position:relative;
+	          	left:0px;
+	            top:0px;
+	        }
+	        100% {
+	          	position:relative;
+	            left:-520px;
+	            top:100px
+	        }
+	    }
+		.bubble { 
+		padding:15px; 
+		margin:1em 0 3em; 
+		width:300px;
+		height:260px;
+		border-radius:50%;
+		-o-border-radius:50%;
+		-webkit-border-radius:50%;
+		-ms-border-radius:50%;
+		-moz-border-radius:50%;
+		color:#000;  
+		background:rgba(242,211,128, 0.6);
+		box-shadow:0px 0px 15px rgba(255,255,255.6); 
+		-o-box-shadow:0px 0px 15px rgba(255,255,255,.6); 
+		-webkit-box-shadow:0px 0px 15px rgba(255,255,255,.6); 
+		-ms-box-shadow:0px 0px 15px rgba(255,255,255,.6); 
+		-moz-box-shadow:0px 0px 15px rgba(255,255,255,.6); 
+		} 
+		.bubble:after { 
+		content:""; 
+		border-style:solid; 
+		display:block; 
+		position:absolute; 
+		top:350px; 
+		left:150px; 
+		width:60px;
+		height:60px;
+		border-radius:50%;
+		border:0px;
+		background:rgba(174,202,237,.6); 
+		-o-border-radius:50%;
+		-webkit-border-radius:50%;
+		-ms-border-radius:50%;
+		-moz-border-radius:50%;
+		} 
+		.bubble2 { 
+		padding:15px; 
+		margin:1em 0 3em; 
+		width:300px;
+		height:260px;
+		border-radius:50%;
+		-o-border-radius:50%;
+		-webkit-border-radius:50%;
+		-ms-border-radius:50%;
+		-moz-border-radius:50%;
+		color:#000;  
+		background:rgba(242,211,128, 0.6);
+		box-shadow:0px 0px 15px rgba(255,255,255,.6); 
+		-o-box-shadow:0px 0px 15px rgba(255,255,255,.6); 
+		-webkit-box-shadow:0px 0px 15px rgba(255,255,255,.6); 
+		-ms-box-shadow:0px 0px 15px rgba(255,255,255,.6); 
+		-moz-box-shadow:0px 0px 15px rgba(255,255,255,.6); 
+		} 
+		.bubble2:after { 
+		content:""; 
+		border-style:solid; 
+		display:block; 
+		position:relative; 
+		top:150px; 
+		left:40px; 
+		width:60px;
+		height:60px;
+		border-radius:50%;
+		border:0px;
+		background:rgba(174,202,237,.6); 
+		-o-border-radius:50%;
+		-webkit-border-radius:50%;
+		-ms-border-radius:50%;
+		-moz-border-radius:50%;
+		}
+		p{
+			font-family:"字体管家青葱体";face:"字体管家青葱体";font:"字体管家青葱体";
+		}
+		.cast td{
+			width:35px;
+			height:180px;
+			line-height: 35px;
+			text-align: center;
+			background: rgba(118,172,156,.8);
+			color: #000;
+			font-family:"楷体";face:"楷体";font:"楷体";
+			font-size: 26px;
+
+		}
+		.geci{
+          width: 600px;
+          height:340px;
+          border-radius:15px;
+          -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+          border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+          -o-border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;
+          -ms-border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;
+          -moz-border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;
+          background-color:rgba(255,255,255,.5);
+          border:2px dashed rgba(126,126,126,.8);
+        }
+        .ed td{
+        	font-size:20px;
+        	font-family:'楷体';
+	        font:'楷体';
+	        face:'楷体';
+	        text-align: center;
+	        color:#000;
+        }
+        #showLink{
+	        position:absolute;
+	        left:760px;
+	        top:2200px;
+	        z-index:102;
+	    }
+	    .tixing{
+		    border-bottom: 50px solid rgba(224,151,122,.6);
+		    border-left: 30px solid transparent;
+		    border-right: 30px solid transparent; 
+		    height: 0; 
+		    width:120px;
+		    align:center;
+		    font-family:"字体管家青葱体";face:"字体管家青葱体";font:"字体管家青葱体";
+	    }
+	    .tixing2{
+		    border-bottom: 50px solid rgba(129,187,177,.6);
+		    border-left: 40px solid transparent;
+		    border-right: 40px solid transparent; 
+		    height: 0; 
+		    width:120px;
+		    position: relative;
+		    top:10px;
+		    align:center;
+		    font-family:"字体管家青葱体";face:"字体管家青葱体";font:"字体管家青葱体";
+	    }
+	    .tixing3{
+		    border-bottom: 50px solid rgba(143,180,99,.6);
+		    border-left: 50px solid transparent;
+		    border-right: 50px solid transparent; 
+		    height: 0; 
+		    width:120px;
+		    position: relative;
+		    top:20px;
+		    align:center;
+		    font-family:"字体管家青葱体";face:"字体管家青葱体";font:"字体管家青葱体";
+	    }
+	    .tixing4{
+		    border-bottom: 50px solid rgba(200,190,74,.6);
+		    border-left: 60px solid transparent;
+		    border-right: 60px solid transparent; 
+		    height: 0; 
+		    width:120px;
+		    position: relative;
+		    top:30px;
+		    align:center;
+		    font-family:"字体管家青葱体";face:"字体管家青葱体";font:"字体管家青葱体";
+	    }
+	    .tixing5{
+		    border-bottom: 50px solid rgba(193,76,137,.6);
+		    border-left: 70px solid transparent;
+		    border-right: 70px solid transparent; 
+		    height: 0; 
+		    width:120px;
+		    position: relative;
+		    top:40px;
+		    align:center;
+		    font-family:"字体管家青葱体";face:"字体管家青葱体";font:"字体管家青葱体";
+	    }
+	    	.cast{
+        list-STYLE:none;
+        margin:0px 8px;
+        vertical-align:top;
+        display:inline-block;
+        text-align:center;
+        color:#040404;
+        font-size:20px;
+	    }
+	    .staff li{
+	        WIDTH:30px;
+	        vertical-align:top;
+	        list-STYLE:none;
+	        display:inline-block;
+	        font-size:25px;
+	        margin:0px 4px;
+	        font-weight:lighter;
+	        TEXT-SHADOW:0 0 #4D6A80,0 1px #4D6A80,0 -1px #4D6A80,1px 0 #4D6A80, 1px 1px #4D6A80, 1px -1px #4D6A80, -1px 0 #4D6A80, -1px 1px #4D6A80, -1px -1px #4D6A80;
+			COLOR:#FFFFFF;
+	    }
+	    .staff li span:nth-child(odd){
+	        background-color:rgba(126,126,126,.3);
+	        font-size:20px;
+	        border-radius:6px;
+	        -o-border-radius:6px;
+	        -moz-border-radius:6px;
+	        -ms-border-radius:6px;
+	        -webkit-border-radius:6px;
+	        color:#000;
+	        margin-top:4px;
+	        text-align:center;font-weight:lighter;
+	        display:inline-block;
+	        line-HEIGHT:1.1;
+	        font-family:'微软雅黑';
+	        font:'微软雅黑';
+	        face:'微软雅黑';
+	        padding:2px;
+	    }
+	    .staff li span:nth-child(even){
+	        color:#000;
+	        font-size:18px;
+	        font-family:'微软雅黑';
+	        font:'微软雅黑';
+	        face:'微软雅黑';
+	        line-HEIGHT:1.2;
+	        font-weight:bold;
+	        text-shadow:0px 0px 0px #fff;
+	    }
+	</style>
+</head>
+<body>
+	<ol class="bg-flower">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ol>
+	<center>
+		<section style='TEXT-SHADOW:0 0 #000,0 1px #000,0 -1px #000,1px 0 #000, 1px 1px #000, 1px -1px #000, -1px 0 #000, -1px 1px #000, -1px -1px #000;color:#F2D380;font-size:150px;position:relative;top:80px;font-family:"字体管家青葱体";face:"字体管家青葱体";font:"字体管家青葱体";'>烟灰系美男<span style="font-size:36px;position:relative;top:10px;left:100px;color:#78AE9B;TEXT-SHADOW:0 0 0px #fff;font-weight:bold">第三集</span></section>
+		<section style="position:relative;top:100px;">
+			<section style="float:left;position:relative;left:300px;">
+	         	<p class="bubble"
+	         		<span style="font-size:45px;TEXT-SHADOW:0 0 #2B2C35,0 1px #2B2C35,0 -1px #2B2C35,1px 0 #2B2C35, 1px 1px #2B2C35, 1px -1px #2B2C35, -1px 0 #2B2C35, -1px 1px #2B2C35, -1px -1px #2B2C35;color:#F1D68D;"><br/>什么问题？</span>
+	         	</p>
+	        </section>
+	        <section style="float:right;position:relative;right:300px;">
+	         	<p class="bubble2">
+	         		<span style="font-size:45px;TEXT-SHADOW:0 0 #2B2C35,0 1px #2B2C35,0 -1px #2B2C35,1px 0 #2B2C35, 1px 1px #2B2C35, 1px -1px #2B2C35, -1px 0 #2B2C35, -1px 1px #2B2C35, -1px -1px #2B2C35;color:#F1D68D;"><br/>我有个问题要问你。</span>
+	         	</p>
+	        </section>
+		</section>
+		<section style="position:relative;top:350px;">
+			<section style="float:left;position:relative;top:340px;z-index:2;left:-350px;">
+				<img src="https://chengjiaoyuan.github.io/PinkCode/%E7%83%9F%E7%81%B0/PIC/girl.png" width=300px height=680px class="pic1"/>
+			</section>
+			<section style="float:right;position:relative;top:50px;z-index:2;left:300px;">
+				<img src="https://chengjiaoyuan.github.io/PinkCode/%E7%83%9F%E7%81%B0/PIC/boy.png" width=300px height:750px class="pic2"/>
+			</section>
+			<section style="width:1900px;height:300px;">
+				<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" style="position:relative;top:-150px;z-index:1;">
+					<polyline points="0,300 1900,0" fill="rgba(176,176,176,.5)" stroke="#000" stroke-width="2px"/>
+				</svg>
+			</section>
+		</section>
+		<section style="width:1200px;height:900px;background:url(https://chengjiaoyuan.github.io/PinkCode/%E7%83%9F%E7%81%B0/PIC/car.png) no-repeat;position:relative;top:960px;">
+			<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" style="position:relative;top:-420px;z-index:1;">
+				<path d="M170,100 C500,150 600,160 830,100" stroke="#1A3A7D" fill="none" style="stroke-width:1px;"></path>
+			</svg>
+			<table class="cast" style="position:relative;top:-1230px;left:-90px;">
+				<tr>
+					<td>米雅 <span style="color:#163169;">半夏临溪</span></td>
+					<td style="position:relative;top:5px;">顾爵 <span style="color:#163169;">沙漠之狐</span></td>
+					<td style="position:relative;top:10px;">陈德恺 <span style="color:#163169;">魅影之声</span></td></td>
+					<td style="position:relative;top:15px;">许蕴华 <span style="color:#163169;">诗雅</span></td>
+					<td style="position:relative;top:20px;">南秦 <span style="color:#163169;">墨劫</span></td>
+					<td style="position:relative;top:25px;">佐佐木 <span style="color:#163169;">-一支笛子</span></td>
+					<td style="position:relative;top:30px;">电台报幕 <span style="color:#163169;">兔子筝</span></td>
+					<td style="position:relative;top:35px;">龙套1 <span style="color:#163169;">兔子筝</span></td>
+					<td style="position:relative;top:40px;">龙套2 <span style="color:#163169;">狂杀</span></td>
+					<td style="position:relative;top:35px;">霍导演 <span style="color:#163169;">张胡子</span></td>
+					<td style="position:relative;top:30px;">崔昌秀 <span style="color:#163169;">慕容清</span></td>
+					<td style="position:relative;top:25px;">喵八八 <span style="color:#163169;">泡面</span></td>
+					<td style="position:relative;top:20px;">化妆师 <span style="color:#163169;">沧川</span></td>
+					<td style="position:relative;top:15px;">副导演 <span style="color:#163169;">淮晨</span></td>
+					<td style="position:relative;top:10px;">龙套3 <span style="color:#163169;">淮晨</span></td>
+					<td style="position:relative;top:5px;">小德华 <span style="color:#163169;">墨散青衣</span></td>
+					<td>上官苏 <span style="color:#163169;">禾少</span></td>
+				</tr>
+			</table>
+			<table style="position:relative;top:-1200px;">
+				<tr>
+					<td>
+						<ol class="staff" style="position:relative;left:-30px;top:-50px;">
+							<li style="font-size:40px;">制作组</li>
+							<li></li>
+		                    <li STYLE='TEXT-SHADOW:0 0 #BD5917,0 1px #BD5917,0 -1px #BD5917,1px 0 #BD5917, 1px 1px #BD5917, 1px -1px #BD5917, -1px 0 #BD5917, -1px 1px #BD5917, -1px -1px #BD5917;color:#fff;'>导演<span style="background-color:#FCEBE0;text-shadow:0 0 4px #FCEBE0;">禾少</span></li>
+		                    <li style="position:relative;top:-10px;TEXT-SHADOW:0 0 #BD5917,0 1px #BD5917,0 -1px #BD5917,1px 0 #BD5917, 1px 1px #BD5917, 1px -1px #BD5917, -1px 0 #BD5917, -1px 1px #BD5917, -1px -1px #BD5917;color:#fff;">策划<span style="background-color:#FCEBE0;text-shadow:0 0 4px #FCEBE0;">乱花飞过秋千去</span></li>
+		                    <li style="TEXT-SHADOW:0 0 #BD5917,0 1px #BD5917,0 -1px #BD5917,1px 0 #BD5917, 1px 1px #BD5917, 1px -1px #BD5917, -1px 0 #BD5917, -1px 1px #BD5917, -1px -1px #BD5917;color:#fff;">编导<span style="background-color:#FCEBE0;text-shadow:0 0 4px #FCEBE0;">悠悠</span></li>
+		                    <li STYLE='TEXT-SHADOW:0 0 #BD5917,0 1px #BD5917,0 -1px #BD5917,1px 0 #BD5917, 1px 1px #BD5917, 1px -1px #BD5917, -1px 0 #BD5917, -1px 1px #BD5917, -1px -1px #BD5917;color:#fff;'>美工<span style="background-color:#FCEBE0;text-shadow:0 0 4px #FCEBE0;">某P</span></li>
+		                    <li style="position:relative;top:-10px;TEXT-SHADOW:0 0 #BD5917,0 1px #BD5917,0 -1px #BD5917,1px 0 #BD5917, 1px 1px #BD5917, 1px -1px #BD5917, -1px 0 #BD5917, -1px 1px #BD5917, -1px -1px #BD5917;color:#fff;">后期<span style="background-color:#FCEBE0;text-shadow:0 0 4px #FCEBE0;">风间小太狼</span></li>
+		                    <li style="TEXT-SHADOW:0 0 #BD5917,0 1px #BD5917,0 -1px #BD5917,1px 0 #BD5917, 1px 1px #BD5917, 1px -1px #BD5917, -1px 0 #BD5917, -1px 1px #BD5917, -1px -1px #BD5917;color:#fff;">宣传<span style="background-color:#FCEBE0;text-shadow:0 0 4px #FCEBE0;">城郊园</span></li>
+		                </ol>
+					</td>
+					<td>
+						<table align=center class='geci'>
+						<tr>
+							<td>
+								<MARQUEE onmouseover='this.stop()' onmouseout='this.start()' direction=up scrollamount=4 HEIGHT=280px WIDTH=600px>
+									<table class="ed" HEIGHT=280px WIDTH=600px>
+										<tr>
+											<td style="TEXT-SHADOW:0 0 #4D6A80,0 1px #4D6A80,0 -1px #4D6A80,1px 0 #4D6A80, 1px 1px #4D6A80, 1px -1px #4D6A80, -1px 0 #4D6A80, -1px 1px #4D6A80, -1px -1px #4D6A80;color:#fff;font-size:30px;">永远为期</td>
+										</tr>
+										<tr><td>原曲：非你莫属</td></tr>
+										<tr><td>策划：君醉云</td></tr>
+										<tr><td>填词：子苏</td></tr>
+										<tr><td>翻唱：诶？？？</td></tr>
+										<tr><td>海报：迟唔</td></tr>
+										<tr><td>如果能早一点知道 今后我会如此喜欢你</td></tr>
+										<tr><td>那初次见面的时候 便会对你一见钟情</td></tr>
+										<tr><td>我的世界 从黑白变得光明</td></tr>
+										<tr><td>像纸上的简笔 突然成为立体</td></tr>
+										<tr><td>天空 忽来乌云</td></tr>
+										<tr><td>别担心 我会 在雨中撑伞等你</td></tr>
+										<tr><td>当风 穿透天际</td></tr>
+										<tr><td>是我在 你耳边</td></td>
+										<tr><td>小心翼翼呢喃着 我爱你</td></tr>
+										<tr><td>我是宇宙中的恒星 哪怕陨落也因你而停</td></tr>
+										<tr><td>奔袭光年只为能与 你拉进毫厘的距离</td></tr>
+										<tr><td>我的时间 像影片按了暂停</td></tr>
+										<tr><td>从相遇的瞬间 开始走马放映</td></tr>
+										<tr><td>天空 就快放晴</td></tr>
+										<tr><td>彩虹会 出现 在你每一个梦里</td></tr>
+										<tr><td>当风 吻你发迹</td></tr>
+										<tr><td>你洁白 的纱裙</td></tr>
+										<tr><td>一笔一划深刻在 我心里</td></tr>
+										<tr><td>当 我拥抱着你 像世界暂停</td></tr>
+										<tr><td>愿就此与你慢慢老去</td></tr>
+										<tr><td>若 你向往天际 想展开双翼</td></tr>
+										<tr><td>我会放手任你自由飞离</td></tr>
+										<tr><td>若爱 本为烈火</td></tr>
+										<tr><td>也情愿 让我 在火中燎成灰烬</td></tr>
+										<tr><td>只等 春风又起</td></tr>
+										<tr><td>荒原上 青草迹</td></tr>
+										<tr><td>我在青空下捧花 回望你</td></tr>
+										<tr><td>我心以永远为期 爱着你</td></tr> 
+									</table>
+								</MARQUEE>
+							</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section style="width:1900px;height:200px;position:relative;top:1170px;">
+			<svg width="100%" height="200px">
+  				<path d="M0 110 Q 350 50, 510 110 T 850 80 T 1300 120 T 1900 130" stroke="#000000" fill="none" style="stroke-width:2px;"></path>
+  			</svg>
+		</section>
+		<section style="position:absolute;left:60px;top:1020px;z-index:1;">
+						<section style="float:left;position:relative;left:420px;top:-600px;z-index:100;">
+							<svg width="600px" height="800px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+								<path d="M 20,950 C 15,200 180,180 350,360" style="stroke-width:3px;" fill="none" stroke="#000000" opacity="0.25"/>
+							</svg>
+						</section>
+						<section style="float:left;position:relative;left:120px;top:-240px;">
+							<section style="width:100px;height:50px;border-radius:50px 50px 0 0;-o-border-radius:50px 50px 0 0;-webkit-border-radius:50px 50px 0 0;-moz-border-radius:50px 50px 0 0;-ms-border-radius:50px 50px 0 0;background-color:#99CD83;box-shadow: 0 0 2rem .5rem hsla(120, 50%, 59%, .6);"></section>
+						</section>
+						<section style="width:60px;height:120px;background-color:#B1B3DE;box-shadow:0px 0px 12px #C0C0C0;position:relative;left:100px;top:200px;">
+						</section>
+		</section>
+		<section id="showLink">
+							<table style="position:relative;top:20px;">
+								<tr>
+									<td style="border-left:2px solid #E4CC1F;transform:rotate(10deg);-o-transform:rotate(10deg);-webkit-transform:rotate(10deg);-moz-transform:rotate(10deg);-ms-transform:rotate(10deg);position:relative;left:30px;" height=360px width=2px>
+									</td>
+									<td  align=center>
+										<section class="tixing"><a rel="nofollow" href='' target='_blank' style='color:#000;font-size:25px;font-family:"字体管家青葱体";face:"字体管家青葱体";font:"字体管家青葱体";'>百度网盘</a></section>
+										<section class="tixing2"><a rel="nofollow" href='' target='_blank'style='color:#000;font-size:25px;font-family:"字体管家青葱体";face:"字体管家青葱体";font:"字体管家青葱体";'>喜马拉雅</a></section>
+										<section class="tixing3"><a rel="nofollow" href='' target='_blank'style='color:#000;font-size:25px;font-family:"字体管家青葱体";face:"字体管家青葱体";font:"字体管家青葱体";'>荔枝FM</a></section>
+										<section class="tixing4"><a rel="nofollow" href='' target='_blank'style='color:#000;font-size:25px;font-family:"字体管家青葱体";face:"字体管家青葱体";font:"字体管家青葱体";'>M站在线</a></section>
+										<section class="tixing5"><a rel="nofollow" href='' target='_blank'style='color:#000;font-size:25px;font-family:"字体管家青葱体";face:"字体管家青葱体";font:"字体管家青葱体";'>网易在线</a></section>
+									</td>
+									<td style="border-left:2px solid #E4CC1F;transform:rotate(-10deg);-o-transform:rotate(-10deg);-webkit-transform:rotate(-10deg);-moz-transform:rotate(-10deg);-ms-transform:rotate(-10deg);position:relative;left:-28px;" height=360px width=2px>
+									</td>
+								</tr>
+							</table>
+		</section>
+	</center>
+</body>
+</html>
