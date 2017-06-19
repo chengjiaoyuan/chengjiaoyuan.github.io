@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <link rel='stylesheet' href='http://chengjiaoyuan.github.io/PinkCode/CSS/CSSFont/英文/juice/orange juice 2.0.css' media='screen' title='no title' charset='utf-8'>
+    <link rel='stylesheet' href='https://chengjiaoyuan.github.io/PinkCode/CSS/CSSFont/%E5%AD%97%E9%85%B7%E6%A5%B7%E4%BD%93/%E5%AD%97%E9%85%B7%E5%A0%82%E9%BB%84%E6%A5%B7%E4%BD%93.css' media='screen' title='no title' charset='utf-8'/>
+	<style>
+		body{
+			margin-left:-950px; 
+			width:1900px;
+			position:relative;
+			overflow-x:hidden;
+			left:50%;
+			background:#041833;
+			font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
+			color: #fff;
+		}
+		.bg-flower {
+	        position: absolute;
+	        top: 0;
+	        left: 0;
+	        width: 100%;
+	        height:1500px;
+	        background:#041833;
+	        
+	    }
+		.star>li{position: absolute; z-index: 102;}
+		.star>li:nth-child(5n){ 
+			width:2px; 
+			height: 2px; 
+			border-radius: 2px; 
+			-o-border-radius: 2px; 
+			-webkit-border-radius: 2px; 
+			-moz-border-radius: 2px; 
+			-ms-border-radius: 2px; 
+			background:#035849; 
+			animation:star 2s infinite linear;
+		    -o-animation:star 2s infinite linear;
+		    -moz-animation:star 2s infinite linear;
+		    -ms-animation:star 2s infinite linear;
+		    -webkit-animation:star 2s infinite linear;
+		}
+		.star>li:nth-child(5n+1){ width:4px; height: 4px; 
+		border-radius: 4px; 
+		-o-border-radius: 4px; 
+		-webkit-border-radius: 4px; 
+		-moz-border-radius: 4px; 
+		-ms-border-radius: 4px;
+		background:#fff; -webkit-animation:shine 1s linear 2s infinite;-o-animation:shine 1s linear 2s infinite;-ms-animation:shine 1s linear 2s infinite;-moz-animation:shine 1s linear 2s infinite; animation:shine 1s linear 2s infinite;}
+		.star>li:nth-child(5n+2){ width:2px; height: 2px; 
+		border-radius: 2px; 
+		-o-border-radius: 2px; 
+		-webkit-border-radius: 2px; 
+		-moz-border-radius: 2px; 
+		-ms-border-radius: 2px; 
+		background:#fff; -webkit-animation:shine 1s linear 3s infinite;-o-animation:shine 1s linear 3s infinite;-ms-animation:shine 1s linear 3s infinite;-moz-animation:shine 1s linear 3s infinite; animation:shine 1s linear 3s infinite;}
+		.star>li:nth-child(5n+3){ width:4px; height: 4px; 
+		border-radius: 4px; 
+		-o-border-radius: 4px; 
+		-webkit-border-radius: 4px; 
+		-moz-border-radius: 4px; 
+		-ms-border-radius: 4px;  background:#fff; -webkit-animation:shine 1s linear 1.5s infinite;-o-animation:shine 1s linear 1.5s infinite;-ms-animation:shine 1s linear 1.5s infinite;-moz-animation:shine 1s linear 1.5s infinite; animation:shine 1s linear 1.5s infinite;}
+		.star>li:nth-child(5n+4){ width:5px; height: 5px; border-radius: 2px; 
+			-o-border-radius: 2px; 
+			-webkit-border-radius: 2px; 
+			-moz-border-radius: 2px; 
+			-ms-border-radius: 2px;  
+			background:#fff; 
+			-webkit-animation:shine 1s linear 2.5s infinite;
+			-o-animation:shine 1s linear 2.5s infinite;
+			-ms-animation:shine 1s linear 2.5s infinite;
+			-moz-animation:shine 1s linear 2.5s infinite; 
+			animation:shine 1s linear 2.5s infinite;
+		}
+		.star>li:nth-child(1){top: 20%; left: 80%;}
+		.star>li:nth-child(2){top: 30%; left: 20%;}
+		.star>li:nth-child(3){top: 50%; left: 40%;}
+		.star>li:nth-child(4){top: 70%; left: 50%;}
+		.star>li:nth-child(5){top: 10%; left: 60%;}
+		.star>li:nth-child(6){top: 20%; left: 30%;}
+		.star>li:nth-child(7){top: 30%; left: 10%;}
+		.star>li:nth-child(8){top: 40%; left: 50%;}
+		.star>li:nth-child(9){top: 60%; left: 10%;}
+		.star>li:nth-child(10){top: 10%; left: 50%;}
+		.star>li:nth-child(11){top: 40%; left: 30%;}
+		.star>li:nth-child(12){top: 70%; left: 20%;}
+		.star>li:nth-child(13){top: 20%; left: 40%;}
+		.star>li:nth-child(14){top: 40%; left: 70%;}
+		.star>li:nth-child(15){top: 60%; left: 60%;}
+		.star>li:nth-child(16){top: 20%; left: 40%;}
+		.star>li:nth-child(17){top: 50%; left: 95%;}
+		.star>li:nth-child(18){top: 70%; left: 20%;}
+		.star>li:nth-child(19){top: 20%; left: 40%;}
+		.star>li:nth-child(20){top: 65%; left: 15%;}
+		.star>li:nth-child(21){top: 35%; left: 55%;}
+		.star>li:nth-child(22){top: 75%; left: 65%;}
+		.star>li:nth-child(23){top: 25%; left: 25%;}
+		.star>li:nth-child(24){top: 45%; left: 90%;}
+		.star>li:nth-child(25){top: 25%; left: 75%;}
+		.star>li:nth-child(26){top: 75%; left: 75%;}
+		.star>li:nth-child(27){top: 45%; left: 65%;}
+		.star>li:nth-child(28){top: 25%; left: 35%;}
+		.star>li:nth-child(29){top: 65%; left: 55%;}
+		.star>li:nth-child(30){top: 55%; left: 45%;}
+		.star>li:nth-child(31){top: 75%; left: 75%;}
+		.star>li:nth-child(32){top: 25%; left: 25%;}
+		.star>li:nth-child(33){top: 35%; left: 85%;}
+		.star>li:nth-child(34){top: 35%; left: 45%;}
+		.star>li:nth-child(35){top: 15%; left: 25%;}
+		.star>li:nth-child(36){top: 55%; left: 45%;}
+		.star>li:nth-child(37){top: 75%; left: 55%;}
+		.star>li:nth-child(38){top: 25%; left: 55%;}
+		.star>li:nth-child(39){top: 55%; left: 65%;}
+		.star>li:nth-child(40){top: 65%; left: 25%;}
+		.star>li:nth-child(41){top: 15%; left: 25%;}
+		.star>li:nth-child(42){top: 25%; left: 25%;}
+		.star>li:nth-child(43){top: 35%; left: 45%;}
+		.star>li:nth-child(44){top: 5%; left: 45%;}
+		.star>li:nth-child(45){top: 15%; left: 40%;}
+		.star>li:nth-child(46){top: 20%; left: 5%;}
+		.star>li:nth-child(47){top: 65%; left: 25%;}
+		.star>li:nth-child(48){top: 75%; left: 15%;}
+		.star>li:nth-child(49){top: 45%; left: 25%;}
+		.star>li:nth-child(50){top: 26%; left: 36%;}
+		@-webkit-keyframes shine{0%{opacity:0.5;} 100%{opacity: 1;};}
+		@-o-keyframes shine{0%{opacity:0.5;} 100%{opacity: 1;};}
+		@-ms-keyframes shine{0%{opacity:0.5;} 100%{opacity: 1;};}
+		@-moz-keyframes shine{0%{opacity:0.5;} 100%{opacity: 1;};}
+		@keyframes shine{0%{opacity:0.5;} 100%{opacity: 1;};}
+		span,h3{
+		}
+		ol{
+			list-style:none;
+			text-align:center;
+		}
+		a{text-decoration: none;color:#fff;}
+	    ::-webkit-scrollbar {WIDTH: 12px;} 
+	    ::-webkit-scrollbar-track { border-radius: 10px; background-color: rgba(129,206,196, 0.6); } 
+	    ::-webkit-scrollbar-thumb { border-radius: 10px; background-color: rgba(129,206,196, 0.5); } 
+	    ::-o-scrollbar {WIDTH: 12px;} 
+	    ::-o-scrollbar-track { border-radius: 10px; background-color: rgba(25, 147, 147, 0.4); } 
+	    ::-o-scrollbar-thumb { border-radius: 10px; background-color: rgba(25, 147, 147, 0.5); } 
+	    ::-moz-scrollbar {WIDTH: 12px;} 
+	    ::-moz-scrollbar-track { border-radius: 10px; background-color: rgba(25, 147, 147, 0.4); } 
+	    ::-moz-scrollbar-thumb { border-radius: 10px; background-color: rgba(25, 147, 147, 0.5); } 
+	    ::-ms-scrollbar {WIDTH: 12px;} 
+	    ::-ms-scrollbar-track { border-radius: 10px; background-color: rgba(25, 147, 147, 0.4); } 
+	    ::-ms-scrollbar-thumb { border-radius: 10px; background-color: rgba(25, 147, 147, 0.5); } 
+	    ::scrollbar {WIDTH: 12px;} 
+	    ::scrollbar-track { border-radius: 10px; background-color: rgba(25, 147, 147, 0.4); } 
+	    ::scrollbar-thumb { border-radius: 10px; background-color: rgba(25, 147, 147, 0.5); }
+	    .stars{
+		    width:3px;
+		    height:3px;
+		    background-color:#408080;
+		    display:block;
+		    position:absolute;
+		    top:110px;
+		    right:800px;
+		    border-radius:3px;
+		    -webkit-border-radius:3px;
+		    -moz-border-radius:3px;
+		    -ms-border-radius:3px;
+		    -o-border-radius:3px;
+		    animation:star 2s infinite linear;
+		    -o-animation:star 2s infinite linear;
+		    -moz-animation:star 2s infinite linear;
+		    -ms-animation:star 2s infinite linear;
+		    -webkit-animation:star 2s infinite linear;
+		    opacity:0;
+		    z-index: 102;
+		}
+		.stars:after{
+		    position:relative;
+		    display:block;
+		    top:-49px;
+		    left:23px;
+		    border:1px solid #408080;
+		    border-width:0 0 0 1px;
+		    width:100px;
+		    height:100px;
+		    content:"";
+		    transform:rotate(45deg);
+		    -o-transform:rotate(45deg);
+		    -moz-transform:rotate(45deg);
+		    -ms-transform:rotate(45deg);
+		    -webkit-transform:rotate(45deg);
+		}
+		.starss{
+		    width:3px;
+		    height:3px;
+		    background-color:#408080;
+		    display:block;
+		    position:absolute;
+		    top:100px;
+		    right:400px;
+		    border-radius:3px;
+		    -webkit-border-radius:3px;
+		    -moz-border-radius:3px;
+		    -ms-border-radius:3px;
+		    -o-border-radius:3px;
+		    animation:star 2s infinite linear;
+		    -o-animation:star 2s infinite linear;
+		    -moz-animation:star 2s infinite linear;
+		    -ms-animation:star 2s infinite linear;
+		    -webkit-animation:star 2s infinite linear;
+		    opacity:0;
+		    z-index: 102;
+		}
+		.starss:after{
+		    position:relative;
+		    display:block;
+		    top:-49px;
+		    left:23px;
+		    border:1px solid #408080;
+		    border-width:0 0 0 1px;
+		    width:100px;
+		    height:100px;
+		    content:"";
+		    transform:rotate(45deg);
+		    -o-transform:rotate(45deg);
+		    -moz-transform:rotate(45deg);
+		    -ms-transform:rotate(45deg);
+		    -webkit-transform:rotate(45deg);
+		}
+		.blue{
+		    background-color:lightskyblue;
+		    top:60px;
+		    left:10px;
+		    animation-delay:2s;
+		    -o-animation-delay:2s;
+		    -ms-animation-delay:2s;
+		    -moz-animation-delay:2s;
+		    -webkit-animation-delay:2s;
+		    z-index: 102;
+		}
+		.blue:after{
+		    width:200px;
+		    height:200px;
+		    top:-99px;
+		    left:43px;
+		    border:1px solid lightskyblue;
+		    border-width:0 0 0 1px;
+		}
+		.dark:after{
+		    width:200px;
+		    height:200px;
+		    top:-99px;
+		    left:43px;
+		    border:1px solid lightskyblue;
+		    border-width:0 0 0 1px;
+		}
+		.dark{
+		    background-color:lightskyblue;
+		    top:60px;
+		    left:500px;
+		    animation-delay:5s;
+		    -o-animation-delay:5s;
+		    -ms-animation-delay:5s;
+		    -moz-animation-delay:5s;
+		    -webkit-animation-delay:5s;
+		    z-index: 102;
+		}
+		.pink{
+		    background-color:lightpink;
+		    top:160px;
+		    right:100px;
+		    animation:starPink 3s infinite linear;
+		    animation-delay:3s;
+		    -o-animation:starPink 3s infinite linear;
+		    -o-animation-delay:3s;
+		    -moz-animation:starPink 3s infinite linear;
+		    -moz-animation-delay:3s;
+		    -ms-animation:starPink 3s infinite linear;
+		    -ms-animation-delay:3s;
+		    -webkit-animation:starPink 3s infinite linear;
+		    -webkit-animation-delay:3s;
+		    z-index: 102;
+		}
+		.pink:after{
+		    width:133px;
+		    height:133px;
+		    top:-65px;
+		    left:460px;
+		    border:1px solid lightpink;
+		    border-width:0 0 0 1px;
+		}
+		.yellow{
+		    background-color:yellow;
+		    top:127px;
+		    right:261px;
+		    animation:starYellow 4s infinite linear;
+		    animation-delay:2s;
+		    -o-animation:starYellow 4s infinite linear;
+		    -o-animation-delay:2s;
+		    -webkit-animation:starYellow 4s infinite linear;
+		    -webkit-animation-delay:2s;
+		    -moz-animation:starYellow 4s infinite linear;
+		    -moz-animation-delay:2s;
+		    -ms-animation:starYellow 4s infinite linear;
+		    -ms-animation-delay:2s;
+		    z-index: 102;
+		}
+		.yellow:after{
+		    width:209px;
+		    height:164px;
+		    top:-65px;
+		    left:29px;
+		    border:1px solid #008040;
+		    border-width:0 0 0 1px;
+		}
+		.green{
+		    background-color:#035849;
+		    top:127px;
+		    right:261px;
+		    animation:starYellow 3s infinite linear;
+		    animation-delay:3s;
+		    -o-animation:starYellow 3s infinite linear;
+		    -o-animation-delay:3s;
+		    -webkit-animation:starYellow 3s infinite linear;
+		    -webkit-animation-delay:3s;
+		    -moz-animation:starYellow 3s infinite linear;
+		    -moz-animation-delay:3s;
+		    -ms-animation:starYellow 3s infinite linear;
+		    -ms-animation-delay:3s;
+		    z-index: 102;
+		}
+		.green:after{
+		    width:160px;
+		    height:120px;
+		    top:-15px;
+		    left:360px;
+		    border:1px solid #035849;
+		    border-width:0 0 0 1px;
+		}
+		.purple{
+		    background-color:#800080;
+		    top:127px;
+		    right:261px;
+		    animation:starPink 3s infinite linear;
+		    animation-delay:1s;
+		    -o-animation:starPink 3s infinite linear;
+		    -o-animation-delay:1s;
+		    -webkit-animation:starPink 3s infinite linear;
+		    -webkit-animation-delay:1s;
+		    -moz-animation:starPink 3s infinite linear;
+		    -moz-animation-delay:1s;
+		    -ms-animation:starPink 3s infinite linear;
+		    -ms-animation-delay:1s;
+		    z-index: 102;
+		}
+		.purple:after{
+		    width:120px;
+		    height:160px;
+		    top:65px;
+		    left:80px;
+		    border:1px solid #800080;
+		    border-width:0 0 0 1px;
+		}
+		.purples{
+		    background-color:#800080;
+		    top:127px;
+		    left:260px;
+		    animation:starPink 3s infinite linear;
+		    animation-delay:1s;
+		    -o-animation:starPink 3s infinite linear;
+		    -o-animation-delay:1s;
+		    -webkit-animation:starPink 3s infinite linear;
+		    -webkit-animation-delay:1s;
+		    -moz-animation:starPink 3s infinite linear;
+		    -moz-animation-delay:1s;
+		    -ms-animation:starPink 3s infinite linear;
+		    -ms-animation-delay:1s;
+		    z-index: 102;
+		}
+		.purples:after{
+		    width:120px;
+		    height:160px;
+		    top:65px;
+		    left:80px;
+		    border:1px solid #800080;
+		    border-width:0 0 0 1px;
+		}
+		@keyframes star{
+		    0%{
+		        opacity:0;
+		        transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        transform:scale(1) translate(-200px,200px);
+		    }
+		    100%{
+		        opacity:0;
+		        transform:scale(1) translate(-400px,400px);
+		    }
+		}
+		@keyframes starPink{
+		    0%{
+		        opacity:0;
+		        transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        transform:scale(1) translate(-300px,300px);
+		    }
+		    100%{
+		        opacity:0;
+		        transform:scale(1) translate(-600px,600px);
+		    }
+		}
+		@keyframes starYellow{
+		    0%{
+		        opacity:0;
+		        transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        transform:scale(1) translate(-300px,300px);
+		    }
+		    100%{
+		        opacity:0;
+		        transform:scale(1) translate(-600px,600px);
+		    }
+		} 
+		@-o-keyframes star{
+		    0%{
+		        opacity:0;
+		        -o-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -o-transform:scale(1) translate(-200px,200px);
+		    }
+		    100%{
+		        opacity:0;
+		        -o-transform:scale(1) translate(-400px,400px);
+		    }
+		}
+		@-o-keyframes starPink{
+		    0%{
+		        opacity:0;
+		        -o-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -o-transform:scale(1) translate(-300px,300px);
+		    }
+		    100%{
+		        opacity:0;
+		        -o-transform:scale(1) translate(-600px,600px);
+		    }
+		}
+		@-o-keyframes starYellow{
+		    0%{
+		        opacity:0;
+		        -o-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -o-transform:scale(1) translate(-300px,300px);
+		    }
+		    100%{
+		        opacity:0;
+		        -o-transform:scale(1) translate(-600px,600px);
+		    }
+		} 
+		@-moz-keyframes star{
+		    0%{
+		        opacity:0;
+		        -moz-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -moz-transform:scale(1) translate(-200px,200px);
+		    }
+		    100%{
+		        opacity:0;
+		        -moz-transform:scale(1) translate(-400px,400px);
+		    }
+		}
+		@-moz-keyframes starPink{
+		    0%{
+		        opacity:0;
+		        -moz-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -moz-transform:scale(1) translate(-300px,300px);
+		    }
+		    100%{
+		        opacity:0;
+		        -moz-transform:scale(1) translate(-600px,600px);
+		    }
+		}
+		@-moz-keyframes starYellow{
+		    0%{
+		        opacity:0;
+		        -moz-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -moz-transform:scale(1) translate(-300px,300px);
+		    }
+		    100%{
+		        opacity:0;
+		        -moz-transform:scale(1) translate(-600px,600px);
+		    }
+		} 
+		@-ms-keyframes star{
+		    0%{
+		        opacity:0;
+		        -ms-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -ms-transform:scale(1) translate(-200px,200px);
+		    }
+		    100%{
+		        opacity:0;
+		        -ms-transform:scale(1) translate(-400px,400px);
+		    }
+		}
+		@-ms-keyframes starPink{
+		    0%{
+		        opacity:0;
+		        -ms-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -ms-transform:scale(1) translate(-300px,300px);
+		    }
+		    100%{
+		        opacity:0;
+		        -ms-transform:scale(1) translate(-600px,600px);
+		    }
+		}
+		@-ms-keyframes starYellow{
+		    0%{
+		        opacity:0;
+		        -ms-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -ms-transform:scale(1) translate(-300px,300px);
+		    }
+		    100%{
+		        opacity:0;
+		        -ms-transform:scale(1) translate(-600px,600px);
+		    }
+		} 
+		@-webkit-keyframes star{
+		    0%{
+		        opacity:0;
+		        -webkit-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -webkit-transform:scale(1) translate(-200px,200px);
+		    }
+		    100%{
+		        opacity:0;
+		        -webkit-transform:scale(1) translate(-400px,400px);
+		    }
+		}
+		@-webkit-keyframes starPink{
+		    0%{
+		        opacity:0;
+		        -webkit-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -webkit-transform:scale(1) translate(-300px,300px);
+		    }
+		    100%{
+		        opacity:0;
+		        -webkit-transform:scale(1) translate(-600px,600px);
+		    }
+		}
+		@-webkit-keyframes starYellow{
+		    0%{
+		        opacity:0;
+		        -webkit-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -webkit-transform:scale(1) translate(-300px,300px);
+		    }
+		    100%{
+		        opacity:0;
+		        -webkit-transform:scale(1) translate(-600px,600px);
+		    }
+		} 
+		.greens{
+		    background-color:#035849;
+		    top:200px;
+		    left:260px;
+		    animation:starYellow 3s infinite linear;
+		    animation-delay:1s;
+		    -o-animation:starYellow 3s infinite linear;
+		    -o-animation-delay:1s;
+		    -webkit-animation:starYellow 3s infinite linear;
+		    -webkit-animation-delay:1s;
+		    -moz-animation:starYellow 3s infinite linear;
+		    -moz-animation-delay:1s;
+		    -ms-animation:starYellow 3s infinite linear;
+		    -ms-animation-delay:1s;
+		}
+		.greens:after{
+		    width:160px;
+		    height:120px;
+		    top:-15px;
+		    left:360px;
+		    border:1px solid #035849;
+		    border-width:0 0 0 1px;
+		}
+		.staring{
+		    background-color:#035849;
+		    top:230px;
+		    right:560px;
+		    animation:starPink 3s infinite linear;
+		    -o-animation:starPink 3s infinite linear;
+		    -webkit-animation:starPink 3s infinite linear;
+		    -moz-animation:starPink 3s infinite linear;
+		    -ms-animation:starPink 3s infinite linear;
+		}
+		.staring:after{
+		    width:160px;
+		    height:120px;
+		    top:-15px;
+		    left:360px;
+		    border:1px solid #035849;
+		    border-width:0 0 0 1px;
+		}
+		.wenzi{
+			-webkit-animation:shine 6s linear 3s infinite;
+			-o-animation:shine 6s linear 3s infinite;
+			-ms-animation:shine 6s linear 3s infinite;
+			-moz-animation:shine 6s linear 3s infinite; 
+			animation:shine 6s linear 3s infinite;
+		}
+		.blues{
+		    background-color:lightskyblue;
+		    top:160px;
+		    left:110px;
+		    animation-delay:2s;
+		    -o-animation-delay:2s;
+		    -ms-animation-delay:2s;
+		    -moz-animation-delay:2s;
+		    -webkit-animation-delay:2s;
+		    z-index: 102;
+		}
+		.blues:after{
+		    width:200px;
+		    height:200px;
+		    top:-99px;
+		    left:43px;
+		    border:1px solid lightskyblue;
+		    border-width:0 0 0 1px;
+		}
+		.darks:after{
+		    width:200px;
+		    height:200px;
+		    top:-30px;
+		    left:230px;
+		    border:1px solid lightskyblue;
+		    border-width:0 0 0 1px;
+		}
+		.darks{
+		    background-color:lightskyblue;
+		    top:60px;
+		    left:100px;
+		    animation-delay:1s;
+		    -o-animation-delay:1s;
+		    -ms-animation-delay:1s;
+		    -moz-animation-delay:1s;
+		    -webkit-animation-delay:1s;
+		    z-index: 102;
+		}
+		.pinks{
+		    background-color:lightpink;
+		    top:360px;
+		    right:620px;
+		    animation:starPink 3s infinite linear;
+		    animation-delay:3s;
+		    -o-animation:starPink 3s infinite linear;
+		    -o-animation-delay:3s;
+		    -moz-animation:starPink 3s infinite linear;
+		    -moz-animation-delay:3s;
+		    -ms-animation:starPink 3s infinite linear;
+		    -ms-animation-delay:3s;
+		    -webkit-animation:starPink 3s infinite linear;
+		    -webkit-animation-delay:3s;
+		    z-index: 102;
+		}
+		.pinks:after{
+		    width:133px;
+		    height:133px;
+		    top:-65px;
+		    left:460px;
+		    border:1px solid lightpink;
+		    border-width:0 0 0 1px;
+		}
+		.yellows{
+		    background-color:yellow;
+		    top:200px;
+		    left:280px;
+		    animation:starYellow 4s infinite linear;
+		    animation-delay:2s;
+		    -o-animation:starYellow 4s infinite linear;
+		    -o-animation-delay:2s;
+		    -webkit-animation:starYellow 4s infinite linear;
+		    -webkit-animation-delay:2s;
+		    -moz-animation:starYellow 4s infinite linear;
+		    -moz-animation-delay:2s;
+		    -ms-animation:starYellow 4s infinite linear;
+		    -ms-animation-delay:2s;
+		    z-index: 102;
+		}
+		.yellows:after{
+		    width:209px;
+		    height:164px;
+		    top:-65px;
+		    left:29px;
+		    border:1px solid #008040;
+		    border-width:0 0 0 1px;
+		}
+		#staff:target{
+			display: block;
+			position: absolute;
+			left:32%;
+			top:800px;
+	        opacity: 0;
+	        filter:Alpha(opacity=0);
+	        animation:chuxian 5s ease;
+			-webkit-animation:chuxian 5s ease;
+			-moz-animation:chuxian 5s ease;
+			-o-animation:chuxian 5s ease;
+			-ms-animation:chuxian 5s ease;
+			animation-fill-mode:forwards; 
+			-o-animation-fill-mode:forwards;
+			-webkit-animation-fill-mode:forwards;
+			-moz-animation-fill-mode:forwards;
+			-ms-animation-fill-mode:forwards;
+		}
+		@keyframes chuxian { 
+			0% { 
+				opacity: 0;
+		        filter:Alpha(opacity=0);
+		    } 
+		    100% { 
+	 			opacity: 1;
+		        filter:Alpha(opacity=1);
+		    }
+		}
+		@-webkit-keyframes chuxian { 
+			0% { 
+				opacity: 0;
+		        filter:Alpha(opacity=0);
+		    } 
+		    100% { 
+	 			opacity: 1;
+		        filter:Alpha(opacity=1);
+		    }
+		}
+		@-moz-keyframes chuxian { 
+			0% { 
+				opacity: 0;
+		        filter:Alpha(opacity=0);
+		    } 
+		    100% { 
+	 			opacity: 1;
+		        filter:Alpha(opacity=1);
+		    }
+		}
+		@-ms-keyframes chuxian { 
+			0% { 
+				opacity: 0;
+		        filter:Alpha(opacity=0);
+		    } 
+		    100% { 
+	 			opacity: 1;
+		        filter:Alpha(opacity=1);
+		    }
+		}
+		@-o-keyframes chuxian { 
+			0% { 
+				opacity: 0;
+		        filter:Alpha(opacity=0);
+		    } 
+		    100% { 
+	 			opacity: 1;
+		        filter:Alpha(opacity=1);
+		    }
+		}
+		#staff{
+			display: none;
+		}
+	    @keyframes go { 0% {transform:rotateY(0deg);} 100% { transform:rotateY(360deg);}}
+
+		@-webkit-keyframes go { 0% {transform:rotateY(0deg);} 100% { transform:rotateY(360deg);}}
+		@-moz-keyframes go { 0% {transform:rotateY(0deg);} 100% { transform:rotateY(360deg);}}
+
+		@-o-keyframes go { 0% {transform:rotateY(0deg);} 100% { transform:rotateY(360deg);}}
+
+		@-ms-keyframes go { 0% {transform:rotateY(0deg);} 100% { transform:rotateY(360deg);}}
+		#link{
+		BORDER-RADIUS:50%;-moz-border-radius: 50%;-webkit-border-radius:50%;-o-border-radius:50%;-ms-border-radius: 50%;
+		text-shadow:0 0 3px #a3a9a2;
+		o-text-shadow:0 0 3px #a3a9a2;
+		-moz-text-shadow:0 0 3px #a3a9a2;
+		-webkit-text-shadow:0 0 3px #a3a9a2;
+		-ms-text-shadow:0 0 3px #a3a9a2;
+		WIDTH:100px; HEIGHT:100px;
+		font-size: 30px;
+		text-align:center;
+		line-height: 100px;
+		box-shadow: 0px 0px 15px #9CA5A6;
+		-o-box-shadow: 0px 0px 15px #9CA5A6;
+		-ms-box-shadow: 0px 0px 15px #9CA5A6;
+		-webkit-box-shadow: 0px 0px 15px #9CA5A6;
+		-moz-box-shadow: 0px 0px 15px #9CA5A6;
+		color: #fff;
+		}
+		.link2{
+			animation:go 8s ease infinite;
+			-webkit-animation:go 8s ease infinite;
+			-moz-animation:go 8s ease infinite;
+			-o-animation:go 8s ease infinite;
+			-ms-animation:go 8s ease infinite;
+		}
+		.link3{
+			animation:go 6s ease infinite;
+			-webkit-animation:go 6s ease infinite;
+			-moz-animation:go 6s ease infinite;
+			-o-animation:go 6s ease infinite;
+			-ms-animation:go 6s ease infinite;
+		}
+		.link1{
+			animation:go 10s ease infinite;
+			-webkit-animation:go 10s ease infinite;
+			-moz-animation:go 10s ease infinite;
+			-o-animation:go 10s ease infinite;
+			-ms-animation:go 10s ease infinite;
+		}
+		#contents{
+			position: relative;
+			top:15px;
+			left:6px;
+		}
+		#contents li{
+			width: 30px;
+			height: 420px;
+			line-height: 30px;
+			font-size: 23px;
+			background: rgba(255,255,255,.7);
+			float: left;
+			box-shadow: 0px 0px 10px #9CA5A6;
+			-o-box-shadow: 0px 0px 10px #9CA5A6;
+			-ms-box-shadow: 0px 0px 10px #9CA5A6;
+			-webkit-box-shadow: 0px 0px 10px #9CA5A6;
+			-moz-box-shadow: 0px 0px 10px #9CA5A6;
+			padding:2px;
+			margin: 0px 4px;
+			vertical-align: text-top;
+			color: #000;
+			border-radius:5px;-o-border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;
+		}
+		#cast:target{
+			display: block;
+			position: absolute;
+			left:32%;
+			top:800px;
+	        opacity: 0;
+	        filter:Alpha(opacity=0);
+	        animation:chuxian 5s ease;
+			-webkit-animation:chuxian 5s ease;
+			-moz-animation:chuxian 5s ease;
+			-o-animation:chuxian 5s ease;
+			-ms-animation:chuxian 5s ease;
+			animation-fill-mode:forwards; 
+			-o-animation-fill-mode:forwards;
+			-webkit-animation-fill-mode:forwards;
+			-moz-animation-fill-mode:forwards;
+			-ms-animation-fill-mode:forwards;
+		}
+		#cast{
+			display: none;
+		}
+		#linking:target{
+			display: block;
+			position: absolute;
+			left:32%;
+			top:800px;
+	        opacity: 0;
+	        filter:Alpha(opacity=0);
+	        animation:chuxian 5s ease;
+			-webkit-animation:chuxian 5s ease;
+			-moz-animation:chuxian 5s ease;
+			-o-animation:chuxian 5s ease;
+			-ms-animation:chuxian 5s ease;
+			animation-fill-mode:forwards; 
+			-o-animation-fill-mode:forwards;
+			-webkit-animation-fill-mode:forwards;
+			-moz-animation-fill-mode:forwards;
+			-ms-animation-fill-mode:forwards;
+		}
+		#linking{
+			display: none;
+		}
+		.links li{
+			font-size: 30px;
+			line-height: 1.5;
+			width:630px;
+			box-shadow:inset 0 0 15px #B5B5B3;
+			border-radius:8px;
+			-o-border-radius:8px;
+			-webkit-border-radius:8px;
+			-moz-border-radius:8px;
+			-ms-border-radius:8px;
+			padding: 2px;
+			margin: 6px 0px;
+			float: left;
+			position: relative;
+			left:-42px;
+			top:35px;
+		}
+	</style>
+</head>
+<body>
+	<ol class="bg-flower star">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ol>
+    <span class="stars"></span>
+    <span class="starss"></span>
+    <span class="stars blue"></span>
+    <span class="stars pink"></span>
+    <span class="stars yellow"></span>
+    <span class="stars blues"></span>
+    <span class="stars pinks"></span>
+    <span class="stars yellows"></span>
+    <span class="stars purple"></span>
+    <span class="stars purples"></span>
+    <span class="stars green"></span>
+    <span class="stars greens"></span>
+    <span class="stars staring"></span>
+    <span class="stars dark"></span>
+    <span class="stars darks"></span>
+	<center>
+		<section style="font-size:30px;colorcolor:#fff;position:absolute;top:250px;left:30%;" class="wenzi">这深宫，不容有情之人</section>
+		<section style="font-size:160px;:#fff;position:absolute;top:300px;left:30%;">以心为囚</section>
+		<section>
+			<table style="position:absolute;left:20%;top:0px;z-index:102;"> 
+					<tr>
+						<TD WIDTH=30 HEIGHT=460px STYLE='BORDER-RIGHT:1PX SOLID #ACB3B3;'></TD><TD WIDTH=30></TD>
+					</TR>
+					<TR>
+						<td COLSPAN='2' WIDTH=100px HEIGHT=100px id='link' class="link1"><a href="#staff"style='color:#fff;WIDTH=100px'>制作组</td>
+					</TR>
+			</table>
+		</section>
+		<section>
+			<table style="position:absolute;left:65%;top:0px;z-index:102;"> 
+					<tr>
+						<TD WIDTH=30 HEIGHT=600px STYLE='BORDER-RIGHT:1PX SOLID #ACB3B3;'></TD><TD WIDTH=30></TD>
+					</TR>
+					<TR>
+						<td COLSPAN='2' WIDTH=100px HEIGHT=100px id='link' class="link2"><a href="#cast" style='color:#fff;WIDTH=100px'>配音组</td>
+					</TR>
+			</table>
+		</section>
+		<section>
+			<table style="position:absolute;left:75%;top:0px;z-index:102;"> 
+					<tr>
+						<TD WIDTH=30 HEIGHT=360px STYLE='BORDER-RIGHT:1PX SOLID #ACB3B3;'></TD><TD WIDTH=30></TD>
+					</TR>
+					<TR>
+						<td COLSPAN='2' WIDTH=100px HEIGHT=100px id='link' class="link3"><a href="#linking" style='color:#fff;WIDTH=100px'>链接组</td>
+					</TR>
+			</table>
+		</section>
+		<section id="staff">
+			<table>
+					<tr>
+						<td height=530px>
+							<section style="width:20px;height:20px;background:rgba(17,60,133, 0.5);border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;"></section>
+							<section style="width:5px;height:460px;background:rgba(17,60,133, 0.4);position:relative;left:7px;"></section>
+							<section style="width:20px;height:20px;background:rgba(17,60,133, 0.5);border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;"></section>
+						</td>
+						<td height=500px>
+							<section style="width:630px;height:460px;box-shadow: 0px 0px 10px #9CA5A6;-o-box-shadow: 0px 0px 10px #9CA5A6;-ms-box-shadow: 0px 0px 10px #9CA5A6;-webkit-box-shadow: 0px 0px 10px #9CA5A6;-moz-box-shadow: 0px 0px 10px #9CA5A6;">
+								<ol id="contents">
+									<li style="color:#041833;font-size:25px;">制作组</li>
+									<li>策划<br/>：<br/>蜥蜴<span style="color:#041833;"> 无陌家族</span></li>
+									<li>编剧<br/>：<br/>山茶<span style="color:#041833;"> 无陌家族</span></li>
+									<li>美工<br/>：<br/>山茶<span style="color:#041833;"> 无陌家族</span></li>
+									<li>导演<br/>：<br/>染尘<span style="color:#041833;"> 无陌家族</span></li>
+									<li>后期<br/>：<br/>蜥蜴<span style="color:#041833;"> 无陌家族</span></li>
+									<li>宣传<br/>：<br/>城郊园<span style="color:#041833;font-size:20px;font-family:'华文行楷';font:'华文行楷';face:'华文行楷';"> A<br/>l<br/>w<br/>a<br/>y<br/>s</span></li>
+									<li><span style="font-size:20px;font-family:'华文行楷';font:'华文行楷';face:'华文行楷';">ED</span><br/>：<br/>心若为城</li>
+									<li>原唱<br/>：<br/><span style="font-size:20px;font-family:'华文行楷';font:'华文行楷';face:'华文行楷';">C<br/>r<br/>i<br/>t<br/>t<br/>y</span></li>
+									<li>歌策<br/>：<br/>乔木<span style="color:#041833;"> 无陌家族</span></li>
+									<li>翻唱<br/>：<br/>陆离<span style="color:#041833;"> 鹿歌古风音乐社</span></li>
+									<li>后期<br/>：<br/>九尾鱼<span style="color:#041833;"> 静默耳语</span></li>
+									<li>美工<br/>：<br/>山茶<span style="color:#041833;"> 无陌家族</span></li>
+								</ol>
+							</section>
+						</td>
+						<td height=530px>
+							<section style="width:20px;height:20px;background:rgba(17,60,133, 0.5);border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;"></section>
+							<section style="width:5px;height:460px;background:rgba(17,60,133, 0.4);position:relative;left:7px;"></section>
+							<section style="width:20px;height:20px;background:rgba(17,60,133, 0.5);border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;"></section>
+						</td>
+					</tr>
+			</table>
+		</section>
+		<section id="cast">
+			<table>
+					<tr>
+						<td height=530px>
+							<section style="width:20px;height:20px;background:rgba(17,60,133, 0.5);border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;"></section>
+							<section style="width:5px;height:460px;background:rgba(17,60,133, 0.4);position:relative;left:7px;"></section>
+							<section style="width:20px;height:20px;background:rgba(17,60,133, 0.5);border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;"></section>
+						</td>
+						<td height=500px>
+							<section style="width:630px;height:460px;box-shadow: 0px 0px 10px #9CA5A6;-o-box-shadow: 0px 0px 10px #9CA5A6;-ms-box-shadow: 0px 0px 10px #9CA5A6;-webkit-box-shadow: 0px 0px 10px #9CA5A6;-moz-box-shadow: 0px 0px 10px #9CA5A6;">
+								<ol id="contents">
+									<li style="color:#041833;font-size:25px;">配音组</li>
+									<li>江落玉<br/>：<br/>兔子筝<span style="color:#041833;font-size:20px;font-family:'华文行楷';font:'华文行楷';face:'华文行楷';"> A<br/>l<br/>w<br/>a<br/>y<br/>s</span></li>
+									<li>江碧玉<br/>：<br/>酒精<span style="color:#041833;"> 无陌家族</span></li>
+									<li>李长风<br/>：<br/>蜥蜴<span style="color:#041833;"> 无陌家族</span></li>
+									<li>清子幕<br/>：<br/>一支笛子<span style="color:#041833;"> 语翼配音组</span></li>
+									<li>贤妃<br/>：<br/>染尘<span style="color:#041833;"> 无陌家族</span></li>
+									<li>绿莹<br/>：<br/>山茶<span style="color:#041833;"> 无陌家族</span></li>
+									<li>灵秀<br/>：<br/>七羽<span style="color:#041833;"> 无陌家族</span></li>
+									<li>大臣<br/>：<br/>瓶盖<span style="color:#041833;"> 墨染音社</span></li>
+									<li>公公<br/>：<br/>瓶盖<span style="color:#041833;"> 墨染音社</span></li>
+									<li>官吏<br/>：<br/>不慌<span style="color:#041833;"> 大音希声</span></li>
+									<li>旁白<br/>：<br/>乔木<span style="color:#041833;"> 无陌家族</span></li>
+									<li><span style="color:#041833;">无陌家族出品</span></li>
+								</ol>
+							</section>
+						</td>
+						<td height=530px>
+							<section style="width:20px;height:20px;background:rgba(17,60,133, 0.5);border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;"></section>
+							<section style="width:5px;height:460px;background:rgba(17,60,133, 0.4);position:relative;left:7px;"></section>
+							<section style="width:20px;height:20px;background:rgba(17,60,133, 0.5);border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;"></section>
+						</td>
+					</tr>
+			</table>
+		</section>
+		<section id="linking">
+			<table>
+					<tr>
+						<td height=530px>
+							<section style="width:20px;height:20px;background:rgba(17,60,133, 0.5);border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;"></section>
+							<section style="width:5px;height:320px;background:rgba(17,60,133, 0.4);position:relative;left:7px;"></section>
+							<section style="width:20px;height:20px;background:rgba(17,60,133, 0.5);border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;"></section>
+						</td>
+						<td height=500px>
+							<section style="width:630px;height:320px;box-shadow: 0px 0px 10px #9CA5A6;-o-box-shadow: 0px 0px 10px #9CA5A6;-ms-box-shadow: 0px 0px 10px #9CA5A6;-webkit-box-shadow: 0px 0px 10px #9CA5A6;-moz-box-shadow: 0px 0px 10px #9CA5A6;">
+								<ol class="links">
+						            <li>
+						                <a rel="nofollow" href='https://www.lizhi.fm/1044616/2599342799544181254' target='_blank' style="color:#fff;text-shadow:0 0 3px #a3a9a2;">荔枝调频</a>
+						            </li>
+						            <li>
+						                <a rel="nofollow" href='http://www.missevan.com/sound/296093' target='_blank' style="color:#fff;text-shadow:0 0 3px #a3a9a2;">猫耳在线</a>
+						            </li>
+						            <li>
+						                <a rel="nofollow" href='' target='_blank' style="color:#fff;text-shadow:0 0 3px #a3a9a2;">百度网盘</a>
+						            </li>
+						            <li>
+						                <a rel="nofollow" href='http://m.ximalaya.com/49202419/album/7912978' target='_blank' style="color:#fff;text-shadow:0 0 3px #a3a9a2;">喜马拉雅</a>
+						            </li>
+						        </ol>
+							</section>
+						</td>
+						<td height=530px>
+							<section style="width:20px;height:20px;background:rgba(17,60,133, 0.5);border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;"></section>
+							<section style="width:5px;height:320px;background:rgba(17,60,133, 0.4);position:relative;left:7px;"></section>
+							<section style="width:20px;height:20px;background:rgba(17,60,133, 0.5);border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;"></section>
+						</td>
+					</tr>
+				</table>
+		</section>
+	</center>
+</body>
+</html>
