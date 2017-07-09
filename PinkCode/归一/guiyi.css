@@ -645,8 +645,8 @@ body{
 			    transform: translate(900px,100px) rotate(65deg);
 			  }
 			  100% {
-			    -webkit-transform: translate(1500px,500px) rotate(50deg);
-			    transform: translate(1500px,500px) rotate(50deg);
+			    -webkit-transform: translate(1400px,400px) rotate(50deg);
+			    transform: translate(1400px,500px) rotate(50deg);
 			  }
 		}
 		@-webkit-keyframes fly {
@@ -663,8 +663,8 @@ body{
 			    transform: translate(900px,100px) rotate(65deg);
 			  }
 			  100% {
-			    -webkit-transform: translate(1500px,500px) rotate(50deg);
-			    transform: translate(1500px,500px) rotate(50deg);
+			    -webkit-transform: translate(1400px,500px) rotate(50deg);
+			    transform: translate(1400px,500px) rotate(50deg);
 			  }
 		}
 		@-moz-keyframes fly {
@@ -681,8 +681,8 @@ body{
 			    transform: translate(900px,100px) rotate(65deg);
 			  }
 			  100% {
-			    -moz-transform: translate(1500px,500px) rotate(50deg);
-			    transform: translate(1500px,500px) rotate(50deg);
+			    -moz-transform: translate(1400px,500px) rotate(50deg);
+			    transform: translate(1400px,500px) rotate(50deg);
 			  }
 		}
 		@-ms-keyframes fly {
@@ -699,8 +699,8 @@ body{
 			    transform: translate(900px,100px) rotate(65deg);
 			  }
 			  100% {
-			    -ms-transform: translate(1500px,500px) rotate(50deg);
-			    transform: translate(1500px,500px) rotate(50deg);
+			    -ms-transform: translate(1400px,500px) rotate(50deg);
+			    transform: translate(1400px,500px) rotate(50deg);
 			  }
 		}
 		@-o-keyframes fly {
@@ -717,8 +717,8 @@ body{
 			    transform: translate(900px,100px) rotate(65deg);
 			  }
 			  100% {
-			    -o-transform: translate(1500px,500px) rotate(50deg);
-			    transform: translate(1500px,500px) rotate(50deg);
+			    -o-transform: translate(1400px,500px) rotate(50deg);
+			    transform: translate(1400px,500px) rotate(50deg);
 			  }
 		}
 		h3{
@@ -1020,6 +1020,7 @@ body{
 	    #ed:target{ 
         	display:block;
         	position: absolute;
+		left:-100px;
         	background-color: rgba(255,155,55,.5);
         	width:450px;
 	        height:450px;  
