@@ -1,0 +1,1583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <link rel='stylesheet' href='http://chengjiaoyuan.github.io/PinkCode/CSS/CSSFont/英文/juice/orange juice 2.0.css' media='screen' title='no title' charset='utf-8'>
+ 	<link rel='stylesheet' href='https://chengjiaoyuan.github.io/PinkCode/CSS/CSSFont/%E4%B8%8B%E5%8D%88%E8%8C%B6/SentyTEA.css' media='screen' title='no title' charset='utf-8'>
+ 	<link rel='stylesheet' href='https://chengjiaoyuan.github.io/PinkCode/CSS/CSSFont/%E5%AD%97%E9%85%B7%E6%A5%B7%E4%BD%93/%E5%AD%97%E9%85%B7%E5%A0%82%E9%BB%84%E6%A5%B7%E4%BD%93.css' media='screen' title='no title' charset='utf-8'/>
+	<style>
+		body{
+			margin-left:-950px; 
+			width:1900px;
+			position:relative;
+			left:50%;
+			overflow-x:hidden;
+			background:#000;
+		}
+		ol{
+			list-style:none;
+			text-align:center;
+		}
+		a{text-decoration: none;}
+		.bg-flower {
+	        position: absolute;
+	        background:#000;
+	        top: 0;
+	        left: 0;
+	        width: 100%;
+	        height:2240px;
+	        background-size:1920px 1650px;
+	    }
+	    ::-webkit-scrollbar {WIDTH: 12px;} 
+	    ::-webkit-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(88,85,106, 0.5); } 
+	    ::-webkit-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(88,85,106, 0.6); } 
+	    ::-o-scrollbar {WIDTH: 12px;} 
+	    ::-o-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(88,85,106, 0.4); } 
+	    ::-o-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(88,85,106, 0.5); } 
+	    ::-moz-scrollbar {WIDTH: 12px;} 
+	    ::-moz-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(88,85,106, 0.4); } 
+	    ::-moz-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(88,85,106, 0.5); } 
+	    ::-ms-scrollbar {WIDTH: 12px;} 
+	    ::-ms-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(88,85,106, 0.4); } 
+	    ::-ms-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(88,85,106, 0.5); } 
+	    ::scrollbar {WIDTH: 12px;} 
+	    ::scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(88,85,106, 0.4); } 
+	    ::scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(88,85,106, 0.5); }
+		.grip {
+		   background-color:#999999;
+		}
+		.grip2 {
+		   background-color:#999999;
+		}
+		.samurai {
+		  width: 1.5rem;
+		}
+		.samurai .blade2 {
+		  height: 20rem;
+		  width: .5rem;
+		  border-top-right-radius: 100%;
+		  -o-border-top-right-radius: 100%;
+		  -webkit-border-top-right-radius: 100%;
+		  -moz-border-top-right-radius: 100%;
+		  -ms-border-top-right-radius: 100%;
+		  background-color: rgba(36,178,246,.8);
+		  box-shadow: 0 0 3rem .5rem #88B2F6;
+		/*  box-shadow: -.5rem 0 0 0 hsla(0, 0%, 43%, .5) inset;*/
+		}
+		.samurai .blade {
+		  height: 20rem;
+		  width: .5rem;
+		  border-top-right-radius: 100%;
+		  -o-border-top-right-radius: 100%;
+		  -webkit-border-top-right-radius: 100%;
+		  -moz-border-top-right-radius: 100%;
+		  -ms-border-top-right-radius: 100%;
+		  background-color: rgba(255,143,32,.8);
+		  box-shadow: 0 0 3rem .5rem #FF8F20;
+		/*  box-shadow: -.5rem 0 0 0 hsla(0, 0%, 43%, .5) inset;*/
+		}
+		.samurai .guard {
+		  background-color:#fff;
+		  height: .25rem;
+		  width:30px;
+		  position: relative;
+		  left:-10px;
+		}
+		.samurai .grip {
+		  height: 6rem;
+		  width: .5rem;
+		}
+		.sword {
+		  display: inline-block;
+		  margin: 5rem;
+		  transform:rotate(45deg);
+		  -o-transform:rotate(45deg);
+		  -moz-transform:rotate(45deg);
+		  -ms-transform:rotate(45deg);
+		  -webkit-transform:rotate(45deg);
+		}
+		.samurai .guard2 {
+		  background-color:#fff;
+		  height: .25rem;
+		  width:30px;
+		  position: relative;
+		  left:-10px;
+		}
+		.samurai .grip2 {
+		  height: 6rem;
+		  width: .5rem;
+		}
+		.sword2 {
+		  display: inline-block;
+		  margin: 5rem;
+		  transform:rotate(-45deg);
+		  -o-transform:rotate(-45deg);
+		  -webkit-transform:rotate(-45deg);
+		  -moz-transform:rotate(-45deg);
+		  -ms-transform:rotate(-45deg);
+		}
+		.action{
+        animation: ripple 2s linear infinite; 
+        -webkit-animation: ripple 2s linear infinite;
+        -o-animation: ripple 2s linear infinite;
+        -ms-animation: ripple 2s linear infinite;
+        -moz-animation: ripple 2s linear infinite;
+        -webkit-border-radius:50%;
+        -o-border-radius:50%;
+        -moz-border-radius:50%;
+        -ms-border-radius:50%;
+        border-radius:50%;
+        box-shadow: 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.1), 0 0 0 10px rgba(255,255,255, 0.2), 0 0 0 10px rgba(255,255,250, 0.1);
+        -webkit-box-shadow:0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.1), 0 0 0 10px rgba(255,255,255, 0.2), 0 0 0 10px rgba(255,255,250, 0.1);
+        -ms-box-shadow:0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.1), 0 0 0 10px rgba(255,255,255, 0.2), 0 0 0 10px rgba(255,255,250, 0.1);
+        -moz-box-shadow:0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.1), 0 0 0 10px rgba(255,255,255, 0.2), 0 0 0 10px rgba(255,255,250, 0.1);
+        -o-box-shadow:0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.1), 0 0 0 10px rgba(255,255,255, 0.2), 0 0 0 10px rgba(255,255,250, 0.1);
+	    }
+	    @keyframes ripple { 
+	      0% {
+	      box-shadow: 0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+	      -webkit-box-shadow:0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+	      -moz-box-shadow: 0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+	      -ms-box-shadow:0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+	      -o-box-shadow: 0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+	      }
+	      100% {
+	      box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+	      -webkit-box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+	      -ms-box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+	      -moz-box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+	      -o-box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+	      }
+	    }
+	    @-webkit-keyframes ripple { 
+	         0% {
+	      box-shadow: 0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+	      -webkit-box-shadow:0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+	      -moz-box-shadow: 0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+	      -ms-box-shadow:0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+	      -o-box-shadow: 0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+	      }
+	      100% {
+	      box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+	      -webkit-box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+	      -ms-box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+	      -moz-box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+	      -o-box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+	      }
+	    }
+	    @-moz-keyframes ripple { 
+	         0% {
+	      box-shadow: 0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+	      -webkit-box-shadow:0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+	      -moz-box-shadow: 0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+	      -ms-box-shadow:0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+	      -o-box-shadow: 0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+	      }
+	      100% {
+	      box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+	      -webkit-box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+	      -ms-box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+	      -moz-box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+	      -o-box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+	      }
+	    }
+	    @-ms-keyframes ripple { 
+	           0% {
+	      box-shadow: 0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+	      -webkit-box-shadow:0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+	      -moz-box-shadow: 0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+	      -ms-box-shadow:0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+	      -o-box-shadow: 0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+	      }
+	      100% {
+	      box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+	      -webkit-box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+	      -ms-box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+	      -moz-box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+	      -o-box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+	      }
+	    }
+	    @-o-keyframes ripple { 
+		      0% {
+		      box-shadow: 0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+		      -webkit-box-shadow:0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+		      -moz-box-shadow: 0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+		      -ms-box-shadow:0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+		      -o-box-shadow: 0 0 0 0 rgba(154,63,46, 0.3), 0 0 0 10px rgba(154,63,46, 0.2), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.1);
+		      }
+		      100% {
+		      box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+		      -webkit-box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+		      -ms-box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+		      -moz-box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+		      -o-box-shadow: 0 0 0 10px rgba(154,63,46, 0.3), 0 0 0 25px rgba(154,63,46, 0.2), 0 0 0 40px rgba(154,63,46, 0.2), 0 0 0 45px rgba(154,63,46, 0);
+		      }
+	    }
+	    .pin {
+			  width: 30px;
+			  height: 30px;
+			  border-radius: 50% 50% 50% 0;
+			  -o-border-radius: 50% 50% 50% 0;
+			  -webkit-border-radius: 50% 50% 50% 0;
+			  -ms-border-radius: 50% 50% 50% 0;
+			  -moz-border-radius: 50% 50% 50% 0;
+			  background: #fff;
+			  position:relative;
+			  -webkit-transform: rotate(-45deg);
+			  -moz-transform: rotate(-45deg);
+			  -o-transform: rotate(-45deg);
+			  -ms-transform: rotate(-45deg);
+			  transform: rotate(-45deg);
+			  left: 50%;
+			  top: 50%;
+			  margin: -20px 0 0 -20px;
+			  -webkit-animation-name: bounce;
+			  -moz-animation-name: bounce;
+			  -o-animation-name: bounce;
+			  -ms-animation-name: bounce;
+			  animation-name: bounce;
+			  -webkit-animation-fill-mode: both;
+			  -moz-animation-fill-mode: both;
+			  -o-animation-fill-mode: both;
+			  -ms-animation-fill-mode: both;
+			  animation-fill-mode: both;
+			  -webkit-animation-duration: 1s;
+			  -moz-animation-duration: 1s;
+			  -o-animation-duration: 1s;
+			  -ms-animation-duration: 1s;
+			  animation-duration: 1s;
+			}
+		.pin:after {
+			  content: '';
+			  width: 15px;
+			  height: 15px;
+			  background: #2f2f2f;
+			  position: absolute;
+			  top:8px;
+			  left:8px;
+			  border-radius:50%;
+			  -o-border-radius:50%;
+			  -webkit-border-radius:50%;
+			  -moz-border-radius:50%;
+			  -ms-border-radius:50%;
+		}
+		.pulse {
+			  background: rgba(0,0,0,0.2);
+			  border-radius:50%;
+			  -o-border-radius:50%;
+			  -webkit-border-radius:50%;
+			  -moz-border-radius:50%;
+			  -ms-border-radius:50%;
+			  height: 15px;
+			  width: 15px;
+			  position:relative;
+			  left: 50%;
+			  top: 50%;
+			  -webkit-transform: rotateX(55deg);
+			  -moz-transform: rotateX(55deg);
+			  -o-transform: rotateX(55deg);
+			  -ms-transform: rotateX(55deg);
+			  transform: rotateX(55deg);
+			  z-index: -2;
+		}
+		.pulse:after {
+			  content: "";
+			  border-radius: 50%;
+			  height: 40px;
+			  width: 40px;
+			  position: absolute;
+			  top:-10px;
+			  left:-23px;
+			  -webkit-animation: pulsate 1s ease-out;
+			  -moz-animation: pulsate 1s ease-out;
+			  -o-animation: pulsate 1s ease-out;
+			  -ms-animation: pulsate 1s ease-out;
+			  animation: pulsate 1s ease-out;
+			  -webkit-animation-iteration-count: infinite;
+			  -moz-animation-iteration-count: infinite;
+			  -o-animation-iteration-count: infinite;
+			  -ms-animation-iteration-count: infinite;
+			  animation-iteration-count: infinite;
+			  opacity: 0;
+			  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			  filter: alpha(opacity=0);
+			  -webkit-box-shadow: 0 0 1px 2px #89849b;
+			  -o-box-shadow: 0 0 1px 2px #89849b;
+			  -ms-box-shadow: 0 0 1px 2px #89849b;
+			  -moz-box-shadow: 0 0 1px 2px #89849b;
+			  box-shadow: 0 0 1px 2px #89849b;
+			  -webkit-animation-delay: 1.1s;
+			  -moz-animation-delay: 1.1s;
+			  -o-animation-delay: 1.1s;
+			  -ms-animation-delay: 1.1s;
+			  animation-delay: 1.1s;
+		}
+		@-ms-keyframes pulsate {
+			  0% {
+			    -webkit-transform: scale(0.1, 0.1);
+			    -moz-transform: scale(0.1, 0.1);
+			    -o-transform: scale(0.1, 0.1);
+			    -ms-transform: scale(0.1, 0.1);
+			    transform: scale(0.1, 0.1);
+			    opacity: 0;
+			    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			    filter: alpha(opacity=0);
+			  }
+			  50% {
+			    opacity: 1;
+			    -ms-filter: none;
+			    filter: none;
+			  }
+			  100% {
+			    -webkit-transform: scale(1.2, 1.2);
+			    -moz-transform: scale(1.2, 1.2);
+			    -o-transform: scale(1.2, 1.2);
+			    -ms-transform: scale(1.2, 1.2);
+			    transform: scale(1.2, 1.2);
+			    opacity: 0;
+			    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			    filter: alpha(opacity=0);
+			  }
+		}
+		@-moz-keyframes pulsate {
+			  0% {
+			    -webkit-transform: scale(0.1, 0.1);
+			    -moz-transform: scale(0.1, 0.1);
+			    -o-transform: scale(0.1, 0.1);
+			    -ms-transform: scale(0.1, 0.1);
+			    transform: scale(0.1, 0.1);
+			    opacity: 0;
+			    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			    filter: alpha(opacity=0);
+			  }
+			  50% {
+			    opacity: 1;
+			    -ms-filter: none;
+			    filter: none;
+			  }
+			  100% {
+			    -webkit-transform: scale(1.2, 1.2);
+			    -moz-transform: scale(1.2, 1.2);
+			    -o-transform: scale(1.2, 1.2);
+			    -ms-transform: scale(1.2, 1.2);
+			    transform: scale(1.2, 1.2);
+			    opacity: 0;
+			    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			    filter: alpha(opacity=0);
+			  }
+		}
+		@-webkit-keyframes pulsate {
+			  0% {
+			    -webkit-transform: scale(0.1, 0.1);
+			    -moz-transform: scale(0.1, 0.1);
+			    -o-transform: scale(0.1, 0.1);
+			    -ms-transform: scale(0.1, 0.1);
+			    transform: scale(0.1, 0.1);
+			    opacity: 0;
+			    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			    filter: alpha(opacity=0);
+			  }
+			  50% {
+			    opacity: 1;
+			    -ms-filter: none;
+			    filter: none;
+			  }
+			  100% {
+			    -webkit-transform: scale(1.2, 1.2);
+			    -moz-transform: scale(1.2, 1.2);
+			    -o-transform: scale(1.2, 1.2);
+			    -ms-transform: scale(1.2, 1.2);
+			    transform: scale(1.2, 1.2);
+			    opacity: 0;
+			    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			    filter: alpha(opacity=0);
+			  }
+		}
+		@-o-keyframes pulsate {
+			  0% {
+			    -webkit-transform: scale(0.1, 0.1);
+			    -moz-transform: scale(0.1, 0.1);
+			    -o-transform: scale(0.1, 0.1);
+			    -ms-transform: scale(0.1, 0.1);
+			    transform: scale(0.1, 0.1);
+			    opacity: 0;
+			    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			    filter: alpha(opacity=0);
+			  }
+			  50% {
+			    opacity: 1;
+			    -ms-filter: none;
+			    filter: none;
+			  }
+			  100% {
+			    -webkit-transform: scale(1.2, 1.2);
+			    -moz-transform: scale(1.2, 1.2);
+			    -o-transform: scale(1.2, 1.2);
+			    -ms-transform: scale(1.2, 1.2);
+			    transform: scale(1.2, 1.2);
+			    opacity: 0;
+			    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			    filter: alpha(opacity=0);
+			  }
+		}
+		@keyframes pulsate {
+			  0% {
+			    -webkit-transform: scale(0.1, 0.1);
+			    -moz-transform: scale(0.1, 0.1);
+			    -o-transform: scale(0.1, 0.1);
+			    -ms-transform: scale(0.1, 0.1);
+			    transform: scale(0.1, 0.1);
+			    opacity: 0;
+			    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			    filter: alpha(opacity=0);
+			  }
+			  50% {
+			    opacity: 1;
+			    -ms-filter: none;
+			    filter: none;
+			  }
+			  100% {
+			    -webkit-transform: scale(1.2, 1.2);
+			    -moz-transform: scale(1.2, 1.2);
+			    -o-transform: scale(1.2, 1.2);
+			    -ms-transform: scale(1.2, 1.2);
+			    transform: scale(1.2, 1.2);
+			    opacity: 0;
+			    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			    filter: alpha(opacity=0);
+			  }
+		}
+		@-moz-keyframes bounce {
+			  0% {
+			    opacity: 0;
+			    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			    filter: alpha(opacity=0);
+			    -webkit-transform: translateY(-2000px) rotate(-45deg);
+			    -moz-transform: translateY(-2000px) rotate(-45deg);
+			    -o-transform: translateY(-2000px) rotate(-45deg);
+			    -ms-transform: translateY(-2000px) rotate(-45deg);
+			    transform: translateY(-2000px) rotate(-45deg);
+			  }
+			  60% {
+			    opacity: 1;
+			    -ms-filter: none;
+			    filter: none;
+			    -webkit-transform: translateY(30px) rotate(-45deg);
+			    -moz-transform: translateY(30px) rotate(-45deg);
+			    -o-transform: translateY(30px) rotate(-45deg);
+			    -ms-transform: translateY(30px) rotate(-45deg);
+			    transform: translateY(30px) rotate(-45deg);
+			  }
+			  80% {
+			    -webkit-transform: translateY(-10px) rotate(-45deg);
+			    -moz-transform: translateY(-10px) rotate(-45deg);
+			    -o-transform: translateY(-10px) rotate(-45deg);
+			    -ms-transform: translateY(-10px) rotate(-45deg);
+			    transform: translateY(-10px) rotate(-45deg);
+			  }
+			  100% {
+			    -webkit-transform: translateY(0) rotate(-45deg);
+			    -moz-transform: translateY(0) rotate(-45deg);
+			    -o-transform: translateY(0) rotate(-45deg);
+			    -ms-transform: translateY(0) rotate(-45deg);
+			    transform: translateY(0) rotate(-45deg);
+			  }
+		}
+		@-webkit-keyframes bounce {
+			  0% {
+			    opacity: 0;
+			    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			    filter: alpha(opacity=0);
+			    -webkit-transform: translateY(-2000px) rotate(-45deg);
+			    -moz-transform: translateY(-2000px) rotate(-45deg);
+			    -o-transform: translateY(-2000px) rotate(-45deg);
+			    -ms-transform: translateY(-2000px) rotate(-45deg);
+			    transform: translateY(-2000px) rotate(-45deg);
+			  }
+			  60% {
+			    opacity: 1;
+			    -ms-filter: none;
+			    filter: none;
+			    -webkit-transform: translateY(30px) rotate(-45deg);
+			    -moz-transform: translateY(30px) rotate(-45deg);
+			    -o-transform: translateY(30px) rotate(-45deg);
+			    -ms-transform: translateY(30px) rotate(-45deg);
+			    transform: translateY(30px) rotate(-45deg);
+			  }
+			  80% {
+			    -webkit-transform: translateY(-10px) rotate(-45deg);
+			    -moz-transform: translateY(-10px) rotate(-45deg);
+			    -o-transform: translateY(-10px) rotate(-45deg);
+			    -ms-transform: translateY(-10px) rotate(-45deg);
+			    transform: translateY(-10px) rotate(-45deg);
+			  }
+			  100% {
+			    -webkit-transform: translateY(0) rotate(-45deg);
+			    -moz-transform: translateY(0) rotate(-45deg);
+			    -o-transform: translateY(0) rotate(-45deg);
+			    -ms-transform: translateY(0) rotate(-45deg);
+			    transform: translateY(0) rotate(-45deg);
+			  }
+		}
+		@-o-keyframes bounce {
+			  0% {
+			    opacity: 0;
+			    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			    filter: alpha(opacity=0);
+			    -webkit-transform: translateY(-2000px) rotate(-45deg);
+			    -moz-transform: translateY(-2000px) rotate(-45deg);
+			    -o-transform: translateY(-2000px) rotate(-45deg);
+			    -ms-transform: translateY(-2000px) rotate(-45deg);
+			    transform: translateY(-2000px) rotate(-45deg);
+			  }
+			  60% {
+			    opacity: 1;
+			    -ms-filter: none;
+			    filter: none;
+			    -webkit-transform: translateY(30px) rotate(-45deg);
+			    -moz-transform: translateY(30px) rotate(-45deg);
+			    -o-transform: translateY(30px) rotate(-45deg);
+			    -ms-transform: translateY(30px) rotate(-45deg);
+			    transform: translateY(30px) rotate(-45deg);
+			  }
+			  80% {
+			    -webkit-transform: translateY(-10px) rotate(-45deg);
+			    -moz-transform: translateY(-10px) rotate(-45deg);
+			    -o-transform: translateY(-10px) rotate(-45deg);
+			    -ms-transform: translateY(-10px) rotate(-45deg);
+			    transform: translateY(-10px) rotate(-45deg);
+			  }
+			  100% {
+			    -webkit-transform: translateY(0) rotate(-45deg);
+			    -moz-transform: translateY(0) rotate(-45deg);
+			    -o-transform: translateY(0) rotate(-45deg);
+			    -ms-transform: translateY(0) rotate(-45deg);
+			    transform: translateY(0) rotate(-45deg);
+			  }
+		}
+		@keyframes bounce {
+			  0% {
+			    opacity: 0;
+			    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			    filter: alpha(opacity=0);
+			    -webkit-transform: translateY(-2000px) rotate(-45deg);
+			    -moz-transform: translateY(-2000px) rotate(-45deg);
+			    -o-transform: translateY(-2000px) rotate(-45deg);
+			    -ms-transform: translateY(-2000px) rotate(-45deg);
+			    transform: translateY(-2000px) rotate(-45deg);
+			  }
+			  60% {
+			    opacity: 1;
+			    -ms-filter: none;
+			    filter: none;
+			    -webkit-transform: translateY(30px) rotate(-45deg);
+			    -moz-transform: translateY(30px) rotate(-45deg);
+			    -o-transform: translateY(30px) rotate(-45deg);
+			    -ms-transform: translateY(30px) rotate(-45deg);
+			    transform: translateY(30px) rotate(-45deg);
+			  }
+			  80% {
+			    -webkit-transform: translateY(-10px) rotate(-45deg);
+			    -moz-transform: translateY(-10px) rotate(-45deg);
+			    -o-transform: translateY(-10px) rotate(-45deg);
+			    -ms-transform: translateY(-10px) rotate(-45deg);
+			    transform: translateY(-10px) rotate(-45deg);
+			  }
+			  100% {
+			    -webkit-transform: translateY(0) rotate(-45deg);
+			    -moz-transform: translateY(0) rotate(-45deg);
+			    -o-transform: translateY(0) rotate(-45deg);
+			    -ms-transform: translateY(0) rotate(-45deg);
+			    transform: translateY(0) rotate(-45deg);
+			  }
+		}
+		@-ms-keyframes bounce {
+			  0% {
+			    opacity: 0;
+			    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			    filter: alpha(opacity=0);
+			    -webkit-transform: translateY(-2000px) rotate(-45deg);
+			    -moz-transform: translateY(-2000px) rotate(-45deg);
+			    -o-transform: translateY(-2000px) rotate(-45deg);
+			    -ms-transform: translateY(-2000px) rotate(-45deg);
+			    transform: translateY(-2000px) rotate(-45deg);
+			  }
+			  60% {
+			    opacity: 1;
+			    -ms-filter: none;
+			    filter: none;
+			    -webkit-transform: translateY(30px) rotate(-45deg);
+			    -moz-transform: translateY(30px) rotate(-45deg);
+			    -o-transform: translateY(30px) rotate(-45deg);
+			    -ms-transform: translateY(30px) rotate(-45deg);
+			    transform: translateY(30px) rotate(-45deg);
+			  }
+			  80% {
+			    -webkit-transform: translateY(-10px) rotate(-45deg);
+			    -moz-transform: translateY(-10px) rotate(-45deg);
+			    -o-transform: translateY(-10px) rotate(-45deg);
+			    -ms-transform: translateY(-10px) rotate(-45deg);
+			    transform: translateY(-10px) rotate(-45deg);
+			  }
+			  100% {
+			    -webkit-transform: translateY(0) rotate(-45deg);
+			    -moz-transform: translateY(0) rotate(-45deg);
+			    -o-transform: translateY(0) rotate(-45deg);
+			    -ms-transform: translateY(0) rotate(-45deg);
+			    transform: translateY(0) rotate(-45deg);
+			  }
+		}
+		#fly{
+			-webkit-animation: fly 18s ease-out;
+			-moz-animation: fly 18s ease-out;
+			-o-animation: fly 18s ease-out;
+			-ms-animation: fly 18s ease-out;
+			animation: fly 18s ease-out;
+			animation-fill-mode:forwards; 
+			-o-animation-fill-mode:forwards;
+			-webkit-animation-fill-mode:forwards;
+			-moz-animation-fill-mode:forwards;
+			-ms-animation-fill-mode:forwards;
+			z-index: 1;
+		}
+		@keyframes fly {
+			  0% {
+			    -webkit-transform: translate(100px,0px);
+			    transform: translate(100px,0px);
+			  }
+			  30% {
+			    -webkit-transform: translate(460px,-400px) rotate(15deg);
+			    transform: translate(460px,-400px) rotate(15deg);
+			  }
+			  60%{
+			  	-webkit-transform: translate(900px,100px) rotate(65deg);
+			    transform: translate(900px,100px) rotate(65deg);
+			  }
+			  100% {
+			    -webkit-transform: translate(1500px,500px) rotate(50deg);
+			    transform: translate(1500px,500px) rotate(50deg);
+			  }
+		}
+		@-webkit-keyframes fly {
+			  0% {
+			    -webkit-transform: translate(100px,0px);
+			    transform: translate(100px,0px);
+			  }
+			  30% {
+			    -webkit-transform: translate(460px,-400px) rotate(15deg);
+			    transform: translate(460px,-400px) rotate(15deg);
+			  }
+			  60%{
+			  	-webkit-transform: translate(900px,100px) rotate(65deg);
+			    transform: translate(900px,100px) rotate(65deg);
+			  }
+			  100% {
+			    -webkit-transform: translate(1500px,500px) rotate(50deg);
+			    transform: translate(1500px,500px) rotate(50deg);
+			  }
+		}
+		@-moz-keyframes fly {
+			  0% {
+			    -moz-transform: translate(100px,0px);
+			    transform: translate(100px,0px);
+			  }
+			  30% {
+			    -moz-transform: translate(460px,-400px) rotate(15deg);
+			    transform: translate(460px,-400px) rotate(15deg);
+			  }
+			  60%{
+			  	-moz-transform: translate(900px,100px) rotate(65deg);
+			    transform: translate(900px,100px) rotate(65deg);
+			  }
+			  100% {
+			    -moz-transform: translate(1500px,500px) rotate(50deg);
+			    transform: translate(1500px,500px) rotate(50deg);
+			  }
+		}
+		@-ms-keyframes fly {
+			  0% {
+			    -ms-transform: translate(100px,0px);
+			    transform: translate(100px,0px);
+			  }
+			  30% {
+			    -ms-transform: translate(460px,-400px) rotate(15deg);
+			    transform: translate(460px,-400px) rotate(15deg);
+			  }
+			  60%{
+			  	-ms-transform: translate(900px,100px) rotate(65deg);
+			    transform: translate(900px,100px) rotate(65deg);
+			  }
+			  100% {
+			    -ms-transform: translate(1500px,500px) rotate(50deg);
+			    transform: translate(1500px,500px) rotate(50deg);
+			  }
+		}
+		@-o-keyframes fly {
+			  0% {
+			    -o-transform: translate(100px,0px);
+			    transform: translate(100px,0px);
+			  }
+			  30% {
+			    -o-transform: translate(460px,-400px) rotate(15deg);
+			    transform: translate(460px,-400px) rotate(15deg);
+			  }
+			  60%{
+			  	-o-transform: translate(900px,100px) rotate(65deg);
+			    transform: translate(900px,100px) rotate(65deg);
+			  }
+			  100% {
+			    -o-transform: translate(1500px,500px) rotate(50deg);
+			    transform: translate(1500px,500px) rotate(50deg);
+			  }
+		}
+		h3{
+			color:#601317;
+			font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
+		}
+		h4{
+			color:#fff;
+			font-family:'SentyTEA';
+			face:'SentyTEA';
+			font:'SentyTEA';
+			font-size:30px;
+		}
+		#cast:target{ 
+        	display:block;
+        	position: absolute;
+        	left: -180px;
+        	background-color: rgba(66,28,74,.8);
+        	width:450px;
+	        height:600px;  
+	        -webkit-border-radius:20px;
+            border-radius:20px;
+            -o-border-radius:20px;
+            -ms-border-radius:20px;
+            -moz-border-radius:20px;
+            border:2px dashed rgba(126,126,126,.8);
+            -webkit-animation: bounce-in 3s ease-out;
+			-moz-animation: bounce-in 3s ease-out;
+			-o-animation: bounce-in 3s ease-out;
+			-ms-animation: bounce-in 3s ease-out;
+			animation: bounce-in 3s ease-out;
+			animation-fill-mode:forwards; 
+			-o-animation-fill-mode:forwards;
+			-webkit-animation-fill-mode:forwards;
+			-moz-animation-fill-mode:forwards;
+			-ms-animation-fill-mode:forwards;
+			transform:perspective(100px);
+		    -ms-transform:perspective(100px);
+			-webkit-transform:perspective(100px);
+			-o-transform:perspective(100px);
+			-moz-transform:perspective(100px);
+			transform-style: preserve-3d;
+			-webkit-transform-style: preserve-3d;
+			-moz-transform-style: preserve-3d;
+			-ms-transform-style: preserve-3d;
+			-o-transform-style: preserve-3d;
+			overflow-y:scroll; 
+	    	overflow-x:hidden; 
+	    	z-index: 100;
+	    }
+	    #cast{
+	        display:none;
+	    }
+		@keyframes bounce-in {
+		  0%, 20%, 40%, 60%, 80%, 100% {
+		    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+		  }
+		  0% {
+		    opacity: 0;
+		    transform: scale3d(0.3, 0.3, 0.3);
+		  }
+		  20% {
+		    transform: scale3d(1.1, 1.1, 1.1);
+		  }
+		  40% {
+		    transform: scale3d(0.9, 0.9, 0.9);
+		  }
+		  60% {
+		    opacity: 1;
+		    transform: scale3d(1.03, 1.03, 1.03);
+		  }
+		  80% {
+		    transform: scale3d(0.97, 0.97, 0.97);
+		  }
+		  100% {
+		    opacity: 1;
+		    transform: scale3d(1, 1, 1);
+		  }
+		}
+		@-o-keyframes bounce-in {
+		  0%, 20%, 40%, 60%, 80%, 100% {
+		    -o-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+		  }
+		  0% {
+		    opacity: 0;
+		    -o-transform: scale3d(0.3, 0.3, 0.3);
+		  }
+		  20% {
+		    -o-transform: scale3d(1.1, 1.1, 1.1);
+		  }
+		  40% {
+		    -o-transform: scale3d(0.9, 0.9, 0.9);
+		  }
+		  60% {
+		    opacity: 1;
+		    -o-transform: scale3d(1.03, 1.03, 1.03);
+		  }
+		  80% {
+		    -o-transform: scale3d(0.97, 0.97, 0.97);
+		  }
+		  100% {
+		    opacity: 1;
+		    -o-transform: scale3d(1, 1, 1);
+		  }
+		}
+		@-ms-keyframes bounce-in {
+		  0%, 20%, 40%, 60%, 80%, 100% {
+		    -ms-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+		  }
+		  0% {
+		    opacity: 0;
+		    -ms-transform: scale3d(0.3, 0.3, 0.3);
+		  }
+		  20% {
+		    -ms-transform: scale3d(1.1, 1.1, 1.1);
+		  }
+		  40% {
+		    -ms-transform: scale3d(0.9, 0.9, 0.9);
+		  }
+		  60% {
+		    opacity: 1;
+		    -ms-transform: scale3d(1.03, 1.03, 1.03);
+		  }
+		  80% {
+		    -ms-transform: scale3d(0.97, 0.97, 0.97);
+		  }
+		  100% {
+		    opacity: 1;
+		    -ms-transform: scale3d(1, 1, 1);
+		  }
+		}
+		@-moz-keyframes bounce-in {
+		  0%, 20%, 40%, 60%, 80%, 100% {
+		    -moz-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+		  }
+		  0% {
+		    opacity: 0;
+		    -moz-transform: scale3d(0.3, 0.3, 0.3);
+		  }
+		  20% {
+		    -moz-transform: scale3d(1.1, 1.1, 1.1);
+		  }
+		  40% {
+		    -moz-transform: scale3d(0.9, 0.9, 0.9);
+		  }
+		  60% {
+		    opacity: 1;
+		    -moz-transform: scale3d(1.03, 1.03, 1.03);
+		  }
+		  80% {
+		    -moz-transform: scale3d(0.97, 0.97, 0.97);
+		  }
+		  100% {
+		    opacity: 1;
+		    -moz-transform: scale3d(1, 1, 1);
+		  }
+		}
+		@-webkit-keyframes bounce-in {
+		  0%, 20%, 40%, 60%, 80%, 100% {
+		    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+		  }
+		  0% {
+		    opacity: 0;
+		    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+		  }
+		  20% {
+		    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+		  }
+		  40% {
+		    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+		  }
+		  60% {
+		    opacity: 1;
+		    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+		  }
+		  80% {
+		    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+		  }
+		  100% {
+		    opacity: 1;
+		    -webkit-transform: scale3d(1, 1, 1);
+		  }
+		}
+		#cast li{
+	        color:#fff;
+			font-family:'微软雅黑';
+			face:'微软雅黑';
+			font:'微软雅黑';
+			font-size:20px;
+			text-align: center;
+			line-height: 1.2;
+			height: 40px;
+			line-height: 40px;
+			position: relative;
+			top:30px;
+	    }
+	    #cast li span:nth-child(odd){
+	        background-color:rgba(39,17,45,.8);
+	        font-size:20px;
+	        border-radius:6px;
+	        -o-border-radius:6px;
+	        -moz-border-radius:6px;
+	        -ms-border-radius:6px;
+	        -webkit-border-radius:6px;
+	        color:#fff;
+	        margin-top:4px;
+	        text-align:center;font-weight:lighter;
+	        display:inline-block;
+	        line-HEIGHT:1.2;
+	        padding:2px;
+	    }
+	    #cast li span:nth-child(even){
+	        color:#A652BE;
+	        font-size:24px;
+	        line-HEIGHT:1.2;
+	        font-weight:lighter;
+	        font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
+	    }
+	    #staff:target{ 
+        	display:block;
+        	position: absolute;
+        	background-color: rgba(15,66,94,.6);
+        	width:450px;
+	        height:600px;  
+	        -webkit-border-radius:20px;
+            border-radius:20px;
+            -o-border-radius:20px;
+            -ms-border-radius:20px;
+            -moz-border-radius:20px;
+            border:2px dashed rgba(126,126,126,.8);
+            -webkit-animation: bounce-in 3s ease-out;
+			-moz-animation: bounce-in 3s ease-out;
+			-o-animation: bounce-in 3s ease-out;
+			-ms-animation: bounce-in 3s ease-out;
+			animation: bounce-in 3s ease-out;
+			animation-fill-mode:forwards; 
+			-o-animation-fill-mode:forwards;
+			-webkit-animation-fill-mode:forwards;
+			-moz-animation-fill-mode:forwards;
+			-ms-animation-fill-mode:forwards;
+			transform:perspective(100px);
+		    -ms-transform:perspective(100px);
+			-webkit-transform:perspective(100px);
+			-o-transform:perspective(100px);
+			-moz-transform:perspective(100px);
+			transform-style: preserve-3d;
+			-webkit-transform-style: preserve-3d;
+			-moz-transform-style: preserve-3d;
+			-ms-transform-style: preserve-3d;
+			-o-transform-style: preserve-3d;
+			overflow-y:scroll; 
+	    	overflow-x:hidden; 
+	    	z-index: 100;
+	    }
+	    #staff{
+	        display:none;
+	    }
+		#staff li{
+	        color:#fff;
+			font-family:'微软雅黑';
+			face:'微软雅黑';
+			font:'微软雅黑';
+			font-size:20px;
+			text-align: center;
+			line-height: 1.2;
+			height: 40px;
+			line-height: 40px;
+			position: relative;
+			top:30px;
+	    }
+	    #staff li span:nth-child(odd){
+	        background-color:rgba(17,78,111,.8);
+	        font-size:20px;
+	        border-radius:6px;
+	        -o-border-radius:6px;
+	        -moz-border-radius:6px;
+	        -ms-border-radius:6px;
+	        -webkit-border-radius:6px;
+	        color:#fff;
+	        margin-top:4px;
+	        text-align:center;font-weight:lighter;
+	        display:inline-block;
+	        line-HEIGHT:1.2;
+	        padding:2px;
+	    }
+	    #staff li span:nth-child(even){
+	        color:#2193CF;
+	        font-size:24px;
+	        line-HEIGHT:1.2;
+	        font-weight:lighter;
+	        font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
+	    }
+	    #ed:target{ 
+        	display:block;
+        	position: absolute;
+        	background-color: rgba(255,155,55,.5);
+        	width:450px;
+	        height:450px;  
+	        -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            -o-border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;
+            -ms-border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;
+            -moz-border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;
+            border:2px dashed rgba(223,123,32,.8);
+            -webkit-animation: bounce-in 3s ease-out;
+			-moz-animation: bounce-in 3s ease-out;
+			-o-animation: bounce-in 3s ease-out;
+			-ms-animation: bounce-in 3s ease-out;
+			animation: bounce-in 3s ease-out;
+			animation-fill-mode:forwards; 
+			-o-animation-fill-mode:forwards;
+			-webkit-animation-fill-mode:forwards;
+			-moz-animation-fill-mode:forwards;
+			-ms-animation-fill-mode:forwards;
+			transform:perspective(100px);
+		    -ms-transform:perspective(100px);
+			-webkit-transform:perspective(100px);
+			-o-transform:perspective(100px);
+			-moz-transform:perspective(100px);
+			transform-style: preserve-3d;
+			-webkit-transform-style: preserve-3d;
+			-moz-transform-style: preserve-3d;
+			-ms-transform-style: preserve-3d;
+			-o-transform-style: preserve-3d;
+	    	z-index: 100;
+	    }
+	    #ed{
+	        display:none;
+	    }
+		#ed li{
+	        color:#fff;
+			font-family:'微软雅黑';
+			face:'微软雅黑';
+			font:'微软雅黑';
+			font-size:20px;
+			text-align: center;
+			line-height: 1.2;
+			height: 40px;
+			line-height: 40px;
+			position: relative;
+			top:30px;
+	    }
+	    #ed li span:nth-child(odd){
+	        background-color:rgba(186,102,27,.8);
+	        font-size:20px;
+	        border-radius:6px;
+	        -o-border-radius:6px;
+	        -moz-border-radius:6px;
+	        -ms-border-radius:6px;
+	        -webkit-border-radius:6px;
+	        color:#fff;
+	        margin-top:4px;
+	        text-align:center;font-weight:lighter;
+	        display:inline-block;
+	        line-HEIGHT:1.2;
+	        padding:2px;
+	    }
+	    #ed li span:nth-child(even){
+	        color:#FF9326;
+	        font-size:24px;
+	        line-HEIGHT:1.2;
+	        font-weight:lighter;
+	        font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
+	    }
+	    #vedio:target{ 
+        	display:block;
+        	position: absolute;
+        	top:-500px;
+        	background-color: rgba(86,18,20,.7);
+        	width:450px;
+	        height:300px;  
+	        -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            -o-border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;
+            -ms-border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;
+            -moz-border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;
+            border:2px dashed rgba(223,123,32,.8);
+            -webkit-animation: bounce-in 3s ease-out;
+			-moz-animation: bounce-in 3s ease-out;
+			-o-animation: bounce-in 3s ease-out;
+			-ms-animation: bounce-in 3s ease-out;
+			animation: bounce-in 3s ease-out;
+			animation-fill-mode:forwards; 
+			-o-animation-fill-mode:forwards;
+			-webkit-animation-fill-mode:forwards;
+			-moz-animation-fill-mode:forwards;
+			-ms-animation-fill-mode:forwards;
+			transform:perspective(100px);
+		    -ms-transform:perspective(100px);
+			-webkit-transform:perspective(100px);
+			-o-transform:perspective(100px);
+			-moz-transform:perspective(100px);
+			transform-style: preserve-3d;
+			-webkit-transform-style: preserve-3d;
+			-moz-transform-style: preserve-3d;
+			-ms-transform-style: preserve-3d;
+			-o-transform-style: preserve-3d;
+	    	z-index: 100;
+	    }
+	    #vedio{
+	        display:none;
+	    }
+		#vedio li{
+	        color:#fff;
+			font-family:'微软雅黑';
+			face:'微软雅黑';
+			font:'微软雅黑';
+			font-size:20px;
+			text-align: center;
+			line-height: 1.2;
+			height: 40px;
+			line-height: 40px;
+			position: relative;
+			top:30px;
+	    }
+	    #vedio li span:nth-child(odd){
+	        background-color:rgba(128,28,30,.8);
+	        font-size:20px;
+	        border-radius:6px;
+	        -o-border-radius:6px;
+	        -moz-border-radius:6px;
+	        -ms-border-radius:6px;
+	        -webkit-border-radius:6px;
+	        color:#fff;
+	        margin-top:4px;
+	        text-align:center;font-weight:lighter;
+	        display:inline-block;
+	        line-HEIGHT:1.2;
+	        padding:2px;
+	    }
+	    #vedio li span:nth-child(even){
+	        color:#C12B2F;
+	        font-size:24px;
+	        line-HEIGHT:1.2;
+	        font-weight:lighter;
+	        font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
+	    }
+	    #title:target{ 
+        	display:block;
+        	position: absolute;
+        	top:230px;
+        	left:-200px;
+        	background-color: rgba(128,64,64,.6);
+        	width:450px;
+	        height:600px;  
+	        -webkit-border-radius:20px;
+            border-radius:20px;
+            -o-border-radius:20px;
+            -ms-border-radius:20px;
+            -moz-border-radius:20px;
+            border:2px dashed rgba(126,126,126,.8);
+            -webkit-animation: bounce-in 3s ease-out;
+			-moz-animation: bounce-in 3s ease-out;
+			-o-animation: bounce-in 3s ease-out;
+			-ms-animation: bounce-in 3s ease-out;
+			animation: bounce-in 3s ease-out;
+			animation-fill-mode:forwards; 
+			-o-animation-fill-mode:forwards;
+			-webkit-animation-fill-mode:forwards;
+			-moz-animation-fill-mode:forwards;
+			-ms-animation-fill-mode:forwards;
+			transform:perspective(100px);
+		    -ms-transform:perspective(100px);
+			-webkit-transform:perspective(100px);
+			-o-transform:perspective(100px);
+			-moz-transform:perspective(100px);
+			transform-style: preserve-3d;
+			-webkit-transform-style: preserve-3d;
+			-moz-transform-style: preserve-3d;
+			-ms-transform-style: preserve-3d;
+			-o-transform-style: preserve-3d;
+			overflow-y:scroll; 
+	    	overflow-x:hidden; 
+	    	z-index: 100;
+	    }
+	    #title{
+	        display:none;
+	    }
+		#title li{
+	        color:#fff;
+			font-family:'微软雅黑';
+			face:'微软雅黑';
+			font:'微软雅黑';
+			font-size:20px;
+			text-align: center;
+			line-height: 1.2;
+			height: 40px;
+			line-height: 40px;
+			position: relative;
+			top:20px;
+	    }
+	    #title li span:nth-child(odd){
+	        background-color:rgba(152,75,75,.8);
+	        font-size:20px;
+	        border-radius:6px;
+	        -o-border-radius:6px;
+	        -moz-border-radius:6px;
+	        -ms-border-radius:6px;
+	        -webkit-border-radius:6px;
+	        color:#fff;
+	        margin-top:4px;
+	        text-align:center;font-weight:lighter;
+	        display:inline-block;
+	        line-HEIGHT:1.2;
+	        padding:2px;
+	    }
+	    #title li span:nth-child(even){
+	        color:#B36666;
+	        font-size:24px;
+	        line-HEIGHT:1.2;
+	        font-weight:lighter;
+	        font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
+	    }
+	    #link:target{ 
+        	display:block;
+        	position: absolute;
+        	top:30px;
+        	left:-990px;
+            -webkit-animation: bounce-in 3s ease-out;
+			-moz-animation: bounce-in 3s ease-out;
+			-o-animation: bounce-in 3s ease-out;
+			-ms-animation: bounce-in 3s ease-out;
+			animation: bounce-in 3s ease-out;
+			animation-fill-mode:forwards; 
+			-o-animation-fill-mode:forwards;
+			-webkit-animation-fill-mode:forwards;
+			-moz-animation-fill-mode:forwards;
+			-ms-animation-fill-mode:forwards;
+			transform:perspective(100px);
+		    -ms-transform:perspective(100px);
+			-webkit-transform:perspective(100px);
+			-o-transform:perspective(100px);
+			-moz-transform:perspective(100px);
+			transform-style: preserve-3d;
+			-webkit-transform-style: preserve-3d;
+			-moz-transform-style: preserve-3d;
+			-ms-transform-style: preserve-3d;
+			-o-transform-style: preserve-3d;
+	    	z-index: 102;
+	    }
+	    #link{
+	        display:none;
+	    }
+	    #triangle-up {
+		    width: 0;
+		    height: 0;
+		    border-left: 120px solid transparent;
+		    border-right: 120px solid transparent;
+		    border-bottom: 200px solid rgba(61,44,82,.8);
+		    z-index: 102;
+		    color: #fff;
+		    text-align: center;
+		}
+		#box{
+			width: 240px;
+			height: 400px;
+			background-color:rgba(63,16,61,.6);
+			color: #fff;
+			position: relative;
+			top:-2px;
+			text-align: center;
+		    line-height: 1.2;
+		}
+		.link{
+	    }
+	    .link li{
+        WIDTH:200px;
+        list-STYLE:none;
+        display:inline-block;
+        margin:4px 0px;
+        font-weight:lighter;
+        text-align: center;
+        height:30px;
+        line-height: 30px;
+        font: '楷体';
+        font-family: '楷体';
+        face:'楷体';
+        font-size:22px;
+	    border-radius:6px;
+	    -o-border-radius:6px;
+	    -moz-border-radius:6px;
+	    -ms-border-radius:6px;
+	    -webkit-border-radius:6px;
+	    color:#fff;
+	    text-align: center;
+	    position: relative;
+	    left:-20px;
+	    face:'字酷堂黄楷体';font:'字酷堂黄楷体';
+	    font-family:'字酷堂黄楷体';
+	    }
+	    .link li span:nth-child(odd){
+	 
+	    }
+	    .link li span:nth-child(even){
+	        font-size:20px;
+	        font-weight:lighter;
+	        TEXT-SHADOW:0 0 #6FA9A0,0 1px #2B221D,0 -1px #2B221D,1px 0 #2B221D, 1px 1px #2B221D, 1px -1px #2B221D, -1px 0 #2B221D, -1px 1px #2B221D, -1px -1px #2B221D;color:#fff;
+	    }
+	</style>
+</head>
+<body>
+	<ol class="bg-flower">
+      <li></li>
+    </ol>
+    <section style="position:absolute;left:40%;top:340px;z-index:99;" class="samurai sword">
+		<section class='blade2'></section>
+		<section class='guard2'></section>
+		<section class='grip2'></section>
+	</section>
+	<section style="position:absolute;left:56%;top:340px;z-index:99;" class="samurai sword2">
+		<section class='blade'></section>
+		<section class='guard'></section>
+		<section class='grip'></section>
+	</section>
+    <center>
+    	<span style="display:block;position:absolute;top:100px;left:35%;background:url(https://chengjiaoyuan.github.io/PinkCode/%E5%BD%92%E4%B8%80/%E4%BA%BA%E7%89%A9.png) no-repeat;width:600px;height:650px;border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;z-index:2;" class="action">
+    	</span>
+    	<span style="display:block;position:absolute;top:1770px;left:0%;background:url(https://chengjiaoyuan.github.io/PinkCode/%E5%BD%92%E4%B8%80/city.png) no-repeat;width:1920px;height:500px;z-index:2;">
+    	</span>
+		<span style="display:block;position:absolute;left:68%;top:1300px;z-index:99;">
+			<a href="#vedio" rel="nofollow" style="color:#fff;">
+			<section class='pin'></section>
+			<section class='pulse'></section>
+			<h4 style="position:relative;top:-30px;left:20px;font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';">视频组</h4>
+				<ol id="vedio">
+					<li style="font-size:36px;color:#C12B2F;font-family:'SentyTEA';face:'SentyTEA';font:'SentyTEA';">VEDIO</li>
+					<li>视频后期 <span>曲烬微</span> <span>苏折工作室视频组</span></li>
+					<li>视频后期 <span>光环</span></li>
+					<li>视频背景 <span>月轩</span> <span>未来之声</span></li>
+					<li>片头画手 <span>轻舟</span></li>
+				</ol>
+			</a>
+		</span>
+		<span style="display:block;position:absolute;left:24%;top:1200px;z-index:99;">
+			<a href="#staff" rel="nofollow" style="color:#fff;">
+				<section class='pin'></section>
+				<section class='pulse'></section>
+				<h4 style="position:relative;top:-30px;left:20px;">STAFF</h4>
+				<ol id="staff">
+					<li style="font-size:36px;color:#43ABE2;font-family:'SentyTEA';face:'SentyTEA';font:'SentyTEA';">STAFF</li>
+					<li>原著 <span>楚谓之聿</span></li>
+					<li>策划 <span>梓浩</span> <span>帝音视觉</span></li>
+					<li>导演 <span>默华</span> <span>Glauben</span></li>
+					<li>监制 <span>徐行</span> <span>未来之声</span></li>
+					<li>编剧 <span>徐行</span> <span>未来之声</span></li>
+					<li>后期 <span>3拳</span> <span>霖音阁广播剧社</span></li>
+					<li>后期 <span>一川明</span> <span>徐夫记</span></li>
+					<li>PS美工 <span>乄彦樱雨</span> <span>水逆行舟</span></li>
+					<li>板绘美工 <span>微小凉</span></li>
+					<li>手写 <span>宋晚蓝他爹</span></li>
+					<li>宣传 <span>句号</span> <span>帝音视觉</span></li> 
+					<li>宣传 <span>陆暖</span> <span>帝音视觉</span></li>
+					<li>代码 <span>城郊园</span> <span>Always工作室</span></li>
+				</ol>
+			</a>
+		</span>
+		<span style="display:block;position:absolute;left:38%;top:1000px;z-index:99;">
+			<a href="#cast" rel="nofollow" style="color:#fff;">
+				<section class='pin'></section>
+				<section class='pulse'></section>
+				<h4 class="cast" style="position:relative;top:-30px;left:20px;">CAST</h4>
+				<ol id="cast">
+					<li style="font-size:36px;color:#8E3DA3;font-family:'SentyTEA';face:'SentyTEA';font:'SentyTEA';">CAST</li>
+					<li>叶修 <span>王泡芙</span> <span>魔之韵</span></li>
+					<li>邱非 <span>赤柴</span> <span>迪迪飞鸿</span></li>
+					<li>苏沐秋 <span>王儒</span> <span>稚觞灼姬美音社</span></li>
+					<li>刘皓 <span>雨小夜</span> <span>风流逐声</span></li>
+					<li>孙翔 <span>瓶盖</span> <span>墨染音社</span></li>
+					<li>关榕飞 <span>寂镜</span> <span>光音工坊</span></li>
+					<li>于念 <span>Chris猫少</span></li>
+					<li>吕泊远 <span>少泽</span></li>
+					<li>杜明 <span>木小柏</span> <span>未来之声</span></li>
+					<li>方明华 <span>天霖</span> <span>十四桥</span></li>
+					<li>李睿 <span>西木墨衍</span> <span>风流逐声</span></li>
+					<li>目击证人 <span>包子馅儿</span> <span>九枝广播剧社</span></li>
+					<li>大汉 <span>轻舟丸</span> <span>无偿音萌</span></li>
+					<li>路人 <span>阿杉</span> <span>桑梓工作室</span></li>
+					<li>前首领 <span>雨过天青</span> <span>杂货铺工作室</span></li>
+					<li>贺铭 <span>沐宇</span> <span>有点贰</span></li>
+					<li>郭阳 <span>一叶知秋</span></li>
+					<li>路人甲 <span>墨羽</span> <span>剧舞吧配音社</span></li>
+					<li>路人乙 <span>龙十三</span> <span>吾隐江湖</span></li>
+					<li>旁白 <span>胖玖妈妈桑</span> <span>阙鸣子工作室</span></li>
+					<li>报幕 <span>胖玖妈妈桑</span> <span>阙鸣子工作室</span></li>
+				</ol>
+			</a>
+		</span>
+		<span style="display:block;position:absolute;left:60%;top:1400px;z-index:99;">
+			<a href="#title" rel="nofollow" style="color:#fff;">
+			<section class='pin'></section>
+			<section class='pulse'></section>
+			<h4 style="position:relative;top:-30px;left:20px;font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';">主题曲</h4>
+				<ol id="title">
+					<li style="font-size:36px;color:#AF5F5F;font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';">枷锁</li>
+					<li>原曲 <span>Linkin park</span> <span>What I’ve done</span></li>
+					<li>策划 <span>阿烟</span> <span>击鼓当歌</span></li>
+					<li>监制 <span>徐行</span> <span>未来之声</span></li>
+					<li>填词 <span>阿烟</span> <span>击鼓当歌</span></li>
+					<li>翻唱 <span>璟瑜</span> <span>十四桥</span></li>
+					<li>后期 <span>拾溟</span> <span>面瘫资源组</span></li>
+					<li>美工 <span>宜阳乘</span></li>
+					<li>板绘 <span>轻舟</span></li>
+					<li>PV  <span>曲烬微</span> <span>苏折工作室视频组</span></li>
+					<li>宣传 <span>龙猫</span> <span>轻音微律&东厂团队</span></li>
+					<li style="font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';font-size:22px;">不安翻涌黑暗中未知在躁动</li>
+					<li style="font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';font-size:22px;">他重睁眼瞳紧握住致命的沉重</li>
+					<li style="font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';font-size:22px;">愚昧祈祷为辉煌赞颂</li>
+					<li style="font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';font-size:22px;">迷雾下</li>
+					<li style="font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';font-size:22px;">谁在喧哗 人性被兽欲倾轧</li>
+					<li style="font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';font-size:22px;">支离混杂 生死无所谓惧怕</li>
+					<li style="font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';font-size:22px;">狂乱中血液在暴动</li>
+					<li style="font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';font-size:22px;">枪声撕裂了 黎明前笼罩的夜空</li>
+					<li style="font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';font-size:22px;">无冕的王者重归巅峰</li>
+					<li style="font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';font-size:22px;">天空下</li>
+					<li style="font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';font-size:22px;">是真或假 谁还在垂死挣扎</li>
+					<li style="font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';font-size:22px;">雷霆喑哑 谎言在顷刻崩塌</li>
+					<li style="font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';font-size:22px;">在天空下</li>
+					<li style="font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';font-size:22px;">不论真假 谁还在无谓挣扎</li>
+					<li style="font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';font-size:22px;">雷霆喑哑 谎言在顷刻崩塌</li>
+					<li style="font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';font-size:22px;">血景繁花 死亡将大地拢下</li>
+					<li style="font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';font-size:22px;">浴血拼杀 束缚欲望的锁枷</li>
+					<li style="font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';font-size:22px;">消失了 相随就算还家</li>
+				</ol>
+			</a>
+		</span>
+		<span style="display:block;position:absolute;left:56%;top:1560px;z-index:99;">
+			<a href="#ed" rel="nofollow" style="color:#fff;">
+			<section class='pin'></section>
+			<section class='pulse'></section>
+			<h4 style="position:relative;top:-30px;left:20px;">ED</h4>
+				<ol id="ed">
+					<li style="font-size:36px;color:#DF7B20;font-family:'SentyTEA';face:'SentyTEA';font:'SentyTEA';">ED</li>
+					<li>原曲 <span>王菲</span> <span>再见萤火虫</span></li>
+					<li>策划 <span>阿烟</span> <span>击鼓当歌</span></li>
+					<li>监制 <span>徐行</span> <span>未来之声</span></li>
+					<li>填词 <span>阿烟</span> <span>击鼓当歌</span></li>
+					<li>翻唱 <span>苍遥</span> <span>击鼓当歌</span></li>
+					<li>后期 <span>苍遥</span> <span>击鼓当歌</span></li>
+					<li>美工 <span>三川</span> <span>恶人谷配音组</span></li>
+					<li>宣传 <span>龙猫</span> <span>轻音微律&东厂团队</span></li>
+				</ol>
+			</a>
+		</span>
+		<span style="display:block;position:absolute;left:75%;top:1620px;z-index:99;">
+			<a href="#link" rel="nofollow" style="color:#fff;">
+			<section class='pin'></section>
+			<section class='pulse'></section>
+			<h4 style="position:relative;top:-30px;left:20px;">LINK</h4>
+				<table align=center width=240px height=520px id="link">
+					<tr>
+						<td id="triangle-up">
+						<!-- 	<p style="font-size:36px;color:#fff;font-family:'SentyTEA';face:'SentyTEA';font:'SentyTEA';position:relative;top:150px;">LINK</p> -->
+						</td>
+					</tr>
+					<tr>
+						<td id="box">
+							<OL class='link'>
+	                          	<li style="background-color:rgba(47,130,213,.6);"><a rel="nofollow" href='http://www.missevan.com/sound/391980' target='_blank' style='color:#fff;'>猫耳在线</a></li>
+	                          	<li style="background-color:rgba(115,24,28,.6);"><a rel="nofollow" href='https://www.lizhi.fm/1536549/2609287555799555590' target='_blank' style='color:#fff;'>荔枝平台</a></li>
+	                          	<li style="background-color:rgba(47,130,213,.6);"><a rel="nofollow" href='http://t.cn/RKGqRM3' target='_blank' style='color:#fff;'>B站在线</a></li>
+	                          	<li style="background-color:rgba(115,24,28,.6);"><a rel="nofollow" href='http://5sing.kugou.com/fc/16023211.html###' target='_blank' style='color:#fff;'>5Sing在线</a></li>
+	                          	<li style="background-color:rgba(47,130,213,.6);"><a rel="nofollow" href='http://pan.baidu.com/s/1gfrawUn' target='_blank' style='color:#fff;'>百度网盘</a></li>
+	                          	<li style="background-color:rgba(115,24,28,.6);"><a rel="nofollow" href='https://www.lizhi.fm/1536549/2609290472082395142' target='_blank' style='color:#fff;'>荔枝主题曲</a></li>
+	                          	<li style="background-color:rgba(47,130,213,.6);"><a rel="nofollow" href='http://www.missevan.com/sound/231680' target='_blank' style='color:#fff;'>猫耳主题曲</a></li>
+	                          	<li style="background-color:rgba(115,24,28,.6);"><a rel="nofollow" href='http://www.missevan.com/sound/246989' target='_blank' style='color:#fff;'>猫耳片尾曲</a></li>
+                        	</OL> 
+						</td>
+					</tr>
+				</table>
+			</a>
+		</span>
+		<span style="display:block;position:absolute;left:12%;top:600px;">
+			<?xml version="1.0" encoding="utf-8" standalone="no"?>
+			<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-flat-20030114.dtd">
+			<!-- Created by SVGDeveloper 1.0 -->
+			<svg width="1500" height="1280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<defs>
+			<pattern id="Skew" height="100" width="100" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse">
+			<g>
+			<polyline stroke="#4c2157" stroke-width="1" stroke-opacity="1" stroke-miterlimit="30" fill="none" fill-opacity="1" points="5,0 100,0 99,96 4,95 5,4 96,5 94,92 8,90 10,8 92,11 90,88 13,85 15,12 87,16 85,84 17,80 18,16 84,21 79,79 20,75 22,21 80,27 73,76 24,69 26,25 76,31 68,72 28,64 31,28 72,35 64,68 32,60 36,32 68,39 60,64 36,56 41,36 64,43 56,60 40,52 45,40 60,46 54,56 44,50 48,44 56,48 53,53 47,50 49,47 53,49 51,50 50,49" transform="matrix(1 0 0 1 -0.666667 0.5)" />
+			</g>
+			</pattern>
+			<pattern id="Argyle" width="50" height="50" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse">
+			<g>
+			<polygon stroke="#706142" stroke-width="1" stroke-opacity="1" stroke-miterlimit="30" fill="#d7cfbd" fill-opacity="1" points="25,10 34,25 25,40 16,25" />
+			<polygon stroke="#706142" stroke-width="1" stroke-opacity="1" stroke-miterlimit="30" fill="#d7cfbd" fill-opacity="1" points="50,10 59,25 50,40 41,25" />
+			<polygon stroke="#706142" stroke-width="1" stroke-opacity="1" stroke-miterlimit="30" fill="#d7cfbd" fill-opacity="1" points="0,10 9,25 0,40 -9,25" />
+			<polygon stroke="#343028" stroke-width="1" stroke-opacity="1" stroke-miterlimit="30" fill="#ac9870" fill-opacity="1" points="11,0 21,25 11,50 1,25" />
+			<polygon stroke="#343028" stroke-width="1" stroke-opacity="1" stroke-miterlimit="30" fill="#ac9870" fill-opacity="1" points="39,0 49,25 39,50 29,25" />
+			<polygon stroke="#706142" stroke-width="1" stroke-opacity="1" stroke-miterlimit="30" fill="#706142" fill-opacity="1" points="20,0 30,0 25,9" />
+			<polygon stroke="#706142" stroke-width="1" stroke-opacity="1" stroke-miterlimit="30" fill="#706142" fill-opacity="1" points="20,50 25,41 30,50" />
+			</g>
+			</pattern>
+			<pattern id="Mesh" width="100" height="100" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse">
+			<g>
+			<defs>
+			<linearGradient id="blue_Light" x1="0%" y1="100%" x2="0%" y2="0%" gradientUnits="objectBoundingBox" spreadMethod="pad">
+			<stop offset="0" stop-color="#c0ffff" stop-opacity="1" />
+			<stop offset="0.5" stop-color="#000080" />
+			<stop offset="1" stop-color="#c0ffff" stop-opacity="1" />
+			</linearGradient>
+			<linearGradient id="blue_Dark" x1="0%" y1="100%" x2="0%" y2="0%" gradientUnits="objectBoundingBox" spreadMethod="pad">
+			<stop offset="0" stop-color="#000080" stop-opacity="1" />
+			<stop offset="0.5" stop-color="#c0ffff" />
+			<stop offset="1" stop-color="#000080" stop-opacity="1" />
+			</linearGradient>
+			</defs>
+			<path id="LDL" stroke="none" fill="url(#blue_Light)" fill-opacity="1" d="M11.7899 38.6043 C14.8813 26.7425 28.1047 10.1709 49.8879 10.1709 C71.6709 10.1709 85.3606 27.9304 87.8407 38.6104 C87.8407 38.6104 93.2809 40.3555 99.867 40.3231 L99.867 0 L-0.425 0 L-0.425 40.3231 C6.13032 40.227 11.7899 38.6043 11.7899 38.6043 zM-0.42483 60.4626 L-0.42483 100 L99.7417 100 L99.7836 60.4176 C93.0028 60.3915 87.7366 62.1923 87.7366 62.1923 C83.6131 74.4504 72.0165 89.7037 50.0543 89.7037 C28.0921 89.7037 15.9939 75.1814 11.8718 62.3174 C11.8718 62.3174 6.23366 60.4607 -0.425 60.4627 z" />
+			<path id="DLD" stroke="none" fill="url(#blue_Dark)" fill-opacity="1" d="M61.8929 12.1344 C71.2717 39.2707 93.2809 40.5459 99.7836 40.3962 L99.7836 60.4044 C93.2809 60.4055 70.8966 62.0053 62.143 87.6409 C54.2648 90.2672 45.1358 89.6419 37.6328 87.6409 C30.0047 66.2571 14.098 61.0297 -0.40799 60.4044 L-0.433 40.3962 C6.19475 40.3962 28.504 39.1457 37.8829 12.0094 C44.7608 9.50835 55.3902 9.3833 61.8929 12.1345 z" />
+			</g>
+			</pattern>
+			<pattern id="Skew1" height="100" width="100" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse">
+			<g>
+			<polyline stroke="#4c2157" stroke-width="1" stroke-opacity="1" stroke-miterlimit="30" fill="none" fill-opacity="1" points="5,0 100,0 99,96 4,95 5,4 96,5 94,92 8,90 10,8 92,11 90,88 13,85 15,12 87,16 85,84 17,80 18,16 84,21 79,79 20,75 22,21 80,27 73,76 24,69 26,25 76,31 68,72 28,64 31,28 72,35 64,68 32,60 36,32 68,39 60,64 36,56 41,36 64,43 56,60 40,52 45,40 60,46 54,56 44,50 48,44 56,48 53,53 47,50 49,47 53,49 51,50 50,49" transform="matrix(1 0 0 1 -0.666667 0.5)" />
+			</g>
+			</pattern>
+			<pattern id="Skew2" height="100" width="100" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse">
+			<g>
+			<polyline stroke="#4c2157" stroke-width="1" stroke-opacity="1" stroke-miterlimit="30" fill="none" fill-opacity="1" points="5,0 100,0 99,96 4,95 5,4 96,5 94,92 8,90 10,8 92,11 90,88 13,85 15,12 87,16 85,84 17,80 18,16 84,21 79,79 20,75 22,21 80,27 73,76 24,69 26,25 76,31 68,72 28,64 31,28 72,35 64,68 32,60 36,32 68,39 60,64 36,56 41,36 64,43 56,60 40,52 45,40 60,46 54,56 44,50 48,44 56,48 53,53 47,50 49,47 53,49 51,50 50,49" transform="matrix(1 0 0 1 -0.666667 0.5)" />
+			</g>
+			</pattern>
+			</defs>
+			<path d="M536 607L535 612L532 614L528 614L525 612L522 609L520 604L517 598L513 591L512 586L512 581L512 577L514 571L515 568L508 566L507 563L508 558L507 556L506 550L504 544L504 538L500 533L497 528L494 526L491 524L486 522L482 521L479 519L474 516L474 510L474 506L474 502L475 497L476 495L480 493L484 491L486 488L484 484L480 482L477 482L475 482L472 484L470 488L469 493L468 498L467 502L464 506L462 509L459 510L461 514C461 514 461 518 461 519C461 520 459 522 459 522L454 522L450 522L448 520L445 519L440 519C440 519 437 522 437 523C437 524 441 527 441 527L446 527L451 527L454 528L456 530L456 532L453 534L450 534L448 534L445 535L438 535L431 536L427 536L423 535L416 532L412 530L410 527L410 524L407 520L409 518L412 517L416 518L420 520L424 522L423 517L424 514L426 514L430 514L434 514L434 512L430 509L434 508L438 508C440 508 441 506 441 506C443 506 446 506 446 506L444 503L444 499L446 497L448 496L451 494L448 491C448 491 446 487 446 486L446 482L445 478L443 477L440 475L439 472L437 468L434 466C434 466 432 465 432 464L434 458L438 456L444 453L447 451L451 448L457 445L462 444L467 443L473 441L480 440L484 440L489 443L493 447L496 451L499 456L502 455L506 452L511 452L515 452L515 449L518 449L523 449L523 448L520 446L522 443C524 442 527 441 527 441L528 440C528 440 533 440 534 441C535 442 536 442 536 442L536 438L538 435L542 433L548 433L550 431L555 432L560 433L562 436L566 439L568 442L572 442L574 444C574 445 576 451 576 451L576 458L577 461L582 461L584 460L586 459L588 457L592 458C592 458 593 460 593 461C593 462 593 465 593 465L592 470L590 470L587 473L584 476L583 480L582 486L581 490L580 497L580 502L580 506L580 510L578 514L579 520L580 524L580 527L580 530L576 530C576 530 576 532 576 533C577 534 578 537 578 537L577 540L575 542L575 545L573 548L576 550L578 555L578 559L578 565L574 568L572 569L570 571L568 574L563 577L559 577L558 574L556 578L552 580L549 584L545 586L541 591L538 595L536 600C536 600 536 608 536 607ZM494 902L492 904L488 906L485 906L481 906L478 904L475 901L472 898L472 896L469 892L467 888L467 884L466 881L466 877L466 871L467 865L467 860L468 855L469 849L469 844L472 837L473 833L473 828L475 824L475 820L476 814L478 811L478 805L476 804L471 803L468 799L464 795L462 790L459 786L457 780L455 776L455 772L454 768L458 764L460 761L462 758L463 754L455 754L450 751L444 747L440 744L437 742L433 739L428 739L422 737L416 736L410 732L406 729L405 725L402 720L397 719L392 717L388 710L382 704L378 696L373 691L367 683L367 678L367 672L368 664L367 658L360 651L356 643L353 639L348 634L343 630L339 626L335 621L331 618L327 617L322 617L318 621L314 625L310 628L306 629L302 633L298 634L294 638L288 640L282 642L279 643L274 643L270 642C270 642 271 638 271 637C271 636 274 633 276 633C278 633 283 632 283 632L288 628L293 625L295 622L292 621L288 617L285 614L282 610C282 610 283 605 283 604L286 599L288 596L282 594L279 589L282 584L282 580L280 577L282 572L284 570L289 566L291 563L297 560L306 558L314 561C313 561 320 564 320 565L324 568L329 570C329 570 331 571 333 571C335 571 341 570 341 570L347 568L352 566L361 564L371 566L378 570L385 574L394 576L399 578L400 574L397 574L392 572L388 571L385 569L380 568L377 565L378 560L378 558L378 555C376 556 373 559 373 559L369 559L366 556L366 552L365 547L364 540L366 538L370 534L374 534C375 535 379 537 379 537L384 539L390 543L393 546L397 548L399 544L404 543L406 546L407 552L410 559L413 563L414 567L413 570L414 574L418 574C418 574 419 571 419 569C419 568 420 563 420 563L422 560L422 555L418 552L416 550L414 550L413 546L417 543C417 543 419 543 420 543C421 543 424 541 424 541L429 538L434 538L440 540L447 540C447 540 452 540 453 540C454 540 458 541 458 541L464 543L468 547L469 551L472 551L476 552L478 557L482 562L484 566L487 572C487 573 490 578 490 578L494 584L494 590C493 591 492 596 492 596L491 601L489 603L486 604L480 602L476 600L472 596C472 596 470 594 470 595C469 595 466 597 466 597L466 600C465 600 461 600 461 600L459 598L458 595L460 591L464 590L466 586L468 582L464 579L461 576L460 572L462 569L461 566L456 567L453 573L453 578L453 583C453 583 452 587 452 588C453 589 456 593 456 593L457 600L454 604L450 603L446 600C444 600 441 600 441 600L438 601L438 603L436 605L433 606L432 608L427 612L425 619L428 622L431 621L433 618L437 615C437 616 441 617 441 617L443 620L446 624L448 629L451 634C451 635 452 640 452 640L456 642L456 636C456 636 459 632 460 632L462 628L462 622L458 618C458 618 458 613 458 612L459 606C459 606 461 604 461 603C462 603 469 603 469 603C469 603 472 604 472 605C473 605 477 609 477 609L482 613L481 617C481 617 482 618 483 617C484 616 488 614 488 614L493 618L496 622L500 628C500 628 502 631 503 631C504 632 507 637 507 637L510 641L510 645L506 643L505 646L508 649L512 652L515 654L515 659L512 661L504 662L502 662L497 666L494 669C494 669 494 670 493 670C492 671 490 672 490 672L483 671L480 674L478 678L472 684L470 687L467 692C467 692 464 695 464 696C463 696 460 700 460 700L455 701L457 704L458 707L458 711L455 712L452 712L450 709L449 707C449 707 450 703 449 703C448 704 447 704 447 704C446 705 443 706 443 706L440 708L437 706L434 706L432 708L430 710L427 712C427 712 424 714 424 715L423 719L425 724L430 724L436 721L440 718L442 720L442 724L443 727L442 730C442 731 445 732 445 732L448 733L451 735L454 738C454 739 455 742 456 743C456 743 459 745 460 745C462 745 468 744 468 744L472 743L482 742L486 742C486 742 490 743 491 744C492 744 497 746 497 746L501 750L507 754L508 759L515 760C515 760 520 763 521 764C522 765 526 766 526 766L532 769L535 773C538 772 542 774 542 774L546 778C546 778 547 784 547 785C547 786 545 791 545 791L546 795L544 802C544 802 541 805 541 806L538 810L536 813L532 813L528 817L527 822L523 825L520 831L519 834L517 837L514 840L510 841L508 843L506 850L500 857L497 859L494 862L491 865L488 866L487 869L489 873L488 876L490 878L488 880L486 882L483 885L484 890C484 890 484 893 485 894C486 894 488 896 488 897C489 898 492 898 492 898L494 902ZM679 687L672 688L669 686L666 683L662 686L658 680L652 684L650 687L646 686L646 678L642 673C638 675 640 680 640 680L636 680C634 678 632 672 632 672L630 678L630 682L622 680C620 682 608 686 608 686L603 684L602 674L598 672L601 668L609 666L614 666L612 655L614 649C614 649 620 644 621 644C622 644 627 638 627 638L634 632L638 626L634 624L636 618L630 618L626 610L630 602L636 595L641 590L643 579L648 572L654 568L662 563L672 559L682 559L688 565L697 570L706 582L709 575L714 573C716 570 720 568 720 568L727 570L732 570C736 570 738 567 738 567L730 563L728 557L726 552L726 545C726 545 725 540 726 539C727 538 730 532 730 532L734 528L739 523L744 520C744 520 748 518 750 517C750 516 756 515 756 515C758 515 761 512 761 512L760 520L754 524L750 528C748 529 744 532 744 532L740 536L736 537C736 537 732 540 732 542L732 550L739 558L744 561L750 564C751 564 754 560 754 560C754 560 754 550 754 549C756 548 759 543 759 543L764 540L768 546L772 550L774 546L780 549L783 546L792 542L796 538L794 532L798 526L805 526L807 520L811 514L816 515L821 520L824 516L827 509C827 509 831 509 832 509C834 509 838 511 839 512C840 513 842 518 842 518L848 518L850 524L850 529L848 532L845 534L848 538L854 536L858 541C858 541 862 540 862 542C864 542 869 541 869 541L874 541L880 544C880 544 884 548 884 549C884 550 884 556 884 556L890 556L896 555L901 552L910 548L914 554C914 554 920 552 922 552C924 553 930 556 930 556L938 558L942 564L946 568L960 574L970 572L972 567L980 566C980 566 982 570 984 572C986 572 992 578 991 578C990 580 998 584 998 584L1002 590L1001 593L994 596L988 589C987 592 986 594 986 596C986 598 982 604 982 604C982 604 975 606 974 607C973 608 969 614 969 614C969 614 961 616 960 617C960 618 950 624 950 624L950 632C950 632 950 638 949 639C948 640 944 646 944 646L940 650L936 652C936 652 931 651 932 649C932 647 934 640 934 640L934 629C934 629 940 622 941 620C942 618 945 614 945 614L952 608L944 608L940 608L939 612L933 618L928 618L921 614L917 618L908 624L904 627C904 627 904 634 906 635C908 636 916 639 916 639L916 644L914 651C912 651 912 655 912 656C914 657 917 661 917 661L923 664C923 664 918 668 916 668L910 678L910 683L904 688L898 694L889 699L881 702L884 692C884 692 894 687 894 686C895 685 900 680 900 680L900 669L904 655L894 667L888 670L884 674L886 682L885 686L882 689L877 688L874 683L866 688C866 688 866 694 866 695C866 696 870 703 870 703L864 710L872 715C868 717 864 722 864 722L856 722C856 722 852 720 852 721C852 722 844 726 844 726C844 726 840 728 841 729C842 730 846 736 846 736L842 740L837 747C833 748 828 748 828 748C828 748 828 752 828 754C828 756 832 762 833 764C834 766 838 771 838 771L843 778C843 778 849 779 854 780C859 782 867 780 869 780C871 780 879 780 880 780C882 780 891 782 891 782L886 786C886 786 879 788 877 788C875 788 868 788 868 788L858 788L846 786L829 779L820 766L811 760L811 753L820 756L820 742L820 736C816 736 810 732 810 732L804 726L798 723L795 729L788 732L784 739L786 746L790 753C786 755 778 756 778 755C778 754 771 742 771 742L766 733L766 724L760 724L756 720L742 716L736 716L742 722L741 727L736 729L734 733L722 736L716 736L706 730L700 720L693 714L694 722L696 730C698 730 701 737 703 739C705 741 710 745 710 745L719 746C721 748 721 752 721 752C721 752 719 760 718 760C717 760 710 763 710 763C710 763 704 769 703 769C702 769 700 774 700 776C700 778 700 780 700 784C700 786 701 792 702 794C702 794 700 801 700 802L696 815C696 815 692 826 691 826C690 827 683 836 683 836L677 840L666 842L658 844L653 833L650 821L642 801L644 793L645 786L640 778L634 770L634 762L628 756L618 760L613 761L605 759L597 756L592 753L589 750L586 740L584 732L584 726L586 716L589 709L599 700L602 696L604 693L623 685L632 686C632 686 638 687 639 687C640 687 644 692 644 692L653 699C653 699 656 701 658 701L666 702L666 698L672 698L678 697L683 697L686 702L690 699L690 693L686 689L679 687ZM902 786L893 788L884 791L875 794L868 798L862 803C862 803 857 802 856 805L852 810L849 814C849 814 848 818 849 820C850 822 852 829 852 829C852 829 854 836 854 837C854 838 854 843 854 843L864 843L872 840L881 840C881 840 886 840 887 842C888 844 898 844 898 844L904 845L908 850L910 854L914 862C914 862 913 864 914 864C915 865 919 867 920 868C921 868 921 858 921 858C921 858 922 851 924 850L928 844L935 838L936 828L932 818L925 807L920 797L914 792L908 786L918 788L924 784L921 782L915 776L906 774C902 774 900 772 900 772L892 769C892 769 884 768 884 769C884 770 886 774 887 774C888 774 896 778 896 778C896 778 902 785 902 786ZM375 525L366 526L366 520L372 513L384 509L384 503L392 500C396 500 399 506 399 506L396 510L390 512C386 516 387 519 387 519L393 523L396 520L400 518L403 524C406 528 406 532 406 532L402 534C398 537 396 537 396 537C392 536 390 532 390 532L384 530L375 525ZM735 489L742 488L750 471L752 468L746 468C742 470 742 464 742 464C742 464 742 456 741 456C740 456 732 460 732 460L729 466C729 466 729 470 729 471C729 472 727 474 727 474L718 470L706 470L709 478L714 481C714 481 716 484 716 486C718 488 724 482 724 482C728 482 731 484 731 484L735 489ZM338 288L332 302L340 303L341 319L322 320L322 315L308 320L320 328L322 324L341 325C341 325 342 343 342 344C342 346 336 346 336 346L344 360L350 348C348 347 348 324 348 324L358 326L362 329L370 321L360 314L359 319L348 318L346 304L350 302L340 284C340 284 338 289 338 288Z" fill="url(#Skew2)" stroke="#fff" stroke-width="1px" stroke-dasharray="1,1" transform="matrix(1.84,0,0,1.84,-394.085,-457.595)" xmlns="http://www.w3.org/2000/svg" />
+			<text x="111" y="131" xml:space="preserve" font-family="SentyTEA" font-size="12" fill="#FFFFFF" stroke="#fff" transform="matrix(1.76,0,0,1.76,-110.16,-88.76009)">
+			WEST</text>
+			<text x="283" y="136" xml:space="preserve" font-family="SentyTEA" font-size="12" fill="#FFFFFF" stroke="#fff" baseline-shift="baseline" transform="matrix(1.93,0,0,1.93,-275.91,-117.295)">
+			EAST</text>
+			<text x="205" y="53" xml:space="preserve" font-family="SentyTEA" font-size="12" fill="#FFFFFF" stroke="#fff" baseline-shift="baseline" transform="matrix(1.517,0,0,1.517,-125.623,-18.233)">
+			NORTH</text>
+			<text x="205" y="225" xml:space="preserve" font-family="SentyTEA" font-size="12" fill="#FFFFFF" stroke="#fff" baseline-shift="baseline" transform="matrix(1.627,0,0,1.627,-150.507,-138.307)">
+			SOUTH</text>
+			</svg>
+		</span>
+		<span style="position:absolute;top:1200px;left:3%;z-index:102;">
+			<img src="https://chengjiaoyuan.github.io/PinkCode/%E5%BD%92%E4%B8%80/flying.png" id="fly"/>
+		</span>
+		<h3 style="display:block;position:absolute;left:47%;top:480px;font-size:110px;z-index:102;">归一</h3>
+	</center>
+</body>
+</html>
