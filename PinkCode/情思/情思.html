@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/98127/45803/599589cef629db056cea05c3.css' rel='stylesheet' type='text/css'/>
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/98127/46024/5996488df629d819ecc56fa4.css' rel='stylesheet' type='text/css' />
+	<style>
+		body{
+			margin-left:-960px; 
+			width:1920px;
+			position:relative;
+			left:50%;
+			overflow-x:hidden;
+			background:#F0EFF4;
+			color:#60656A;
+		}
+		ol{
+			list-style:none;
+			text-align:center;
+		}
+		a{text-decoration: none;}
+		.bg-flower {
+	        position:absolute;
+	        top: 0;
+	        left: 0;
+	        width:100%;
+	        height:1620px;
+	        background:#F0EFF4;
+	        border-bottom: 5px solid rgba(255,255,255,.8);
+	    }
+	    ::-webkit-scrollbar {WIDTH: 12px;} 
+	    ::-webkit-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(203,236,235, 0.5); } 
+	    ::-webkit-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(203,236,235, 0.6); } 
+	    ::-o-scrollbar {WIDTH: 12px;} 
+	    ::-o-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(203,236,235, 0.4); } 
+	    ::-o-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(203,236,235, 0.5); } 
+	    ::-moz-scrollbar {WIDTH: 12px;} 
+	    ::-moz-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(203,236,235, 0.4); } 
+	    ::-moz-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(203,236,235, 0.5); } 
+	    ::-ms-scrollbar {WIDTH: 12px;} 
+	    ::-ms-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(203,236,235, 0.4); } 
+	    ::-ms-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(203,236,235, 0.5); } 
+	    ::scrollbar {WIDTH: 12px;} 
+	    ::scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(203,236,235, 0.4); } 
+	    ::scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(203,236,235, 0.5); }
+		.box{
+		    width: 900px;
+		    height: 600px;
+		    position:relative;
+		    background:url(https://chengjiaoyuan.github.io/PinkCode/%E9%99%9B%E4%B8%8B/KingBG.png) no-repeat center center;
+		    border-top: 1px solid #A5E0DA;
+		    border-right: 1px solid #CEEAEB;
+		    border-bottom-right-radius: 60px 60px;
+		    box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
+		    -webkit-border-bottom-right-radius: 60px 60px;
+		    -webkit-box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
+		    -moz-border-bottom-right-radius: 60px 60px;
+		    -moz-box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
+		    -ms-border-bottom-right-radius: 60px 60px;
+		    -ms-box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
+		    -o-border-bottom-right-radius: 60px 60px;
+		    -o-box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
+		}
+		.box:before{
+		    content:'';    
+		    width: 25px;
+		    height: 20px;
+		    background: white;
+		    position: absolute;
+		    bottom:0; right:0;
+		    background: -webkit-gradient(linear, 0% 20%, 50% 40%, from(#fff), to( #eee), color-stop(.1,#fff));
+		    -webkit-border-bottom-right-radius: 30px;
+		    border-bottom-right-radius: 30px;
+		    -o-border-bottom-right-radius: 30px;
+		    -ms-border-bottom-right-radius: 30px;
+		    -moz-border-bottom-right-radius: 30px;
+		    -webkit-box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3);
+		    -moz-box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3);
+		    -ms-box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3);
+		    -o-box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3);
+		    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3);
+		    -webkit-transform: rotate(-20deg) skew(-40deg,-3deg) translate(-13px,-13px);
+		    -moz-transform: rotate(-20deg) skew(-40deg,-3deg) translate(-13px,-13px);
+		    -ms-transform: rotate(-20deg) skew(-40deg,-3deg) translate(-13px,-13px);
+		    -o-transform: rotate(-20deg) skew(-40deg,-3deg) translate(-13px,-13px);
+		    transform: rotate(-20deg) skew(-40deg,-3deg) translate(-13px,-13px);
+		}
+		.box:after{
+		    content: '';
+		    z-index: -1;
+		    width: 100px;
+		    height: 100px;
+		    position:absolute;
+		    bottom:0;
+		    right:0;
+		    background: rgba(0, 0, 0, 0.2);
+		    display: inline-block;
+		    box-shadow: 20px 20px 8px rgba(0, 0, 0, 0.2);
+		    transform: rotate(0deg) translate(-45px,-20px) skew(20deg);
+		    -webkit-box-shadow: 20px 20px 8px rgba(0, 0, 0, 0.2);
+		    -webkit-transform: rotate(0deg) translate(-45px,-20px) skew(20deg);
+		    -moz-box-shadow: 20px 20px 8px rgba(0, 0, 0, 0.2);
+		    -moz-transform: rotate(0deg) translate(-45px,-20px) skew(20deg);
+		    -ms-box-shadow: 20px 20px 8px rgba(0, 0, 0, 0.2);
+		    -ms-transform: rotate(0deg) translate(-45px,-20px) skew(20deg);
+		    -o-box-shadow: 20px 20px 8px rgba(0, 0, 0, 0.2);
+		    -o-transform: rotate(0deg) translate(-45px,-20px) skew(20deg);
+		}
+		#container{
+		    height:1635px;
+		    width: 1000px;
+		}
+		.title{
+			font-family:'LiDeBiao-Xing3c954b97c817f4f';
+			font:'LiDeBiao-Xing3c954b97c817f4f';
+			face:'LiDeBiao-Xing3c954b97c817f4f';
+			font-size: 36px;
+			display: block;
+			width: 450px;
+			height: 36px;
+			line-height: 36px;
+			text-align: center;
+			color: #727272;
+		}
+		.cast{
+			position: relative;
+			left:-45px;
+		}
+		.cast li{
+			 width:320px;
+			 height:30px;
+			 line-height:30px;
+			 margin: 2px;
+			 float: left;
+			 font-size: 18px;
+			 text-align: left;
+			 color:#4D9EAA;
+			 padding-left: 20px;
+			 font-weight: bold;
+		}
+		.cast li span{
+			font-size: 18px;
+			color:#fff;
+			TEXT-SHADOW:0 0 #85B9D6,0 1px #85B9D6,0 -1px #85B9D6,1px 0 #85B9D6, 1px 1px #85B9D6, 1px -1px #85B9D6, -1px 0 #85B9D6, -1px 1px #85B9D6, -1px -1px #85B9D6;
+			-o-TEXT-SHADOW:0 0 #85B9D6,0 1px #85B9D6,0 -1px #85B9D6,1px 0 #85B9D6, 1px 1px #85B9D6, 1px -1px #85B9D6, -1px 0 #85B9D6, -1px 1px #85B9D6, -1px -1px #85B9D6;
+			-webkit-TEXT-SHADOW:0 0 #85B9D6,0 1px #85B9D6,0 -1px #85B9D6,1px 0 #85B9D6, 1px 1px #85B9D6, 1px -1px #85B9D6, -1px 0 #85B9D6, -1px 1px #85B9D6, -1px -1px #85B9D6;
+			-ms-TEXT-SHADOW:0 0 #85B9D6,0 1px #85B9D6,0 -1px #85B9D6,1px 0 #85B9D6, 1px 1px #85B9D6, 1px -1px #85B9D6, -1px 0 #85B9D6, -1px 1px #85B9D6, -1px -1px #85B9D6;
+			-moz-TEXT-SHADOW:0 0 #85B9D6,0 1px #85B9D6,0 -1px #85B9D6,1px 0 #85B9D6, 1px 1px #85B9D6, 1px -1px #85B9D6, -1px 0 #85B9D6, -1px 1px #85B9D6, -1px -1px #85B9D6;
+			font-weight: lighter;
+		}
+		.staff{
+			position: relative;
+			left:-45px;
+		}
+		.staff li{
+			 width:425px;
+			 height:30px;
+			 line-height:30px;
+			 margin: 2px;
+			 float: left;
+			 font-size: 18px;
+			 text-align: left;
+			 color:#4D9EAA;
+			 padding-left: 20px;
+			 font-weight: bold;
+		}
+		.staff li span{
+			font-size: 18px;
+			color:#fff;
+			TEXT-SHADOW:0 0 #85B9D6,0 1px #85B9D6,0 -1px #85B9D6,1px 0 #85B9D6, 1px 1px #85B9D6, 1px -1px #85B9D6, -1px 0 #85B9D6, -1px 1px #85B9D6, -1px -1px #85B9D6;
+			-o-TEXT-SHADOW:0 0 #85B9D6,0 1px #85B9D6,0 -1px #85B9D6,1px 0 #85B9D6, 1px 1px #85B9D6, 1px -1px #85B9D6, -1px 0 #85B9D6, -1px 1px #85B9D6, -1px -1px #85B9D6;
+			-webkit-TEXT-SHADOW:0 0 #85B9D6,0 1px #85B9D6,0 -1px #85B9D6,1px 0 #85B9D6, 1px 1px #85B9D6, 1px -1px #85B9D6, -1px 0 #85B9D6, -1px 1px #85B9D6, -1px -1px #85B9D6;
+			-ms-TEXT-SHADOW:0 0 #85B9D6,0 1px #85B9D6,0 -1px #85B9D6,1px 0 #85B9D6, 1px 1px #85B9D6, 1px -1px #85B9D6, -1px 0 #85B9D6, -1px 1px #85B9D6, -1px -1px #85B9D6;
+			-moz-TEXT-SHADOW:0 0 #85B9D6,0 1px #85B9D6,0 -1px #85B9D6,1px 0 #85B9D6, 1px 1px #85B9D6, 1px -1px #85B9D6, -1px 0 #85B9D6, -1px 1px #85B9D6, -1px -1px #85B9D6;
+			font-weight: lighter;
+		}
+		.xx{display:inline-block;width:375px;border-bottom:1px dashed rgba(63,179,188,.4);}
+		.x{display:inline-block;width:385px;border-bottom:1px dashed rgba(63,179,188,.4);}
+		.z{display:inline-block;width:450px;border-bottom:1px dashed rgba(63,179,188,.4);}
+		.xz{display:inline-block;width:435px;border-bottom:1px dashed rgba(63,179,188,.4);}
+		.y{display:inline-block;width:416px;border-bottom:1px dashed rgba(63,179,188,.4);}
+		.xy{display:inline-block;width:390px;border-bottom:1px dashed rgba(63,179,188,.4);}
+		.m{display:inline-block;width:430px;border-bottom:1px dashed rgba(63,179,188,.4);}
+		.xm{display:inline-block;width:470px;border-bottom:1px dashed rgba(63,179,188,.4);}
+		.xmm{display:inline-block;width:500px;border-bottom:1px dashed rgba(63,179,188,.4);}
+		.circle{
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			-o-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			-ms-border-radius: 50%;
+			background:#C2E4E8;
+			position: absolute;
+			left:225px;
+			top:475px;
+			z-index: 99;
+		}
+		.shengming{
+			 border-top:1px dashed #8DCFCF;
+			 border-bottom:1px dashed #8DCFCF;
+			 width: 900px;
+			 height: 120px;
+			 position: relative;
+			 top:35px;
+			 left:30px;
+		}
+		.shengming td{
+			text-align: center;
+			font-size: 18px;
+			font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
+		}
+		a{text-decoration:none;color:#fff;} 
+		.link{ 
+		animation:go 5s ease infinite;-webkit-animation:go 5s ease infinite;-moz-animation:go 5s ease infinite;
+		-o-animation:go 5s ease infinite;-ms-animation:go 5s ease infinite;width:60px;height:60px;text-align:center;
+		background-color:rgba(77,158,170,.6);
+		text-shadow:0 0 3px #a3a9a2;
+		-o-text-shadow:0 0 3px #a3a9a2;
+		-moz-text-shadow:0 0 3px #a3a9a2;
+		-webkit-text-shadow:0 0 3px #a3a9a2;
+		-ms-text-shadow:0 0 3px #a3a9a2;
+		BORDER-RADIUS:50%;-moz-border-radius: 50%;-webkit-border-radius:50%;-o-border-radius:50%;-ms-border-radius: 50%;font-size:22px;
+		WIDTH:60px; HEIGHT:60px;
+		}
+
+		@keyframes go { 0% {transform:rotateY(0deg);} 25% { transform:rotateY(90deg);} 50% { transform:rotateY(180deg);} 
+		75% { transform:rotateY(90deg);} 100% { transform:rotateY(0deg);}}
+
+		@-webkit-keyframes go { 0% {transform:rotateY(0deg);} 25% { -webkit-transform:rotateY(90deg);} 50% { -webkit-transform:rotateY(180deg);}
+		75% { -webkit-transform:rotateY(270deg);} 100% { -webkit-transform:rotateY(360deg);}} 
+		@-moz-keyframes wobble { 0% {transform:rotateY(0deg);} 25% { -moz-transform:rotateY(90deg);} 50% { -moz-transform:rotateY(180deg);} 
+		75% { -moz-transform:rotateY(270deg);} 100% {-moz-transform:rotateY(360deg);}}
+
+		@-o-keyframes go { 0% {transform:rotateY(0deg);} 25% { -o-transform:rotateY(90deg);} 50% { -o-transform:rotateY(180deg);}
+		75% { -o-transform:rotateY(270deg);} 100% { -o-transform:rotateY(360deg);}}
+
+		@-ms-keyframes go { 0% {transform:rotateY(0deg);} 25% { -ms-transform:rotateY(90deg);} 50% { -ms-transform:rotateY(180deg);} 
+		75% { -ms-transform:rotateY(270deg);} 100% { -ms-transform:rotateY(360deg);}}
+		#link2{
+		animation:go 10s ease infinite;-webkit-animation:go 10s ease infinite;-moz-animation:go 10s ease infinite;
+		-o-animation:go 10s ease infinite;-ms-animation:go 10s ease infinite;width:60px;height:60px;text-align:center;
+		background-color:rgba(77,158,170,.6);
+		BORDER-RADIUS:50%;-moz-border-radius: 50%;-webkit-border-radius:50%;-o-border-radius:50%;-ms-border-radius: 50%;font-size:21px;
+		text-shadow:0 0 3px #a3a9a2;
+		-o-text-shadow:0 0 3px #a3a9a2;
+		-moz-text-shadow:0 0 3px #a3a9a2;
+		-webkit-text-shadow:0 0 3px #a3a9a2;
+		-ms-text-shadow:0 0 3px #a3a9a2;
+		WIDTH:60px; HEIGHT:60px;
+		}
+		#link3{
+		animation:go 15s ease infinite;-webkit-animation:go 15s ease infinite;-moz-animation:go 15s ease infinite;
+		-o-animation:go 15s ease infinite;-ms-animation:go 15s ease infinite;width:60px;height:60px;text-align:center;
+		background-color:rgba(77,158,170,.6);
+		BORDER-RADIUS:50%;-moz-border-radius: 50%;-webkit-border-radius:50%;-o-border-radius:50%;-ms-border-radius: 50%;font-size:21px;
+		text-shadow:0 0 3px #a3a9a2;
+		o-text-shadow:0 0 3px #a3a9a2;
+		-moz-text-shadow:0 0 3px #a3a9a2;
+		-webkit-text-shadow:0 0 3px #a3a9a2;
+		-ms-text-shadow:0 0 3px #a3a9a2;
+		WIDTH:60px; HEIGHT:60px;
+		}
+		#circle{
+			width: 1000px;
+			height: 1000px;
+			border-radius: 50%;
+			-o-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			-ms-border-radius: 50%;
+			border: 2px solid #A4CCCE;
+			z-index: 2;
+			background-color: rgba(255,255,255,.8);
+			position: relative;top:60px;
+		}
+		#square{
+			width: 1000px;
+			height: 300px;
+			border: 2px solid #A4CCCE; 
+			border-radius: 12px;
+			-o-border-radius:12px;
+			-webkit-border-radius:12px;
+			-moz-border-radius:12px;
+			-ms-border-radius:12px;
+		}
+		.ed{
+			position: relative;
+			left:-10px;
+			top:-10px;
+		}
+		.ed li{
+			 width:30px;
+			 height:250px;
+			 line-height:30px;
+			 padding-top: 45px;
+			 float: left;
+			 font-size: 18px;
+			 text-align: center;
+			 color:#4D9EAA;
+			 font-weight: bold;
+			 vertical-align: top;
+			 background-color: rgba(255,255,255,.8);
+			 margin-right: 3px;
+			 border-radius: 6px;
+			 -o-border-radius: 6px;
+			 -webkit-border-radius: 6px;
+			 -moz-border-radius: 6px;
+			 -ms-border-radius: 6px;
+		}
+		.ed li span{
+			font-size: 18px;
+			color:#fff;
+			TEXT-SHADOW:0 0 #85B9D6,0 1px #85B9D6,0 -1px #85B9D6,1px 0 #85B9D6, 1px 1px #85B9D6, 1px -1px #85B9D6, -1px 0 #85B9D6, -1px 1px #85B9D6, -1px -1px #85B9D6;
+			-o-TEXT-SHADOW:0 0 #85B9D6,0 1px #85B9D6,0 -1px #85B9D6,1px 0 #85B9D6, 1px 1px #85B9D6, 1px -1px #85B9D6, -1px 0 #85B9D6, -1px 1px #85B9D6, -1px -1px #85B9D6;
+			-webkit-TEXT-SHADOW:0 0 #85B9D6,0 1px #85B9D6,0 -1px #85B9D6,1px 0 #85B9D6, 1px 1px #85B9D6, 1px -1px #85B9D6, -1px 0 #85B9D6, -1px 1px #85B9D6, -1px -1px #85B9D6;
+			-ms-TEXT-SHADOW:0 0 #85B9D6,0 1px #85B9D6,0 -1px #85B9D6,1px 0 #85B9D6, 1px 1px #85B9D6, 1px -1px #85B9D6, -1px 0 #85B9D6, -1px 1px #85B9D6, -1px -1px #85B9D6;
+			-moz-TEXT-SHADOW:0 0 #85B9D6,0 1px #85B9D6,0 -1px #85B9D6,1px 0 #85B9D6, 1px 1px #85B9D6, 1px -1px #85B9D6, -1px 0 #85B9D6, -1px 1px #85B9D6, -1px -1px #85B9D6;
+			font-weight: lighter;
+		}
+		#biaoti{
+			font-family:'winmantun25006c9834b22a17f4f';
+			face:'winmantun25006c9834b22a17f4f';
+			font:'winmantun25006c9834b22a17f4f';
+			font-size:160px;
+			color: #4D9EAA;
+		}
+	</style>
+</head>
+<body>
+	<ol class="bg-flower"><li></li></ol>
+	<span style="position:absolute;left:42%;top:100px;display:block;z-index:101;" id="biaoti">
+		情思
+	</span>
+	<section style="background:url(https://chengjiaoyuan.github.io/PinkCode/%E6%83%85%E6%80%9D/%E5%A5%B3%E4%B8%BBS.png) no-repeat center center;position:absolute;left:7%;top:1020px;z-index:2;width:400px;height:615px;">
+		<span class="title" style="position:relative;left:-60px;top:-60px;">啊，尚卿，出现幻觉了吗...</span>
+	</section>
+	<section style="background:url(https://chengjiaoyuan.github.io/PinkCode/%E6%83%85%E6%80%9D/%E7%94%B7%E4%B8%BBS.png) no-repeat center center;position:absolute;right:4%;top:930px;z-index:2;width:500px;height:707px;">
+		<span class="title" style="position:relative;left:100px;top:-60px;">夏陌语！夏陌语！</span>
+	</section>
+	<section style="position:absolute;left:27%;top:0px;" id="container">
+		<span style="width:80px;height:485px;display:block;position:absolute;left:-40px;top:330px;z-index:99;"><img src="https://chengjiaoyuan.github.io/PinkCode/%E6%83%85%E6%80%9D/%E7%93%B6.png"/></span>
+		<table style="position:relative;top:265px;">
+			<tr>
+				<td id="circle"><img src="https://chengjiaoyuan.github.io/PinkCode/%E6%83%85%E6%80%9D/BG.jpg" width=500px height=1050px  style="border:1px solid #C9DEE0;box-shadow: 0px 0px 15px #C9DEE0;position:relative;left:5px;"/>
+				</td>
+			</tr>
+			<tr>
+				<td id="square" colspan='2'>
+					<ol class="ed">
+						<li style="border-right:2px solid #A4CCCE;color:#579EA2;font-weight:bold;font-size:24px;">双生辞</li>
+						<li>填词<br/>：<br/>Mr<br/>.<br/>愚</li>
+						<li><span>己酉社团</span></li>
+						<li>策划<br/>：咖啡受受</li>
+						<li><span>扶音剧社</span></li>
+						<li>翻唱<br/>：九漓阳</li>
+						<li><span>初<br/>C<br/>广播剧社</span></li>
+						<li>后期<br/>：临溪</li>
+						<li><span>羽落有声</span></li>
+						<li>美工<br/>：醉微沉</li>
+						<li>春歇 花落</li>
+						<li>痴梦一场醉酒一回</li>
+						<li>秋尽 人离</li>
+						<li>双玉碎此际心偏苦</li>
+						<li>雨打芭蕉声欲摧</li>
+						<li>檀痕涴湿汝罗袖</li>
+						<li>灯影伴鸣梭事皆非</li>
+						<li>双碟自单飞</li>
+						<li>落木萧萧斜日下</li>
+						<li>遥山如画情一诺</li>
+						<li>青鬓落雪后谁与话</li>
+						<li>弹指已再度花</li>
+						<li>铜镜台前双泪划</li>
+						<li>红妆十里伊人嫁</li>
+						<li>耳际恍惚卿亦不现</li>
+						<li>只道旧时画</li>
+					</ol>
+				</td>
+			</tr>
+		</table>
+		<table width=480px height=1065px style="position:absolute;top:325px;left:510px;z-index:100;">
+			<tr>
+				<td style="border-left:2px solid #A4CCCE;">
+					<ol class="cast">
+						<li style="border-bottom:2px solid #A4CCCE;color:#579EA2;font-weight:bold;font-size:24px;">配音组</li>
+						<li>报幕：落月潇潇<span>   风流逐声</span></li>
+						<li>季尚卿：朗月<span>   凌霄剧团</span></li>
+						<li>夏陌语：牧野冥姬<span>   10音社</span></li>
+						<li>小翠：吖鬼<span>   陌暖夜</span></li>
+						<li>季府丫鬟：尧瑶<span>   音魂不散</span></li>
+						<li>夏夫人：小汐<span>   异口同声</span></li>
+						<li>夏老爷：十六夜<span>   翼之声</span></li>
+						<li>马场小厮：少泽<span>   风流逐声</span></li>
+						<li>店小二：十六夜<span>   翼之声</span></li>
+						<li>谭老板：令狐笑笑生<span>   风流逐声</span></li>
+						<li>管家：寸灰丶<span>   清平乐</span></li>
+						<li>路人甲：落月潇潇<span>   风流逐声</span></li>
+						<li>路人乙：羽辰<span>   凌霄剧团</span></li>
+						<li>媒婆：冥小鱼<span>   声色留香</span></li>
+					</ol>
+					<ol class="staff">
+						<li style="border-bottom:2px solid #A4CCCE;color:#579EA2;font-weight:bold;font-size:24px;text-align:right;padding-right:20px;">制作组</li>
+						<li>编剧：安野<span>   有声之年</span></li>
+						<li>策划：咖啡受受<span>   月玲珑</span></li>
+						<li>导演：咖啡受受<span>   月玲珑</span></li>
+						<li>监制：兔子</li>
+						<li>后期：煜二<span>   笙莘剧社</span></li>
+						<li>画师：银万昌<span>   尘韵清魂</span></li>
+						<li>美工：醉微沉
+						<li>宣传：城郊园<span>   Always</span></li>
+					</ol>
+				</td>
+			</tr>
+		</table>
+		<table style="z-index:100;position:absolute;top:325px;left:478px;"> 
+						<tr>
+							<TD WIDTH=30 HEIGHT=680px STYLE='BORDER-RIGHT:1PX SOLID #4D9EAA;'></TD><TD WIDTH=30></TD>
+						</TR>
+						<TR>
+							<td COLSPAN='2' WIDTH=60px HEIGHT=60px id='link3'><a href="http://xima.tv/Eguop1" target=_blank style='color:#fff;WIDTH=60px'><b style='color=#fff'>喜马</b></td>
+						</TR>
+						<TR> 
+							<td COLSPAN='2' WIDTH=60px HEIGHT=60px class="link"><a href="http://www.missevan.com/sound/249435" target=_blank style='color:#fff;WIDTH=60px'><b style='color=#fff'>猫耳</b></td>
+						</TR>
+						<TR>
+							<td COLSPAN='2' WIDTH=60px HEIGHT=60px id='link3'><a href="https://www.lizhi.fm/1758306/2593922076216062470" target=_blank style='color:#fff;WIDTH=60px'><b style='color=#fff'>荔枝</b></td>
+						</TR>
+						<TR>
+							<td COLSPAN='2' WIDTH=60px HEIGHT=60px id='link2'><a href="http://pan.baidu.com/s/1bMD5oE" target=_blank style='color:#fff;WIDTH=60px'><b style='color=#fff'>网盘</b></td>
+						</TR>
+		</table>
+	</section>
+</body>
+</html>
