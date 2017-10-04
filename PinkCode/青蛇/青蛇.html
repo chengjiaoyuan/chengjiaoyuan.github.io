@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <link rel='stylesheet' href='http://chengjiaoyuan.github.io/PinkCode/CSS/CSSFont/英文/juice/orange juice 2.0.css' media='screen' title='no title' charset='utf-8'>
+    <link rel='stylesheet' href='https://chengjiaoyuan.github.io/PinkCode/CSS/CSSFont/%E5%AD%97%E9%85%B7%E6%A5%B7%E4%BD%93/%E5%AD%97%E9%85%B7%E5%A0%82%E9%BB%84%E6%A5%B7%E4%BD%93.css' media='screen' title='no title' charset='utf-8'/>
+	<style>
+		body{
+			margin-left:-950px; 
+			width:1900px;
+			position:relative;
+			left:50%;
+			overflow-x:hidden;
+			background-color:#2E8B57;
+			color:#fff;
+			font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
+		}
+		span{
+			font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
+		}
+		ol{
+			list-style:none;
+			text-align:center;
+		}
+		a{text-decoration: none;}
+		.bg-flower {
+	        position: absolute;
+	        background:url(https://chengjiaoyuan.github.io/PinkCode/%E9%9D%92%E8%9B%87/BGS.png) no-repeat top center fixed;
+	        top: 0;
+	        left: 0;
+	        width: 100%;
+	        height:1850px;
+	      }
+	    ::-webkit-scrollbar {WIDTH: 12px;} 
+	    ::-webkit-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(143,197,149, 0.5); } 
+	    ::-webkit-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(143,197,149, 0.6); } 
+	    ::-o-scrollbar {WIDTH: 12px;} 
+	    ::-o-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(143,197,149, 0.4); } 
+	    ::-o-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(143,197,149, 0.5); } 
+	    ::-moz-scrollbar {WIDTH: 12px;} 
+	    ::-moz-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(143,197,149, 0.4); } 
+	    ::-moz-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(143,197,149, 0.5); } 
+	    ::-ms-scrollbar {WIDTH: 12px;} 
+	    ::-ms-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(143,197,149, 0.4); } 
+	    ::-ms-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(143,197,149, 0.5); } 
+	    ::scrollbar {WIDTH: 12px;} 
+	    ::scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(143,197,149, 0.4); } 
+	    ::scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(143,197,149, 0.5); }
+	    #cast li{
+	        color:#fff;
+			font-size:22px;
+			text-align: left;
+			height: 35px;
+			line-height: 35px;
+	    }
+	    #cast{
+	    	z-index: 110;
+	    	border-radius: 6px;
+	    	-o-border-radius: 6px;
+	    	-webkit-border-radius: 6px;
+	    	-moz-border-radius: 6px;
+	    	-ms-border-radius: 6px;
+	    	position: relative;
+	    	top:-40px;
+	    }
+	    #cast li span:nth-child(odd){
+	        font-size:22px;
+	        border-radius:6px;
+	        -o-border-radius:6px;
+	        -moz-border-radius:6px;
+	        -ms-border-radius:6px;
+	        -webkit-border-radius:6px;
+	        color:#fff;
+	        font-weight: lighter;
+	        text-shadow:0 0 #ED1845,0 1px #ED1845,0 -1px #ED1845,1px 0 #ED1845, 1px 1px #ED1845, 1px -1px #ED1845, -1px 0 #ED1845, -1px 1px #ED1845, -1px -1px #ED1845;
+
+	    }
+	    #cast li span:nth-child(even){
+	        color:#CAF4CF;
+	        font-size:22px;
+	    } 
+	    .one{
+	    	width: 30px;
+	    	height:60px;
+	    	border: 1px solid #fff;
+	    	border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;
+	    	transform:rotate(-36deg);
+	    	-o-transform:rotate(-36deg);
+	    	-moz-transform:rotate(-36deg);
+	    	-ms-transform:rotate(-36deg);
+	    	-webkit-transform:rotate(-36deg);
+	    }
+	    .three{
+	    	width:40px;
+	    	height: 160px;
+	    	line-height:1.2;
+	    	font-size: 22px;
+	    	color: #fff;
+	    	box-shadow: 0px 0px 15px  #fff;
+	    	position: relative;
+	    	top:-12px;
+	    	left: 25px;
+	    	transform:rotate(-16deg);
+	    	-o-transform:rotate(-16deg);
+	    	-moz-transform:rotate(-16deg);
+	    	-ms-transform:rotate(-16deg);
+	    	-webkit-transform:rotate(-16deg);
+	    	border-radius:6px;
+	        -o-border-radius:6px;
+	        -moz-border-radius:6px;
+	        -ms-border-radius:6px;
+	        -webkit-border-radius:6px;
+	        float: left;
+	        vertical-align: top;
+	        z-index:2;
+	    }
+	    .two{
+	    	width:40px;
+	    	line-height:1.2;
+	    	font-size: 22px;
+	    	color: #fff;
+	    	height: 150px;
+	    	box-shadow: 0px 0px 15px  #fff;
+	    	position: relative;
+	    	top:-12px;
+	    	left: 25px;
+	    	transform:rotate(16deg);
+	    	-o-transform:rotate(16deg);
+	    	-moz-transform:rotate(16deg);
+	    	-ms-transform:rotate(16deg);
+	    	-webkit-transform:rotate(16deg);
+	    	border-radius:6px;
+	        -o-border-radius:6px;
+	        -moz-border-radius:6px;
+	        -ms-border-radius:6px;
+	        -webkit-border-radius:6px;
+	        float: left;
+	        vertical-align: top;
+	        z-index: 3;
+	    }
+	    .four{
+	    	width:40px;
+	    	line-height:1.2;
+	    	font-size: 22px;
+	    	color: #fff;
+	    	height: 150px;
+	    	background-color: rgba(9,70,115,.6);
+	    	box-shadow: 0px 0px 10px  #fff;
+	    	position: relative;
+	    	top:-12px;
+	    	left: 25px;
+	    	border-radius:6px;
+	        -o-border-radius:6px;
+	        -moz-border-radius:6px;
+	        -ms-border-radius:6px;
+	        -webkit-border-radius:6px;
+	        float: left;
+	        vertical-align: top;
+	        z-index: 3;
+	    }
+	    .ed{
+	    	position: relative;
+	    	top:110px;
+	    	left: -42px;
+	    }
+	    .ed li{
+	    	width:30px;
+	    	line-height:1.2;
+	    	font-size: 22px;
+	    	color: #fff;
+	    	vertical-align: top;
+	    	float: left;
+	    }
+	    .ed li span:nth-child(odd){
+	    	text-shadow:0 0 #ED1845,0 1px #ED1845,0 -1px #ED1845,1px 0 #ED1845, 1px 1px #ED1845, 1px -1px #ED1845, -1px 0 #ED1845, -1px 1px #ED1845, -1px -1px #ED1845;
+	    	color:#fff;
+	    }
+	    .ed li span:nth-child(even){
+	        color:#CAF4CF;
+	    } 
+	    .ed2{
+	    	position: relative;
+	    	top:140px;
+	    }
+	    .ed2 li{
+	    	height:30px;
+	    	line-height:30px;
+	    	font-size: 22px;
+	    	color: #fff;
+	    	float: center;
+	    }
+		.two font{
+			display:none;
+		}
+		.three font{
+			display:none;
+		}
+		.two:hover font{
+			display:block;
+			cursor:pointer;
+		}
+		.three:hover font{
+			display:block;
+			cursor:pointer;
+		}
+		.two span{
+			display:block;
+		}
+		.three span{
+			display:block;
+		}
+		.two:hover span{
+			display:none;
+			cursor:pointer;
+		}
+		.three:hover span{
+			display:none;
+			cursor:pointer;
+		}
+		.link li{
+	    	float: left;
+	    	margin: 5px;
+	    	font-weight: lighter;
+	    	font-size: 24px;
+	    	width: 140px;
+	    	height: 35px;
+	    	line-height: 35px;
+	    	border-top: 1px dashed #56CF62;
+	    	border-bottom: 1px dashed #56CF62;
+	    }
+	    .link li a{
+			color:#12B323;
+			text-shadow:0 0 #fff,0 1px #fff,0 -1px #fff,1px 0 #fff, 1px 1px #fff, 1px -1px #fff, -1px 0 #fff, -1px 1px #fff, -1px -1px #fff;
+			-o-text-shadow:0 0 #fff,0 1px #fff,0 -1px #fff,1px 0 #fff, 1px 1px #fff, 1px -1px #fff, -1px 0 #fff, -1px 1px #fff, -1px -1px #fff;
+			-webkit-text-shadow:0 0 #fff,0 1px #fff,0 -1px #fff,1px 0 #fff, 1px 1px #fff, 1px -1px #fff, -1px 0 #fff, -1px 1px #fff, -1px -1px #fff;
+			-moz-text-shadow:0 0 #fff,0 1px #fff,0 -1px #fff,1px 0 #fff, 1px 1px #fff, 1px -1px #fff, -1px 0 #fff, -1px 1px #fff, -1px -1px #fff;
+			-ms-text-shadow:0 0 #fff,0 1px #fff,0 -1px #fff,1px 0 #fff, 1px 1px #fff, 1px -1px #fff, -1px 0 #fff, -1px 1px #fff, -1px -1px #fff;
+	    }
+	</style>
+</head>
+<body>
+	<ol class="bg-flower">
+      <li></li>
+    </ol>
+    <center>
+    	<span style="display:block;width:1200px;height:500px;position:absolute;top:50px;left:20%;font-size:150px;color:#fff;">
+    		青蛇
+    	</span>
+    	<section style="position:absolute;left:20%;top:300px;border:15px solid #B5EABA;width: 800px;height: 615px;border-radius:50%;background:url(https://chengjiaoyuan.github.io/PinkCode/%E9%9D%92%E8%9B%87/%E9%9D%92%E8%9B%87.png) no-repeat center center;-o-border-radius:50%;-webkit-border-radius:50%;-ms-border-radius:50%;-moz-border-radius:50%;box-shadow:0px 0px 15px #B5EABA;background-size:800px 615px;">
+ 		</section>
+ 		<span style="display:block;position:absolute;left:63%;top:300px;width:380px;">
+			<table width=380px>
+				<tr>
+					<td style="position:relative;left:35px;"><h3 style="font-size:36px;color:#fff;">配音组<font style="color:#FF3164;font-size:20px;position:relative;top:5px;left:90px;">【肖沙冰】原著</font></h3></td>
+				</tr>
+				<tr>
+					<td>
+						<ol id="cast">
+							<li>小青：<span>舒小耗纸</span><span> 决意同人</span></li>
+							<li>白素贞：<span>郁望梦始</span><span style="font-size:18px;"> Voice&Co工作室</span></li>
+							<li>许仙：<span>墨千临</span><span> 星之声</span></li>
+							<li>法海：<span>青渡</span><span> 绘音配音</span></li>
+							<li>天帝：<span>追马</span><span> 10音社</span></li>
+							<li>许仕林：<span>盘盘羊</span><span> 10音社</span></li>
+							<li>天神：<span>守护</span><span> 十四桥</span></li>
+							<li>报幕：<span>浮梦若薇</span><span> 优思铭想</span></li>
+							<li>嫦娥：<span>谷杉怿</span></li>
+							<li>路人甲：<span>青岛猫叔</span><span> 魔音帝国</span></li>
+							<li>路人乙：<span>桐雀</span><span> KA.U</span></li>
+							<li>路人丙：<span>弄瓦</span><span> 十月工作室</span></li>
+							<li>路人丁：<span>Rika璃</span><span> 沐音声社</span></li>
+						</ol>
+					</td>
+				</tr>
+			</table>
+		</span>
+		<span style="display:block;position:absolute;left:22%;top:980px;width:1200px;border-top:5px solid #A3E4A9;"></span>
+			<table style="position:absolute;left:22%;top:980px;z-index:120;" height=600px>
+				<tr>
+					<td>
+						<ol style="position:relative;top:-200px;">
+							<li class="one">
+							</li>
+						</ol>
+						<ol style="position:relative;top:-220px;left:-40px;">
+							<li class="two">
+								<span>策划<span style="color:#CAF4CF;">魔使夙落</span></span><font>醉行歌</font>
+							</li>
+							<li class="three">
+								<span><br/><br/>导演<span style="color:#CAF4CF;">桐雀</span></span><font><br/><br/>K<br/>A<br/>.<br/>U</font>
+							</li>
+						</ol>
+					</td>
+					<td>
+						<ol style="position:relative;top:-200px;">
+							<li class="one">
+							</li>
+						</ol>
+						<ol style="position:relative;top:-220px;left:-40px;">
+							<li class="two">
+								<span>编剧<span style="color:#CAF4CF;">六趣</span></span><font>极乐世界</font>
+							</li>
+							<li class="three">
+								<span><br/><br/>后期<span style="color:#CAF4CF;">缠念</span></span><font><br/><br/>风流逐声</font>
+							</li>
+						</ol>
+					</td>
+					<td>
+						<ol style="position:relative;top:-200px;">
+							<li class="one">
+							</li>
+						</ol>
+						<ol style="position:relative;top:-220px;left:-40px;">
+							<li class="two" style="height:180px;">
+								<span>美工<span style="color:#CAF4CF;">水墨若丹青</span></span><font>自由人</font>
+							</li>
+							<li class="three" style="height:180px;">
+								<span><br/><br/>代码<span style="color:#CAF4CF;">城郊园</span></span><font><br/>A<br/>l<br/>w<br/>a<br/>y<br/>s</font>
+							</li>
+						</ol>
+					</td>
+				</tr>
+			</table>
+			<table width=760px height=495px style="border-bottom:5px solid #A3E4A9;position:absolute;left:45%;top:760px;">
+				<tr>
+					<td>
+						<img  style="border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;background-size:200px 200px;position:relative;top:115px;border:3px solid #B5EABA;" src="https://chengjiaoyuan.github.io/PinkCode/%E9%9D%92%E8%9B%87/%E8%9B%87.jpg" width=200px height=200px/>
+					</td>
+					<td>
+						<ol class="ed">
+							<li>原曲<span>まきちゃんぐ</span></li>
+							<li>填词<span>君陌问</span><span>极乐世界</span></li>
+							<li>翻唱<span>风逝</span><span>忆语</span></li>
+							<li>歌后<span>千纸</span><span>宪兵团工作室</span></li>
+						</ol>
+					</td>
+					<td width=360px HEIGHT=220px style="position:relative;top:120px;">
+						<MARQUEE onmouseover='this.stop()' onmouseout='this.start()' direction=up scrollamount=4 WIDTH=360px height=220px>
+						<ol class="ed2">
+							<li style="font-size:25px;text-align:center;">参悟</li>
+							<li>月光摇撼降临 似淡烟云笼</li>
+							<li>凄迷浸入骨髓 如冰雪交融</li>
+							<li>我褪去鳞片身着青衫</li>
+							<li>却似懂非懂</li>
+							<li>你凡心初动我便陪你</li>
+							<li>入这红尘倥偬</li>
+							<li>犹记得船渡江南时雨荡风飘</li>
+							<li>那是你们断桥边的初逢</li>
+							<li>转眼却 云起日沉</li>
+							<li>水漫金山 涛浪汹涌</li>
+							<li>佛说一念成魔一念痴憎有始无终</li>
+							<li>这情与爱 窥不透</li>
+							<li>悟不透 参不透</li>  
+							<li>通便痛地千疮百孔</li>
+							<li>但你无悔无怨无恐</li>
+							<li>他已百般厌恶 被看戏般嘲弄</li>
+							<li>你却当局者迷 宁愿欺己欺众</li>
+							<li>雷峰塔倒塌西湖水干</li>
+							<li>被世人传咏</li>
+							<li>十载已过转瞬成空</li>
+							<li>春拂万树枯荣</li>
+							<li>我明了你的悲苦 上涌的眼泪</li> 
+							<li>蕴藏无边无际的 憾与痛</li>
+							<li>我怀念着 洞前绿色藤蔓</li>
+							<li>流水叮咚</li>
+							<li>彼时 生死与共</li>
+							<li>此时相离 无所适从</li>
+							<li>这道与理 不得闻</li>
+							<li>不得晓 不得懂</li>  
+							<li>通 便痛地孤立独茕</li>
+							<li>无计可施无法回头</li>
+							<li>前尘过往 草木春光日且高</li>
+							<li>花影浓 不觉金山暮雾 </li>
+							<li>秋云却已暗了几重</li>	 
+							<li>这情与爱 窥不透</li>
+							<li>悟不透 参不透</li>  
+							<li>通 便痛的千疮百孔</li>
+							<li>以病入膏肓为终</li>
+							<li>这情与爱 窥不透</li>
+							<li>悟不透 参不透</li>
+							<li>道与理 不得闻</li>
+							<li>不得晓 不得懂</li>
+							<li>这情与爱 窥不透</li>
+							<li>悟不透 参不透</li>  
+							<li>通 便痛的千疮百孔</li>
+							<li>以病入膏肓为终</li>
+							<li>这道与理 不得闻</li>
+							<li>不得晓 不得懂</li>  
+							<li>通 便痛地孤立独茕</li>
+							<li>以病入膏肓为终...</li>
+						</ol>
+					</MARQUEE>
+					</td>
+				</tr>
+			</table>
+		</span>
+		<span style="display:block;position:absolute;left:12%;top:1130px;">
+			<svg width="1000" height="800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<path d="M630 120L630 270L478 270L478 433L336 433L336 581L176 581L176 716L24 716" fill="none" stroke="#A3E4A9" stroke-opacity="1" stroke-width="5"/>
+			</svg>
+			<ol class="link" style="position: relative;left:-15px;top:-150px;z-index:120;">
+				<li>
+					<a rel="nofollow" style="color:#12B323;text-shadow:0 0 #fff,0 1px #fff,0 -1px #fff,1px 0 #fff, 1px 1px #fff, 1px -1px #fff, -1px 0 #fff, -1px 1px #fff, -1px -1px #fff;" href="" target=_blank STYLE='text-decoration:none'>
+					荔枝在线
+					</a>
+				</li>
+			</ol>
+			<ol class="link" style="position: relative;left:-10px;top:-285px;z-index:120;">
+				<li>
+					<a rel="nofollow" style="color:#12B323;text-shadow:0 0 #fff,0 1px #fff,0 -1px #fff,1px 0 #fff, 1px 1px #fff, 1px -1px #fff, -1px 0 #fff, -1px 1px #fff, -1px -1px #fff;" href="" target=_blank STYLE='text-decoration:none'>
+					百度网盘
+					</a>
+				</li>
+			</ol>
+			<ol class="link" style="position: relative;left:-10px;top:-435px;z-index:120;">
+				<li>
+					<a rel="nofollow" style="color:#12B323;text-shadow:0 0 #fff,0 1px #fff,0 -1px #fff,1px 0 #fff, 1px 1px #fff, 1px -1px #fff, -1px 0 #fff, -1px 1px #fff, -1px -1px #fff;" href="" target=_blank STYLE='text-decoration:none'>
+					喜马拉雅
+					</a>
+				</li>
+			</ol>
+			<ol class="link" style="position: relative;left:-10px;top:-598px;z-index:120;">
+				<li>
+					<a rel="nofollow" style="color:#12B323;text-shadow:0 0 #fff,0 1px #fff,0 -1px #fff,1px 0 #fff, 1px 1px #fff, 1px -1px #fff, -1px 0 #fff, -1px 1px #fff, -1px -1px #fff;" href="" target=_blank STYLE='text-decoration:none'>
+					M站在线
+					</a>
+				</li>
+			</ol>
+		</span>
+		<span style="display:block;position:absolute;left:18%;top:1600px;">
+			<img src="https://chengjiaoyuan.github.io/PinkCode/%E9%9D%92%E8%9B%87/%E5%B1%B1%E6%B0%B4.png"/>
+		</span>
+	</center>
+</body>
+</html>
