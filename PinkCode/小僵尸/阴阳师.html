@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel='stylesheet' href='http://chengjiaoyuan.github.io/PinkCode/CSS/CSSFont/英文/juice/orange juice 2.0.css' media='screen' title='no title' charset='utf-8'>
+ 	<link rel='stylesheet' href='https://chengjiaoyuan.github.io/PinkCode/CSS/CSSFont/%E4%B8%8B%E5%8D%88%E8%8C%B6/SentyTEA.css' media='screen' title='no title' charset='utf-8'>
+ 	<link rel='stylesheet' href='https://chengjiaoyuan.github.io/PinkCode/CSS/CSSFont/%E5%AD%97%E9%85%B7%E6%A5%B7%E4%BD%93/%E5%AD%97%E9%85%B7%E5%A0%82%E9%BB%84%E6%A5%B7%E4%BD%93.css' media='screen' title='no title' charset='utf-8'/>
+	<style type="text/css">
+		body{
+			margin-left:-950px; 
+			width:1900px;
+			position:relative;
+			left:50%;
+			overflow-x:hidden;
+			background:#e8ebef;
+		}
+		ol{
+			list-style:none;
+			text-align:center;
+		}
+		span{
+			font-family:'SentyTEA';
+			face:'SentyTEA';
+			font:'SentyTEA';
+			font-size:120px;
+			color: #2A3D54;
+		}
+		h3{
+			font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
+			font-size:36px;
+			color: #FCD821;
+		}
+		a{text-decoration: none;}
+		.bg-flower {
+	        position: absolute;
+	        background-color:#e8ebef;
+			background-image: url(https://chengjiaoyuan.github.io/PinkCode/%E5%B0%8F%E5%83%B5%E5%B0%B8/geometry.png);
+	        top: 0;
+	        left: 0;
+	        width: 100%;
+	        height:1600px;
+	    }
+	    ::-webkit-scrollbar {WIDTH: 12px;} 
+	    ::-webkit-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(84,126,168, 0.5); } 
+	    ::-webkit-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(84,126,168, 0.6); } 
+	    ::-o-scrollbar {WIDTH: 12px;} 
+	    ::-o-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(84,126,168, 0.4); } 
+	    ::-o-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(84,126,168, 0.5); } 
+	    ::-moz-scrollbar {WIDTH: 12px;} 
+	    ::-moz-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(84,126,168, 0.4); } 
+	    ::-moz-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(84,126,168, 0.5); } 
+	    ::-ms-scrollbar {WIDTH: 12px;} 
+	    ::-ms-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(84,126,168, 0.4); } 
+	    ::-ms-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(84,126,168, 0.5); } 
+	    ::scrollbar {WIDTH: 12px;} 
+	    ::scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(84,126,168, 0.4); } 
+	    ::scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(88,126,168, 0.5); }
+	    .fly{
+	    	transform:rotate(160deg);
+			-o-transform:rotate(160deg);
+			-webkit-transform:rotate(160deg);
+			-moz-transform:rotate(160deg);
+			-ms-transform:rotate(160deg);
+			-webkit-animation: flying 6s ease-out;
+			-moz-animation: flying 6s ease-out;
+			-o-animation: flying 6s ease-out;
+			-ms-animation: flying 6s ease-out;
+			animation: flying 6s ease-out;
+			animation-fill-mode:forwards; 
+			-o-animation-fill-mode:forwards;
+			-webkit-animation-fill-mode:forwards;
+			-moz-animation-fill-mode:forwards;
+			-ms-animation-fill-mode:forwards;
+			-webkit-animation-delay: 5s;
+	        -o-animation-delay: 5s;
+	        -ms-animation-delay: 5s;
+	        -moz-animation-delay: 5s;
+	        animation-delay: 5s;
+			z-index: 102;
+	    }
+	    @keyframes flying {
+			0% {
+			    -webkit-transform: translate(0px,0px) rotate(160deg);
+			    -moz-transform: translate(0px,0px) rotate(160deg);
+			    -o-transform: translate(0px,0px) rotate(160deg);
+			    -ms-transform: translate(0px,0px) rotate(160deg);
+			    transform: translate(0px,0px) rotate(160deg);
+			}
+			50% {
+			    -webkit-transform: translate(-130px,830px) rotate(130deg);
+			    -moz-transform: translate(-130px,830px) rotate(130deg);
+			    -o-transform: translate(-130px,830px) rotate(130deg);
+			    -ms-transform: translate(-130px,830px) rotate(130deg);
+			    transform: translate(-130px,830px) rotate(130deg);
+			}
+			100% {
+			    -webkit-transform: translate(600px, 1200px) rotate(60deg);
+			    -moz-transform: translate(600px, 1200px) rotate(60deg);
+			    -o-transform: translate(600px, 1200px) rotate(60deg);
+			    -ms-transform: translate(600px, 1200px) rotate(60deg);
+			    transform: translate(600px, 1200px) rotate(60deg);
+			}
+		}
+		.pic{
+			-webkit-animation: bounce-in 3s ease-out;
+			-moz-animation: bounce-in 3s ease-out;
+			-o-animation: bounce-in 3s ease-out;
+			-ms-animation: bounce-in 3s ease-out;
+			animation: bounce-in 3s ease-out;
+			animation-fill-mode:forwards; 
+			-o-animation-fill-mode:forwards;
+			-webkit-animation-fill-mode:forwards;
+			-moz-animation-fill-mode:forwards;
+			-ms-animation-fill-mode:forwards;
+			transform:perspective(100px);
+		    -ms-transform:perspective(100px);
+			-webkit-transform:perspective(100px);
+			-o-transform:perspective(100px);
+			-moz-transform:perspective(100px);
+			transform-style: preserve-3d;
+			-webkit-transform-style: preserve-3d;
+			-moz-transform-style: preserve-3d;
+			-ms-transform-style: preserve-3d;
+			-o-transform-style: preserve-3d;
+		}
+		@keyframes bounce-in {
+		  0%, 20%, 40%, 60%, 80%, 100% {
+		    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+		  }
+		  0% {
+		    opacity: 0;
+		    transform: scale3d(0.3, 0.3, 0.3);
+		  }
+		  20% {
+		    transform: scale3d(1.1, 1.1, 1.1);
+		  }
+		  40% {
+		    transform: scale3d(0.9, 0.9, 0.9);
+		  }
+		  60% {
+		    opacity: 1;
+		    transform: scale3d(1.03, 1.03, 1.03);
+		  }
+		  80% {
+		    transform: scale3d(0.97, 0.97, 0.97);
+		  }
+		  100% {
+		    opacity: 1;
+		    transform: scale3d(1, 1, 1);
+		  }
+		}
+		@-o-keyframes bounce-in {
+		  0%, 20%, 40%, 60%, 80%, 100% {
+		    -o-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+		  }
+		  0% {
+		    opacity: 0;
+		    -o-transform: scale3d(0.3, 0.3, 0.3);
+		  }
+		  20% {
+		    -o-transform: scale3d(1.1, 1.1, 1.1);
+		  }
+		  40% {
+		    -o-transform: scale3d(0.9, 0.9, 0.9);
+		  }
+		  60% {
+		    opacity: 1;
+		    -o-transform: scale3d(1.03, 1.03, 1.03);
+		  }
+		  80% {
+		    -o-transform: scale3d(0.97, 0.97, 0.97);
+		  }
+		  100% {
+		    opacity: 1;
+		    -o-transform: scale3d(1, 1, 1);
+		  }
+		}
+		@-ms-keyframes bounce-in {
+		  0%, 20%, 40%, 60%, 80%, 100% {
+		    -ms-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+		  }
+		  0% {
+		    opacity: 0;
+		    -ms-transform: scale3d(0.3, 0.3, 0.3);
+		  }
+		  20% {
+		    -ms-transform: scale3d(1.1, 1.1, 1.1);
+		  }
+		  40% {
+		    -ms-transform: scale3d(0.9, 0.9, 0.9);
+		  }
+		  60% {
+		    opacity: 1;
+		    -ms-transform: scale3d(1.03, 1.03, 1.03);
+		  }
+		  80% {
+		    -ms-transform: scale3d(0.97, 0.97, 0.97);
+		  }
+		  100% {
+		    opacity: 1;
+		    -ms-transform: scale3d(1, 1, 1);
+		  }
+		}
+		@-moz-keyframes bounce-in {
+		  0%, 20%, 40%, 60%, 80%, 100% {
+		    -moz-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+		  }
+		  0% {
+		    opacity: 0;
+		    -moz-transform: scale3d(0.3, 0.3, 0.3);
+		  }
+		  20% {
+		    -moz-transform: scale3d(1.1, 1.1, 1.1);
+		  }
+		  40% {
+		    -moz-transform: scale3d(0.9, 0.9, 0.9);
+		  }
+		  60% {
+		    opacity: 1;
+		    -moz-transform: scale3d(1.03, 1.03, 1.03);
+		  }
+		  80% {
+		    -moz-transform: scale3d(0.97, 0.97, 0.97);
+		  }
+		  100% {
+		    opacity: 1;
+		    -moz-transform: scale3d(1, 1, 1);
+		  }
+		}
+		@-webkit-keyframes bounce-in {
+		  0%, 20%, 40%, 60%, 80%, 100% {
+		    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+		  }
+		  0% {
+		    opacity: 0;
+		    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+		  }
+		  20% {
+		    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+		  }
+		  40% {
+		    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+		  }
+		  60% {
+		    opacity: 1;
+		    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+		  }
+		  80% {
+		    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+		  }
+		  100% {
+		    opacity: 1;
+		    -webkit-transform: scale3d(1, 1, 1);
+		  }
+		}
+		.pin {
+			  width: 30px;
+			  height: 30px;
+			  border-radius: 50% 50% 50% 0;
+			  -o-border-radius: 50% 50% 50% 0;
+			  -webkit-border-radius: 50% 50% 50% 0;
+			  -ms-border-radius: 50% 50% 50% 0;
+			  -moz-border-radius: 50% 50% 50% 0;
+			  background: #fff;
+			  position:relative;
+			  -webkit-transform: rotate(-45deg);
+			  -moz-transform: rotate(-45deg);
+			  -o-transform: rotate(-45deg);
+			  -ms-transform: rotate(-45deg);
+			  transform: rotate(-45deg);
+			  left: 50%;
+			  top: 50%;
+			  margin: -20px 0 0 -20px;
+			  -webkit-animation-name: bounce;
+			  -moz-animation-name: bounce;
+			  -o-animation-name: bounce;
+			  -ms-animation-name: bounce;
+			  animation-name: bounce;
+			  -webkit-animation-fill-mode: both;
+			  -moz-animation-fill-mode: both;
+			  -o-animation-fill-mode: both;
+			  -ms-animation-fill-mode: both;
+			  animation-fill-mode: both;
+			  -webkit-animation-duration: 1s;
+			  -moz-animation-duration: 1s;
+			  -o-animation-duration: 1s;
+			  -ms-animation-duration: 1s;
+			  animation-duration: 1s;
+			}
+		.pin:after {
+			  content: '';
+			  width: 15px;
+			  height: 15px;
+			  background: #2f2f2f;
+			  position: absolute;
+			  top:8px;
+			  left:8px;
+			  border-radius:50%;
+			  -o-border-radius:50%;
+			  -webkit-border-radius:50%;
+			  -moz-border-radius:50%;
+			  -ms-border-radius:50%;
+		}
+		.pulse {
+			  background: rgba(0,0,0,0.2);
+			  border-radius:50%;
+			  -o-border-radius:50%;
+			  -webkit-border-radius:50%;
+			  -moz-border-radius:50%;
+			  -ms-border-radius:50%;
+			  height: 15px;
+			  width: 15px;
+			  position:relative;
+			  left: 50%;
+			  top: 50%;
+			  -webkit-transform: rotateX(55deg);
+			  -moz-transform: rotateX(55deg);
+			  -o-transform: rotateX(55deg);
+			  -ms-transform: rotateX(55deg);
+			  transform: rotateX(55deg);
+			  z-index: -2;
+		}
+		.pulse:after {
+			  content: "";
+			  border-radius: 50%;
+			  height: 40px;
+			  width: 40px;
+			  position: absolute;
+			  top:-10px;
+			  left:-23px;
+			  -webkit-animation: pulsate 1s ease-out;
+			  -moz-animation: pulsate 1s ease-out;
+			  -o-animation: pulsate 1s ease-out;
+			  -ms-animation: pulsate 1s ease-out;
+			  animation: pulsate 1s ease-out;
+			  -webkit-animation-iteration-count: infinite;
+			  -moz-animation-iteration-count: infinite;
+			  -o-animation-iteration-count: infinite;
+			  -ms-animation-iteration-count: infinite;
+			  animation-iteration-count: infinite;
+			  opacity: 0;
+			  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			  filter: alpha(opacity=0);
+			  -webkit-box-shadow: 0 0 1px 2px #89849b;
+			  -o-box-shadow: 0 0 1px 2px #89849b;
+			  -ms-box-shadow: 0 0 1px 2px #89849b;
+			  -moz-box-shadow: 0 0 1px 2px #89849b;
+			  box-shadow: 0 0 1px 2px #89849b;
+			  -webkit-animation-delay: 1.1s;
+			  -moz-animation-delay: 1.1s;
+			  -o-animation-delay: 1.1s;
+			  -ms-animation-delay: 1.1s;
+			  animation-delay: 1.1s;
+		}
+		h4{
+			font-size: 24px;
+			color: #1A437C;
+			font-family:'SentyTEA';
+			face:'SentyTEA';
+			font:'SentyTEA';
+			font-weight: bold;
+		}
+		#staff:target{ 
+        	display:block;
+        	position: absolute;
+        	left:520px;
+        	top:-360px;
+        	background-color: rgba(252,218,32,.4);
+        	width:400px;
+	        height:500px;  
+	        -webkit-border-radius:20px;
+            border-radius:20px;
+            -o-border-radius:20px;
+            -ms-border-radius:20px;
+            -moz-border-radius:20px;
+            border:2px dashed #D7B704;
+            -webkit-animation: bounce-in 3s ease-out;
+			-moz-animation: bounce-in 3s ease-out;
+			-o-animation: bounce-in 3s ease-out;
+			-ms-animation: bounce-in 3s ease-out;
+			animation: bounce-in 3s ease-out;
+			animation-fill-mode:forwards; 
+			-o-animation-fill-mode:forwards;
+			-webkit-animation-fill-mode:forwards;
+			-moz-animation-fill-mode:forwards;
+			-ms-animation-fill-mode:forwards;
+			transform:perspective(100px);
+		    -ms-transform:perspective(100px);
+			-webkit-transform:perspective(100px);
+			-o-transform:perspective(100px);
+			-moz-transform:perspective(100px);
+			transform-style: preserve-3d;
+			-webkit-transform-style: preserve-3d;
+			-moz-transform-style: preserve-3d;
+			-ms-transform-style: preserve-3d;
+			-o-transform-style: preserve-3d;
+	    	z-index: 106;
+	    }
+	    #staff{
+	        display:none;
+	    }
+	    #staff li{
+	        color:#fff;
+			font-family:'微软雅黑';
+			face:'微软雅黑';
+			font:'微软雅黑';
+			font-size:22px;
+			text-align: center;
+			line-height: 1.2;
+			height: 40px;
+			line-height: 40px;
+			position: relative;
+			top:30px;
+	    }
+	    #staff li span:nth-child(odd){
+	        background-color:rgba(252,218,32,.9);
+	        font-size:25px;
+	        border-radius:6px;
+	        -o-border-radius:6px;
+	        -moz-border-radius:6px;
+	        -ms-border-radius:6px;
+	        -webkit-border-radius:6px;
+	        color:#fff;
+	        margin-top:4px;
+	        text-align:center;font-weight:lighter;
+	        display:inline-block;
+	        line-HEIGHT:1.2;
+	        padding:2px;
+	        font-family:'楷体';
+			face:'楷体';
+			font:'楷体';
+	    }
+	    #staff li span:nth-child(even){
+	        color:#000;
+	        font-size:24px;
+	        line-HEIGHT:1.2;
+	        font-weight:lighter;
+	        font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
+	    }
+	    #lyric:target{ 
+        	display:block;
+        	position: absolute;
+        	left:-560px;
+        	top:-360px;
+        	background-color: rgba(141,181,230,.4);
+        	width:400px;
+	        height:500px;  
+	        -webkit-border-radius:20px;
+            border-radius:20px;
+            -o-border-radius:20px;
+            -ms-border-radius:20px;
+            -moz-border-radius:20px;
+            border:2px dashed #0F3066;
+            -webkit-animation: bounce-in 3s ease-out;
+			-moz-animation: bounce-in 3s ease-out;
+			-o-animation: bounce-in 3s ease-out;
+			-ms-animation: bounce-in 3s ease-out;
+			animation: bounce-in 3s ease-out;
+			animation-fill-mode:forwards; 
+			-o-animation-fill-mode:forwards;
+			-webkit-animation-fill-mode:forwards;
+			-moz-animation-fill-mode:forwards;
+			-ms-animation-fill-mode:forwards;
+			transform:perspective(100px);
+		    -ms-transform:perspective(100px);
+			-webkit-transform:perspective(100px);
+			-o-transform:perspective(100px);
+			-moz-transform:perspective(100px);
+			transform-style: preserve-3d;
+			-webkit-transform-style: preserve-3d;
+			-moz-transform-style: preserve-3d;
+			-ms-transform-style: preserve-3d;
+			-o-transform-style: preserve-3d;
+	    	z-index: 106;
+	    	overflow-y:scroll; 
+	    	overflow-x:hidden; 
+	    }
+	    #lyric{
+	        display:none;
+	    }
+	    #lyric li{
+	        color:#fff;
+			font-family:'微软雅黑';
+			face:'微软雅黑';
+			font:'微软雅黑';
+			font-size:22px;
+			text-align: center;
+			line-height: 1.2;
+			height: 40px;
+			line-height: 40px;
+			position: relative;
+			top:30px;
+	    }
+	    #lyric li span:nth-child(odd){
+	        background-color:rgba(141,181,230,.9);
+	        font-size:25px;
+	        border-radius:6px;
+	        -o-border-radius:6px;
+	        -moz-border-radius:6px;
+	        -ms-border-radius:6px;
+	        -webkit-border-radius:6px;
+	        color:#fff;
+	        margin-top:4px;
+	        text-align:center;font-weight:lighter;
+	        display:inline-block;
+	        line-HEIGHT:1.2;
+	        padding:2px;
+	        font-family:'楷体';
+			face:'楷体';
+			font:'楷体';
+	    }
+	    #lyric li span:nth-child(even){
+	        color:#000;
+	        font-size:24px;
+	        line-HEIGHT:1.2;
+	        font-weight:lighter;
+	        font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
+	    }
+	    #cast:target{ 
+        	display:block;
+        	position: absolute;
+        	left:-560px;
+        	top:-120px;
+        	background-color: rgba(168,128,94,.4);
+        	width:400px;
+	        height:260px;  
+	        -webkit-border-radius:20px;
+            border-radius:20px;
+            -o-border-radius:20px;
+            -ms-border-radius:20px;
+            -moz-border-radius:20px;
+            border:2px dashed #76573F;
+            -webkit-animation: bounce-in 3s ease-out;
+			-moz-animation: bounce-in 3s ease-out;
+			-o-animation: bounce-in 3s ease-out;
+			-ms-animation: bounce-in 3s ease-out;
+			animation: bounce-in 3s ease-out;
+			animation-fill-mode:forwards; 
+			-o-animation-fill-mode:forwards;
+			-webkit-animation-fill-mode:forwards;
+			-moz-animation-fill-mode:forwards;
+			-ms-animation-fill-mode:forwards;
+			transform:perspective(100px);
+		    -ms-transform:perspective(100px);
+			-webkit-transform:perspective(100px);
+			-o-transform:perspective(100px);
+			-moz-transform:perspective(100px);
+			transform-style: preserve-3d;
+			-webkit-transform-style: preserve-3d;
+			-moz-transform-style: preserve-3d;
+			-ms-transform-style: preserve-3d;
+			-o-transform-style: preserve-3d;
+	    	z-index: 106;
+	    }
+	    #cast{
+	        display:none;
+	    }
+	    #cast li{
+	        color:#fff;
+			font-family:'微软雅黑';
+			face:'微软雅黑';
+			font:'微软雅黑';
+			font-size:22px;
+			text-align: center;
+			line-height: 1.2;
+			height: 40px;
+			line-height: 40px;
+			position: relative;
+			top:30px;
+	    }
+	    #cast li span:nth-child(odd){
+	        background-color:rgba(168,128,94,.9);
+	        font-size:25px;
+	        border-radius:6px;
+	        -o-border-radius:6px;
+	        -moz-border-radius:6px;
+	        -ms-border-radius:6px;
+	        -webkit-border-radius:6px;
+	        color:#fff;
+	        margin-top:4px;
+	        text-align:center;font-weight:lighter;
+	        display:inline-block;
+	        line-HEIGHT:1.2;
+	        padding:2px;
+	        font-family:'楷体';
+			face:'楷体';
+			font:'楷体';
+	    }
+	    #cast li span:nth-child(even){
+	        color:#000;
+	        font-size:24px;
+	        line-HEIGHT:1.2;
+	        font-weight:lighter;
+	        font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
+	    }
+	    #triangle-up {
+		    width: 0;
+		    height: 0;
+		    border-left: 120px solid transparent;
+		    border-right: 120px solid transparent;
+		    border-bottom: 200px solid rgba(25,67,127,.6);
+		    z-index: 102;
+		    color: #fff;
+		    text-align: center;
+		}
+		#box{
+			width: 240px;
+			height: 300px;
+			background-color:rgba(105,144,209,.6);
+			color: #fff;
+			position: relative;
+			top:-2px;
+			text-align: center;
+		    line-height: 1.2;
+		}
+		.link{
+	    }
+	    .link li{
+        WIDTH:200px;
+        list-STYLE:none;
+        display:inline-block;
+        margin:4px 0px;
+        font-weight:lighter;
+        text-align: center;
+        height:30px;
+        line-height: 30px;
+        font: '楷体';
+        font-family: '楷体';
+        face:'楷体';
+        font-size:22px;
+	    border-radius:6px;
+	    -o-border-radius:6px;
+	    -moz-border-radius:6px;
+	    -ms-border-radius:6px;
+	    -webkit-border-radius:6px;
+	    color:#fff;
+	    text-align: center;
+	    position: relative;
+	    left:-20px;
+	    face:'字酷堂黄楷体';font:'字酷堂黄楷体';
+	    font-family:'字酷堂黄楷体';
+	    }
+	    .link li span:nth-child(odd){
+	 
+	    }
+	    .link li span:nth-child(even){
+	        font-size:20px;
+	        font-weight:lighter;
+	        TEXT-SHADOW:0 0 #6FA9A0,0 1px #2B221D,0 -1px #2B221D,1px 0 #2B221D, 1px 1px #2B221D, 1px -1px #2B221D, -1px 0 #2B221D, -1px 1px #2B221D, -1px -1px #2B221D;color:#fff;
+	    }
+	    #link{
+	    	position: absolute;
+	    	left:20px;
+	    	top:1100px;
+	    }
+	</style>
+</head>
+<body>
+	<ol class="bg-flower">
+      <li></li>
+    </ol>
+    <span style="display:block;position:absolute;left:28%;top:120px;">诶？捡到一个小僵尸</span>
+    <h3 style="display:block;position:absolute;left:65%;top:240px;">十万伏特工作室</h3>
+	<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-flat-20030114.dtd">
+	<!-- Created by SVGDeveloper 1.0 -->
+	<span style="display:block;position:absolute;top:300px;left:32%;">
+		<svg width="1000" height="1200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<path d="M834 1095L827 1067L820 1046L805 1025L786 1010L761 997L740 989L714 990L689 995L679 1012L673 1027L664 1050L650 1069L638 1087L619 1105L598 1119L577 1128L549 1138L513 1142L484 1135L454 1125L434 1102L429 1078L428 1056L437 1038L447 1019L457 997L461 979L459 959L456 938L457 919L450 894L442 876L421 867L398 864L381 873L366 887L355 903L348 917L344 932L334 947L324 957L314 971L301 983L290 994L277 1006L264 1020L252 1026L236 1035L223 1043L209 1049L189 1053L172 1050L153 1042L144 1030L137 1012L134 991L130 966L130 950L130 931L130 911L131 895L135 877L140 861L146 848L153 837L167 824L182 813L193 806L214 799L231 794L248 787L266 781L281 769L296 761L309 751L321 736L323 719L321 704L323 687L318 671L316 653L312 635L300 617L290 606L280 596L270 588L255 580L240 572C240 572 229 565 227 564C225 563 216 547 216 547L211 526L215 508L226 491L238 487L252 482L270 482L290 482L308 476L321 461L325 444L326 429L334 415L341 400L352 383L359 368L364 352L368 340L372 326L372 308L372 289L369 274L365 259L362 246L356 233L348 221L340 210L327 202L313 202L310 218L325 218L339 204L348 195L358 185L365 168L360 150L347 148L346 160L356 167L374 162L383 158C383 158 394 148 392 147C390 146 394 133 394 133L400 116L401 103L412 94L424 87L438 82M406 167" fill="none" stroke="#336699" stroke-opacity="1" stroke-dasharray="7,7" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+		</svg>
+	</span>
+	<span style="display:block;position:absolute;top:250px;left:45%;">
+		<?xml version="1.0" encoding="utf-8" standalone="no"?>
+		<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-flat-20030114.dtd">
+		<!-- Created by SVGDeveloper 1.0 -->
+		<svg width="200" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="fly">
+			<defs>
+			<pattern id="Skew" height="100" width="100" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse">
+			<g>
+			<polyline stroke="#4c2157" stroke-width="1" stroke-opacity="1" stroke-miterlimit="30" fill="none" fill-opacity="1" points="5,0 100,0 99,96 4,95 5,4 96,5 94,92 8,90 10,8 92,11 90,88 13,85 15,12 87,16 85,84 17,80 18,16 84,21 79,79 20,75 22,21 80,27 73,76 24,69 26,25 76,31 68,72 28,64 31,28 72,35 64,68 32,60 36,32 68,39 60,64 36,56 41,36 64,43 56,60 40,52 45,40 60,46 54,56 44,50 48,44 56,48 53,53 47,50 49,47 53,49 51,50 50,49" transform="matrix(1 0 0 1 -0.666667 0.5)" />
+			</g>
+			</pattern>
+			</defs>
+			<path d="M98 179L107 189L182 74C182 74 98 180 98 179Z" fill="#CCCCCC" stroke="#000000" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,0,-4.5)" />
+			<path d="M182 71L76 202L70 148L182 71Z" fill="#FFFFFF" stroke="#000000" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,0,-1.5)" />
+			<path d="M79 139L63 124L183 68L79 139Z" fill="#CCCCCC" stroke="#000000" stroke-opacity="1" transform="matrix(1,0,0,1,-2.25,1.75)" />
+			<path d="M62 123L62 93L184 67C184 67 62 122 62 123Z" fill="#FFFFFF" stroke="#000000" stroke-opacity="1" transform="matrix(1,0,0,1,-1.75,2)" />
+			<text x="40" y="60" xml:space="preserve" font-family="SentyTEA" font-size="30" fill="#261415" stroke="#261415">快看~萌萌哒</text>
+		</svg>
+	</span>
+	<span style="position:absolute;position:absolute;left:15%;top:600px;z-index:2;" class="pic">
+		<img src="https://chengjiaoyuan.github.io/PinkCode/%E5%B0%8F%E5%83%B5%E5%B0%B8/%E5%83%B5%E5%B0%B8.png"/>
+	</span>
+	<span style="position:absolute;position:absolute;left:53%;top:450px;z-index:2;">
+		<img src="https://chengjiaoyuan.github.io/PinkCode/%E5%B0%8F%E5%83%B5%E5%B0%B8/boy.png" class="pic"/>
+	</span>
+	<span style="position:absolute;left:6%;top:510px;z-index:102;">
+		<?xml version="1.0" encoding="utf-8" standalone="no"?>
+		<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-flat-20030114.dtd">
+		<!-- Created by SVGDeveloper 1.0 -->
+			<svg width="640" height="480" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<defs>
+			<linearGradient id="linearGradient">
+			<stop offset="0%" stop-color="rgb(0,128,128)" stop-opacity="1" />
+			<stop offset="10%" stop-color="rgb(0,255,255)" stop-opacity="1" />
+			<stop offset="50%" stop-color="rgb(255,255,255)" stop-opacity="1" />
+			<stop offset="90%" stop-color="rgb(0,255,255)" stop-opacity="0.75" />
+			<stop offset="100%" stop-color="rgb(0,192,192)" stop-opacity="1" />
+			</linearGradient>
+			<pattern id="white" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse">
+			<g>
+			<rect stroke="none" fill="#8cb5d8" fill-opacity="1" x="0" y="0" width="50" height="50" />
+			<circle stroke="none" stroke-width="1" stroke-opacity="1" fill="#c0c0c0" fill-opacity="0.5" cx="25" cy="25" r="6" />
+			<circle stroke="#ffffff" stroke-width="1" stroke-opacity="0.5" fill="none" fill-opacity="1" cx="22" cy="27" r="6" />
+			</g>
+			</pattern>
+			<pattern id="Jade" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse">
+			<g>
+			<polygon stroke="#b2d4b2" stroke-width="1" stroke-opacity="1" stroke-miterlimit="10" fill="#b2d4b2" fill-opacity="1" points="0,0 100,0 100,100 0,100" />
+			<circle stroke="#d1e1d1" stroke-width="5" stroke-opacity="1" stroke-miterlimit="10" fill="none" fill-opacity="1" cx="50" cy="50" r="50" transform="matrix(1 0 0 1 -50 49.9)" />
+			<circle stroke="#d1e1d1" stroke-width="5" stroke-opacity="1" stroke-miterlimit="10" fill="none" fill-opacity="1" cx="50" cy="50" r="50" transform="matrix(1 0 0 1 49.9 49.9)" />
+			<circle stroke="#d1e1d1" stroke-width="5" stroke-opacity="1" stroke-miterlimit="10" fill="none" fill-opacity="1" cx="50" cy="50" r="50" transform="matrix(1 0 0 1 49.7 -49.8)" />
+			<circle stroke="#d1e1d1" stroke-width="5" stroke-opacity="1" stroke-miterlimit="10" fill="none" fill-opacity="1" cx="50" cy="50" r="50" transform="matrix(1 0 0 1 -49.9 -49.9)" />
+			<circle stroke="#d1e1d1" stroke-width="5" stroke-opacity="1" stroke-miterlimit="10" fill="none" fill-opacity="1" cx="52" cy="52" r="50" transform="matrix(1 0 0 1 -1.8 -2.4)" />
+			</g>
+			</pattern>
+			<pattern id="Polka" width="100" height="100" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse">
+			<g>
+			<circle stroke="none" stroke-width="1" stroke-opacity="1" stroke-miterlimit="30" fill="#00c0c0" fill-opacity="1" cx="-5" cy="60" r="12" />
+			<circle stroke="none" stroke-width="1" stroke-opacity="1" stroke-miterlimit="30" fill="#00c0c0" fill-opacity="1" cx="95" cy="60" r="12" />
+			<circle stroke="none" stroke-width="1" stroke-opacity="1" stroke-miterlimit="30" fill="#00c0c0" fill-opacity="1" cx="30" cy="43" r="19.5" transform="matrix(1 0 0 1 -4.33333 -0.166667)" />
+			<circle stroke="none" stroke-width="1" stroke-opacity="1" stroke-miterlimit="30" fill="#00c0c0" fill-opacity="1" cx="48.5" cy="95.5" r="25.5" transform="matrix(1 0 0 1 14 0)" />
+			<circle stroke="none" stroke-width="1" stroke-opacity="1" stroke-miterlimit="30" fill="#00c0c0" fill-opacity="1" cx="48.5" cy="-4.5" r="25.5" transform="matrix(1 0 0 1 14 0)" />
+			<circle stroke="none" stroke-width="1" stroke-opacity="1" fill="#00c0c0" fill-opacity="1" cx="19" cy="86.5" r="9.5" />
+			<circle stroke="none" stroke-width="1" stroke-opacity="1" fill="#00c0c0" fill-opacity="1" cx="67" cy="41" r="2" />
+			</g>
+			</pattern>
+			<pattern id="Skew" height="100" width="100" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse">
+			<g>
+			<polyline stroke="#4c2157" stroke-width="1" stroke-opacity="1" stroke-miterlimit="30" fill="none" fill-opacity="1" points="5,0 100,0 99,96 4,95 5,4 96,5 94,92 8,90 10,8 92,11 90,88 13,85 15,12 87,16 85,84 17,80 18,16 84,21 79,79 20,75 22,21 80,27 73,76 24,69 26,25 76,31 68,72 28,64 31,28 72,35 64,68 32,60 36,32 68,39 60,64 36,56 41,36 64,43 56,60 40,52 45,40 60,46 54,56 44,50 48,44 56,48 53,53 47,50 49,47 53,49 51,50 50,49" transform="matrix(1 0 0 1 -0.666667 0.5)" />
+			</g>
+			</pattern>
+			</defs>
+			<path d="M108 127L127 130L126 147L123 163L120 179L122 192L128 205L134 218L144 224L153 231L166 244L176 251L194 255L210 263L227 265L242 270C242 270 261 283 261 285L274 306L277 326L295 334L323 336" fill="none" stroke="#006699" stroke-width="2" stroke-dasharray="6,6" transform="matrix(1.49,0,0,1.49,-69.35,-24.19)" xmlns="http://www.w3.org/2000/svg" />
+			<path d="M68 186L23.80441 229.4828A62 62 0 1 1 54.5503 246.5237Z" fill="#FFFFFF" stroke="#336699" stroke-width="1" stroke-dasharray="5,5" transform="matrix(-0.582,-1.072,1.072,-0.582,-67.802,345.268)" xmlns="http://www.w3.org/2000/svg" />
+			<text x="40" y="123" xml:space="preserve" font-family="SentyTEA" font-size="25" fill="#C8171A" stroke="#C8171A" baseline-shift="baseline">
+			<tspan x="26" dy="10">
+			哇，看这里</tspan>
+			<tspan x="10" dy="35">
+			看这里</tspan>
+			<tspan x="20" dy="40">
+			茄子，(∩_∩)</tspan>
+			</text>
+		</svg>
+	</span>
+	<span style="display:block;position:absolute;left:48%;top:500px;z-index:105;">
+			<a href="#lyric" rel="nofollow" style="color:#fff;">
+				<section class='pin'></section>
+				<section class='pulse'></section>
+				<h4 style="position:relative;top:-30px;left:-20px;">LYRIC</h4>
+				<ol id="lyric">
+					<li>策划 <span>海猫</span> <span>弧光工作室</span></li>
+					<li>作曲 <span>海猫</span> <span>弧光工作室</span></li>
+					<li>编曲 <span>疯狂奥麦斯</span> <span>音阙诗听</span></li>
+					<li>后期 <span>疯狂奥麦斯</span> <span>音阙诗听</span></li>
+					<li>作词 <span>朦珣</span> <span>弧光工作室</span></li>
+					<li>演唱 <span>夏木樱</span> <span>荣耀剧组</span></li>
+					<li>和声编唱 <span>夏木樱</span> <span>荣耀剧组</span></li>
+					<li>美工 <span>黄烦烦</span> <span>弧光工作室</span></li>
+					<li>视频 <span>黄烦烦</span> <span>弧光工作室</span></li>
+					<li>监制 <span>拾壹</span> <span>十万伏特工作室</span></li>
+					<li>起床抬抬胳膊再伸个懒腰</li>
+					<li>窗外阳光 正将我照耀</li>
+					<li>有停在枝头叫的欢快的鸟</li>
+					<li>像提醒着小牛奶已经被温好</li>
+					<li>每天跟在你身后 想让你看到</li>
+					<li>我不是只会吃喝吵闹</li>
+					<li>你快来给我一个抱抱</li>
+					<li>我这么可爱要去哪里找</li>
+					<li>有个要求 请一定要记牢</li>
+					<li>别去摘我帽子 小心我真的发飙</li>
+					<li>哪有秃头 不要胡说八道</li>
+					<li>不过像鸡窝里的杂草</li>
+					<li>独特记号</li>
+					<li>才方便你寻找 别因为这个就轻易</li>
+					<li>把我丢掉</li>
+					<li>我会听话 保证家务全包</li>
+					<li>虽然做的不好</li>
+					<li>坏事倒干了不少</li>
+					<li>偷偷拽住 你的一片衣角</li>
+					<li>不要丢下我好不好</li>
+					<li>小牛奶其实和你一样重要</li>
+					<li>相信明天 不会更糟糕</li>
+					<li>坏人一定会被我们都赶跑</li>
+					<li>毕竟还有你做我最后的城堡</li>
+				</ol>
+			</a>
+	</span>
+	<span style="display:block;position:absolute;left:47%;top:1010px;z-index:105;">
+			<a href="#staff" rel="nofollow" style="color:#fff;">
+				<section class='pin'></section>
+				<section class='pulse'></section>
+				<h4 style="position:relative;top:-30px;left:-20px;">STAFF</h4>
+				<ol id="staff">
+					<li>原著 <span>虽虽酱</span> <span>自由人</span></li>
+					<li>策划 <span>拾壹</span> <span>十万伏特</span></li>
+					<li>编剧 <span>不二</span> <span>自由人</span></li>
+					<li>导演 <span>水蓝</span> <span>恶人谷</span></li>
+					<li>音频后期 <span>夏素馨</span> <span>十万伏特</span></li>
+					<li>视频后期 <span>临云</span> <span>折戟原创</span></li>
+					<li>视频后期 <span>桐</span> <span>十万伏特</span></li>
+					<li>美工 <span>橙子</span> <span>十万伏特</span></li>
+					<li>宣传 <span>城郊园</span> <span>Always</span></li>
+					<li>监制 <span>虽虽酱</span> <span>自由人</span></li>
+					<li>监制 <span>聆落</span> <span>十万伏特</span></li>
+				</ol>
+			</a>
+	</span>
+	<span style="display:block;position:absolute;left:40%;top:1350px;z-index:105;">
+			<a href="#cast" rel="nofollow" style="color:#fff;">
+				<section class='pin'></section>
+				<section class='pulse'></section>
+				<h4 style="position:relative;top:-30px;left:-20px;">CAST</h4>
+				<ol id="cast">
+					<li>小僵尸 <span>喵杏仁</span> <span>十万伏特</span></li>
+					<li>小男孩 <span>觉音</span> <span>毛线</span></li>
+					<li>颜文字 <span>聆落</span> <span>十万伏特</span></li>
+					<li>报幕 <span>拾壹</span> <span>十万伏特</span></li>
+				</ol>
+			</a>
+	</span>
+	<table align=center width=240px height=520px id="link">
+					<tr>
+						<td id="triangle-up">
+						<!-- 	<p style="font-size:36px;color:#fff;font-family:'SentyTEA';face:'SentyTEA';font:'SentyTEA';position:relative;top:150px;">LINK</p> -->
+						</td>
+					</tr>
+					<tr>
+						<td id="box">
+							<OL class='link'>
+	                          	<li style="background-color:rgba(47,130,213,.6);"><a rel="nofollow" href='http://t.cn/RKID59W' target='_blank' style='color:#fff;'>B站序幕</a></li>
+	                          	<li style="background-color:rgba(115,24,28,.6);"><a rel="nofollow" href='http://t.cn/RKIDJ60' target='_blank' style='color:#fff;'>B站片尾曲</a></li>
+	                          	<li style="background-color:rgba(115,24,28,.6);"><a rel="nofollow" href='https://www.missevan.com/sound/272761' target='_blank' style='color:#fff;'>M站片尾曲</a></li>
+	                          	<li style="background-color:rgba(47,130,213,.6);"><a rel="nofollow" href='http://5sing.kugou.com/m/Song/Detail/yc/3333962' target='_blank' style='color:#fff;'>5Sing片尾曲</a></li>
+                        	</OL> 
+						</td>
+					</tr>
+	</table>
+</body>
+</html>

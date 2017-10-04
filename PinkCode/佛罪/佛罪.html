@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <link rel='stylesheet' href='https://chengjiaoyuan.github.io/PinkCode/CSS/CSSFont/%E8%8B%B1%E6%96%87/funny/Packaging%20Funny.css' media='screen' title='no title' charset='utf-8'>
+    <link rel='stylesheet' href='https://chengjiaoyuan.github.io/PinkCode/CSS/CSSFont/%E5%AD%97%E9%85%B7%E6%A5%B7%E4%BD%93/%E5%AD%97%E9%85%B7%E5%A0%82%E9%BB%84%E6%A5%B7%E4%BD%93.css' media='screen' title='no title' charset='utf-8'/>
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/98127/46953/5979b0c2f629d810944c249e.css' rel='stylesheet' type='text/css' />
+	<style>
+		body{
+			margin-left:-950px; 
+			width:1900px;
+			position:relative;
+			left:50%;
+			overflow-x:hidden;
+			background-color:#000;
+		}
+		ol{
+			list-style:none;
+			text-align:center;
+		}
+		a{text-decoration: none;}
+		.bg-flower {
+	        position: absolute;
+	        background-color:#000;
+	        top: 0;
+	        left: 0;
+	        width: 100%;
+	        height:3200px;
+	    }
+	    .star>li{position: absolute; z-index: 102;}
+		.star>li:nth-child(5n){ 
+			width:2px; 
+			height: 2px; 
+			border-radius: 2px; 
+			-o-border-radius: 2px; 
+			-webkit-border-radius: 2px; 
+			-moz-border-radius: 2px; 
+			-ms-border-radius: 2px; 
+			background:#035849; 
+			animation:star 2s infinite linear;
+		    -o-animation:star 2s infinite linear;
+		    -moz-animation:star 2s infinite linear;
+		    -ms-animation:star 2s infinite linear;
+		    -webkit-animation:star 2s infinite linear;
+		}
+		.star>li:nth-child(5n+1){ width:4px; height: 4px; 
+		border-radius: 4px; 
+		-o-border-radius: 4px; 
+		-webkit-border-radius: 4px; 
+		-moz-border-radius: 4px; 
+		-ms-border-radius: 4px;
+		background:#fff; -webkit-animation:shine 1s linear 2s infinite;-o-animation:shine 1s linear 2s infinite;-ms-animation:shine 1s linear 2s infinite;-moz-animation:shine 1s linear 2s infinite; animation:shine 1s linear 2s infinite;}
+		.star>li:nth-child(5n+2){ width:2px; height: 2px; 
+		border-radius: 2px; 
+		-o-border-radius: 2px; 
+		-webkit-border-radius: 2px; 
+		-moz-border-radius: 2px; 
+		-ms-border-radius: 2px; 
+		background:#fff; -webkit-animation:shine 1s linear 3s infinite;-o-animation:shine 1s linear 3s infinite;-ms-animation:shine 1s linear 3s infinite;-moz-animation:shine 1s linear 3s infinite; animation:shine 1s linear 3s infinite;}
+		.star>li:nth-child(5n+3){ width:4px; height: 4px; 
+		border-radius: 4px; 
+		-o-border-radius: 4px; 
+		-webkit-border-radius: 4px; 
+		-moz-border-radius: 4px; 
+		-ms-border-radius: 4px;  background:#fff; -webkit-animation:shine 1s linear 1.5s infinite;-o-animation:shine 1s linear 1.5s infinite;-ms-animation:shine 1s linear 1.5s infinite;-moz-animation:shine 1s linear 1.5s infinite; animation:shine 1s linear 1.5s infinite;}
+		.star>li:nth-child(5n+4){ width:5px; height: 5px; border-radius: 2px; 
+			-o-border-radius: 2px; 
+			-webkit-border-radius: 2px; 
+			-moz-border-radius: 2px; 
+			-ms-border-radius: 2px;  
+			background:#fff; 
+			-webkit-animation:shine 1s linear 2.5s infinite;
+			-o-animation:shine 1s linear 2.5s infinite;
+			-ms-animation:shine 1s linear 2.5s infinite;
+			-moz-animation:shine 1s linear 2.5s infinite; 
+			animation:shine 1s linear 2.5s infinite;
+		}
+		.star>li:nth-child(1){top: 20%; left: 80%;}
+		.star>li:nth-child(2){top: 30%; left: 20%;}
+		.star>li:nth-child(3){top: 50%; left: 40%;}
+		.star>li:nth-child(4){top: 70%; left: 50%;}
+		.star>li:nth-child(5){top: 10%; left: 60%;}
+		.star>li:nth-child(6){top: 20%; left: 30%;}
+		.star>li:nth-child(7){top: 30%; left: 10%;}
+		.star>li:nth-child(8){top: 40%; left: 50%;}
+		.star>li:nth-child(9){top: 60%; left: 10%;}
+		.star>li:nth-child(10){top: 10%; left: 50%;}
+		.star>li:nth-child(11){top: 40%; left: 30%;}
+		.star>li:nth-child(12){top: 70%; left: 20%;}
+		.star>li:nth-child(13){top: 20%; left: 40%;}
+		.star>li:nth-child(14){top: 40%; left: 70%;}
+		.star>li:nth-child(15){top: 60%; left: 60%;}
+		.star>li:nth-child(16){top: 20%; left: 40%;}
+		.star>li:nth-child(17){top: 50%; left: 95%;}
+		.star>li:nth-child(18){top: 70%; left: 20%;}
+		.star>li:nth-child(19){top: 20%; left: 40%;}
+		.star>li:nth-child(20){top: 65%; left: 15%;}
+		.star>li:nth-child(21){top: 35%; left: 55%;}
+		.star>li:nth-child(22){top: 75%; left: 65%;}
+		.star>li:nth-child(23){top: 25%; left: 25%;}
+		.star>li:nth-child(24){top: 45%; left: 90%;}
+		.star>li:nth-child(25){top: 25%; left: 75%;}
+		.star>li:nth-child(26){top: 75%; left: 75%;}
+		.star>li:nth-child(27){top: 45%; left: 65%;}
+		.star>li:nth-child(28){top: 25%; left: 35%;}
+		.star>li:nth-child(29){top: 65%; left: 55%;}
+		.star>li:nth-child(30){top: 55%; left: 45%;}
+		.star>li:nth-child(31){top: 75%; left: 75%;}
+		.star>li:nth-child(32){top: 25%; left: 25%;}
+		.star>li:nth-child(33){top: 35%; left: 85%;}
+		.star>li:nth-child(34){top: 35%; left: 45%;}
+		.star>li:nth-child(35){top: 15%; left: 25%;}
+		.star>li:nth-child(36){top: 55%; left: 45%;}
+		.star>li:nth-child(37){top: 75%; left: 55%;}
+		.star>li:nth-child(38){top: 25%; left: 55%;}
+		.star>li:nth-child(39){top: 55%; left: 65%;}
+		.star>li:nth-child(40){top: 65%; left: 25%;}
+		.star>li:nth-child(41){top: 15%; left: 25%;}
+		.star>li:nth-child(42){top: 25%; left: 25%;}
+		.star>li:nth-child(43){top: 35%; left: 45%;}
+		.star>li:nth-child(44){top: 5%; left: 45%;}
+		.star>li:nth-child(45){top: 15%; left: 40%;}
+		.star>li:nth-child(46){top: 20%; left: 5%;}
+		.star>li:nth-child(47){top: 65%; left: 25%;}
+		.star>li:nth-child(48){top: 75%; left: 15%;}
+		.star>li:nth-child(49){top: 45%; left: 25%;}
+		.star>li:nth-child(50){top: 26%; left: 36%;}
+		@-webkit-keyframes shine{0%{opacity:0.5;} 100%{opacity: 1;};}
+		@-o-keyframes shine{0%{opacity:0.5;} 100%{opacity: 1;};}
+		@-ms-keyframes shine{0%{opacity:0.5;} 100%{opacity: 1;};}
+		@-moz-keyframes shine{0%{opacity:0.5;} 100%{opacity: 1;};}
+		@keyframes shine{0%{opacity:0.5;} 100%{opacity: 1;};}
+	    ::-webkit-scrollbar {WIDTH: 12px;} 
+	    ::-webkit-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(102,55,36, 0.5); } 
+	    ::-webkit-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(102,55,36, 0.6); } 
+	    ::-o-scrollbar {WIDTH: 12px;} 
+	    ::-o-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(102,55,36, 0.4); } 
+	    ::-o-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(102,55,36, 0.5); } 
+	    ::-moz-scrollbar {WIDTH: 12px;} 
+	    ::-moz-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(102,55,36, 0.4); } 
+	    ::-moz-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(102,55,36, 0.5); } 
+	    ::-ms-scrollbar {WIDTH: 12px;} 
+	    ::-ms-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(102,55,36, 0.4); } 
+	    ::-ms-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(102,55,36, 0.5); } 
+	    ::scrollbar {WIDTH: 12px;} 
+	    ::scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(102,55,36, 0.4); } 
+	    ::scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(102,55,36, 0.5); } 
+	    .circle{
+	    	border-top:none; 
+			border-right:2px solid #fff; 
+			border-bottom:2px solid #fff; 
+			border-left:none; 
+			text-align:center;
+			line-height:500px;
+	    }
+	    .circle2{
+	    	border-top:2px solid #fff; 
+			border-left:2px solid #fff; 
+			border-bottom:none;
+			border-right:none; 
+			text-align:center;
+			line-height:500px;
+	    }
+	    .circle3{
+	    	border-bottom:2px solid #fff; 
+			border-right:2px solid #fff; 
+			border-top:none;
+			border-left:2px solid #fff;
+			text-align:center;
+			line-height:500px;
+	    }
+	    .staff li{
+	        color:#fff;
+			font-size:25px;
+			text-align: center;
+			height: 35px;
+			line-height: 35px;
+	    }
+	    .ed li{
+	        color:#fff;
+			font-size:25px;
+			text-align: center;
+			height: 35px;
+			line-height: 35px;
+			width: 500px;
+	    }
+	    .staff li span:nth-child(odd){
+	        font-size:25px;
+	        color:#fff;
+	        font-weight: lighter;
+	        text-shadow:0 0 #534F4D,0 1px #534F4D,0 -1px #534F4D,1px 0 #534F4D, 1px 1px #534F4D, 1px -1px #534F4D, -1px 0 #534F4D, -1px 1px #534F4D, -1px -1px #534F4D;
+
+	    }
+	    .staff li span:nth-child(even){
+	        color:#CC3333;
+			font-size:25px;
+	    }  
+	    /*.cast li{
+	        color:#fff;
+			font-size:25px;
+			text-align: center;
+			height: 35px;
+			line-height: 35px;
+	    }
+	    .cast li span:nth-child(odd){
+	        font-size:25px;
+	        color:#fff;
+	        font-weight: lighter;
+	        text-shadow:0 0 #CC3333,0 1px #CC3333,0 -1px #CC3333,1px 0 #CC3333, 1px 1px #CC3333, 1px -1px #CC3333, -1px 0 #CC3333, -1px 1px #CC3333, -1px -1px #CC3333;
+
+	    }
+	    .cast li span:nth-child(even){
+	        color:#000;
+	        font-size:25px;
+	    } */ 
+	    #zhuan{
+			animation:go 18s ease infinite;
+			-webkit-animation:go 18s ease infinite;
+			-moz-animation:go 18s ease infinite;
+			-o-animation:go 18s ease infinite;
+			-ms-animation:go 18s ease infinite;
+	    }
+	    @keyframes go { 0% {transform:rotateY(0deg);} 50% { transform:rotateY(180deg);}100% { transform:rotateY(360deg);}}
+
+		@-webkit-keyframes go { 0% {transform:rotateY(0deg);} 50% { transform:rotateY(180deg);}100% { transform:rotateY(360deg);}}
+		@-moz-keyframes  go { 0% {transform:rotateY(0deg);} 50% { transform:rotateY(180deg);}100% { transform:rotateY(360deg);}}
+
+		@-o-keyframes go { 0% {transform:rotateY(0deg);} 50% { transform:rotateY(180deg);}100% { transform:rotateY(360deg);}}
+
+		@-ms-keyframes  go { 0% {transform:rotateY(0deg);} 50% { transform:rotateY(180deg);}100% { transform:rotateY(360deg);}}
+		.ed{
+			width:500px;
+			height:auto;
+		}
+		.link li{
+			font-size: 26px;
+			height: 160px;
+			width: 40px;
+			line-height: 40px;
+			float: left;
+			text-align: center;
+			color:#fff;
+			position: relative;
+			top:30px;
+			box-shadow: 0px 0px 12px #D6948D;
+			border-radius: 8px;
+			-o-border-radius: 8px;
+			-webkit-border-radius: 8px;
+			-moz-border-radius: 8px;
+			-ms-border-radius: 8px;
+			background-color: rgba(214,148,141,.6);
+			margin: 5px;
+			font-family:'字酷堂黄楷体';
+			face:'字酷堂黄楷体';
+			font:'字酷堂黄楷体';
+		 }
+		 .link li a{
+		 	font-family:'字酷堂黄楷体';
+		 	face:'字酷堂黄楷体';
+		 	font:'字酷堂黄楷体';
+		 }
+		 .drawing {
+		  display: inline-block;
+	      -webkit-transform: perspective(100px);
+	      -o-transform: perspective(100px);
+	      -moz-transform: perspective(100px);
+	      -ms-transform: perspective(100px);
+  		  transform: perspective(100px);
+		}
+		.drawing:before {
+		  content: "";
+		  position: absolute;
+		  border-radius:6px;
+	      -o-border-radius:6px;
+	      -moz-border-radius:6px;
+	      -ms-border-radius:6px;
+	      -webkit-border-radius:6px;
+		  z-index: -1;
+		  top: 0;
+		  bottom: 0;
+		  left: 0;
+		  right: 0;
+		  background: rgba(204,51,0,.5);
+		  -webkit-transform: scaleX(0);
+		  -o-transform: scaleX(0);
+		  -moz-transform: scaleX(0);
+		  -ms-transform: scaleX(0);
+		  transform: scaleX(0);
+		  -webkit-transform-origin: 50%;
+		  -moz-transform-origin: 50%;
+		  -o-transform-origin: 50%;
+		  -ms-transform-origin: 50%;
+		  transform-origin: 50%;
+		  -webkit-transition-property: transform;
+		  transition-property: transform;
+		  -moz-transition-property: transform;
+		  -ms-transition-property: transform;
+		  -o-transition-property: transform;
+		  -webkit-transition-duration: 0.3s;
+		  transition-duration: 0.3s;
+		  -moz-transition-duration: 0.3s;
+		  -ms-transition-duration: 0.3s;
+		  -o-transition-duration: 0.3s;
+		  -webkit-transition-timing-function: ease-out;
+		  transition-timing-function: ease-out;
+		  -moz-transition-timing-function: ease-out;
+		  -ms-transition-timing-function: ease-out;
+		  -o-transition-timing-function: ease-out;
+		}
+		.drawing:hover:before{
+		  -webkit-transform: scaleX(1);
+		  -o-transform: scaleX(1);
+		  -moz-transform: scaleX(1);
+		  -ms-transform: scaleX(1);
+		  transform: scaleX(1);		
+		}
+		h6{
+			font-family:'LiDeBiao-Xing3c26db296917f4f';
+			font-size: 160px;
+			font:'LiDeBiao-Xing3c26db296917f4f';
+			face:'LiDeBiao-Xing3c26db296917f4f';
+			color: #fff;
+			font-weight: lighter;
+		}
+		.stars{
+		    width:3px;
+		    height:3px;
+		    background-color:#408080;
+		    display:block;
+		    position:absolute;
+		    top:800px;
+		    right:800px;
+		    border-radius:3px;
+		    -webkit-border-radius:3px;
+		    -moz-border-radius:3px;
+		    -ms-border-radius:3px;
+		    -o-border-radius:3px;
+		    animation:star 2s infinite linear;
+		    -o-animation:star 2s infinite linear;
+		    -moz-animation:star 2s infinite linear;
+		    -ms-animation:star 2s infinite linear;
+		    -webkit-animation:star 2s infinite linear;
+		    opacity:0;
+		    z-index:2;
+		}
+		.stars:after{
+		    position:relative;
+		    display:block;
+		    top:-49px;
+		    left:23px;
+		    border:1px solid #408080;
+		    border-width:0 0 0 1px;
+		    width:100px;
+		    height:100px;
+		    content:"";
+		    transform:rotate(45deg);
+		    -o-transform:rotate(45deg);
+		    -moz-transform:rotate(45deg);
+		    -ms-transform:rotate(45deg);
+		    -webkit-transform:rotate(45deg);
+		}
+		.dark:after{
+		    width:200px;
+		    height:200px;
+		    top:-99px;
+		    left:43px;
+		    border:1px solid lightskyblue;
+		    border-width:0 0 0 1px;
+		}
+		.dark{
+		    background-color:lightskyblue;
+		    top:660px;
+		    left:500px;
+		    animation-delay:5s;
+		    -o-animation-delay:5s;
+		    -ms-animation-delay:5s;
+		    -moz-animation-delay:5s;
+		    -webkit-animation-delay:5s;
+		    z-index:2;
+		}
+		.pink{
+		    background-color:lightpink;
+		    top:860px;
+		    right:100px;
+		    animation:starPink 3s infinite linear;
+		    animation-delay:3s;
+		    -o-animation:starPink 3s infinite linear;
+		    -o-animation-delay:3s;
+		    -moz-animation:starPink 3s infinite linear;
+		    -moz-animation-delay:3s;
+		    -ms-animation:starPink 3s infinite linear;
+		    -ms-animation-delay:3s;
+		    -webkit-animation:starPink 3s infinite linear;
+		    -webkit-animation-delay:3s;
+		    z-index:2;
+		}
+		.pink:after{
+		    width:133px;
+		    height:133px;
+		    top:-65px;
+		    left:460px;
+		    border:1px solid lightpink;
+		    border-width:0 0 0 1px;
+		}
+		.yellow{
+		    background-color:yellow;
+		    top:927px;
+		    right:261px;
+		    animation:starYellow 4s infinite linear;
+		    animation-delay:2s;
+		    -o-animation:starYellow 4s infinite linear;
+		    -o-animation-delay:2s;
+		    -webkit-animation:starYellow 4s infinite linear;
+		    -webkit-animation-delay:2s;
+		    -moz-animation:starYellow 4s infinite linear;
+		    -moz-animation-delay:2s;
+		    -ms-animation:starYellow 4s infinite linear;
+		    -ms-animation-delay:2s;
+		    z-index:2;
+		}
+		.yellow:after{
+		    width:209px;
+		    height:164px;
+		    top:-65px;
+		    left:29px;
+		    border:1px solid #008040;
+		    border-width:0 0 0 1px;
+		}
+		.green{
+		    background-color:#035849;
+		    top:1327px;
+		    right:261px;
+		    animation:starYellow 3s infinite linear;
+		    animation-delay:3s;
+		    -o-animation:starYellow 3s infinite linear;
+		    -o-animation-delay:3s;
+		    -webkit-animation:starYellow 3s infinite linear;
+		    -webkit-animation-delay:3s;
+		    -moz-animation:starYellow 3s infinite linear;
+		    -moz-animation-delay:3s;
+		    -ms-animation:starYellow 3s infinite linear;
+		    -ms-animation-delay:3s;
+		    z-index: 2;
+		}
+		.green:after{
+		    width:160px;
+		    height:120px;
+		    top:-15px;
+		    left:360px;
+		    border:1px solid #035849;
+		    border-width:0 0 0 1px;
+		}
+		.purple{
+		    background-color:#008040;
+		    top:1227px;
+		    right:261px;
+		    animation:starPink 3s infinite linear;
+		    animation-delay:1s;
+		    -o-animation:starPink 3s infinite linear;
+		    -o-animation-delay:1s;
+		    -webkit-animation:starPink 3s infinite linear;
+		    -webkit-animation-delay:1s;
+		    -moz-animation:starPink 3s infinite linear;
+		    -moz-animation-delay:1s;
+		    -ms-animation:starPink 3s infinite linear;
+		    -ms-animation-delay:1s;
+		    z-index:2;
+		}
+		.purple:after{
+		    width:120px;
+		    height:160px;
+		    top:65px;
+		    left:80px;
+		    border:1px solid #008040;
+		    border-width:0 0 0 1px;
+		}
+		@keyframes star{
+		    0%{
+		        opacity:0;
+		        transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        transform:scale(1) translate(-200px,200px);
+		    }
+		    100%{
+		        opacity:0;
+		        transform:scale(1) translate(-400px,400px);
+		    }
+		}
+		@keyframes starPink{
+		    0%{
+		        opacity:0;
+		        transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        transform:scale(1) translate(-300px,300px);
+		    }
+		    100%{
+		        opacity:0;
+		        transform:scale(1) translate(-600px,600px);
+		    }
+		}
+		@keyframes starYellow{
+		    0%{
+		        opacity:0;
+		        transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        transform:scale(1) translate(-300px,300px);
+		    }
+		    100%{
+		        opacity:0;
+		        transform:scale(1) translate(-600px,600px);
+		    }
+		} 
+		@-o-keyframes star{
+		    0%{
+		        opacity:0;
+		        -o-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -o-transform:scale(1) translate(-200px,200px);
+		    }
+		    100%{
+		        opacity:0;
+		        -o-transform:scale(1) translate(-400px,400px);
+		    }
+		}
+		@-o-keyframes starPink{
+		    0%{
+		        opacity:0;
+		        -o-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -o-transform:scale(1) translate(-300px,300px);
+		    }
+		    100%{
+		        opacity:0;
+		        -o-transform:scale(1) translate(-600px,600px);
+		    }
+		}
+		@-o-keyframes starYellow{
+		    0%{
+		        opacity:0;
+		        -o-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -o-transform:scale(1) translate(-300px,300px);
+		    }
+		    100%{
+		        opacity:0;
+		        -o-transform:scale(1) translate(-600px,600px);
+		    }
+		} 
+		@-moz-keyframes star{
+		    0%{
+		        opacity:0;
+		        -moz-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -moz-transform:scale(1) translate(-200px,200px);
+		    }
+		    100%{
+		        opacity:0;
+		        -moz-transform:scale(1) translate(-400px,400px);
+		    }
+		}
+		@-moz-keyframes starPink{
+		    0%{
+		        opacity:0;
+		        -moz-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -moz-transform:scale(1) translate(-300px,300px);
+		    }
+		    100%{
+		        opacity:0;
+		        -moz-transform:scale(1) translate(-600px,600px);
+		    }
+		}
+		@-moz-keyframes starYellow{
+		    0%{
+		        opacity:0;
+		        -moz-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -moz-transform:scale(1) translate(-300px,300px);
+		    }
+		    100%{
+		        opacity:0;
+		        -moz-transform:scale(1) translate(-600px,600px);
+		    }
+		} 
+		@-ms-keyframes star{
+		    0%{
+		        opacity:0;
+		        -ms-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -ms-transform:scale(1) translate(-200px,200px);
+		    }
+		    100%{
+		        opacity:0;
+		        -ms-transform:scale(1) translate(-400px,400px);
+		    }
+		}
+		@-ms-keyframes starPink{
+		    0%{
+		        opacity:0;
+		        -ms-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -ms-transform:scale(1) translate(-300px,300px);
+		    }
+		    100%{
+		        opacity:0;
+		        -ms-transform:scale(1) translate(-600px,600px);
+		    }
+		}
+		@-ms-keyframes starYellow{
+		    0%{
+		        opacity:0;
+		        -ms-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -ms-transform:scale(1) translate(-300px,300px);
+		    }
+		    100%{
+		        opacity:0;
+		        -ms-transform:scale(1) translate(-600px,600px);
+		    }
+		} 
+		@-webkit-keyframes star{
+		    0%{
+		        opacity:0;
+		        -webkit-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -webkit-transform:scale(1) translate(-200px,200px);
+		    }
+		    100%{
+		        opacity:0;
+		        -webkit-transform:scale(1) translate(-400px,400px);
+		    }
+		}
+		@-webkit-keyframes starPink{
+		    0%{
+		        opacity:0;
+		        -webkit-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -webkit-transform:scale(1) translate(-300px,300px);
+		    }
+		    100%{
+		        opacity:0;
+		        -webkit-transform:scale(1) translate(-600px,600px);
+		    }
+		}
+		@-webkit-keyframes starYellow{
+		    0%{
+		        opacity:0;
+		        -webkit-transform:scale(0) translate(0,0);
+		    }
+		    50%{
+		        opacity:1;
+		        -webkit-transform:scale(1) translate(-300px,300px);
+		    }
+		    100%{
+		        opacity:0;
+		        -webkit-transform:scale(1) translate(-600px,600px);
+		    }
+		} 
+		.greens{
+		    background-color:#035849;
+		    top:200px;
+		    left:260px;
+		    animation:starYellow 3s infinite linear;
+		    animation-delay:1s;
+		    -o-animation:starYellow 3s infinite linear;
+		    -o-animation-delay:1s;
+		    -webkit-animation:starYellow 3s infinite linear;
+		    -webkit-animation-delay:1s;
+		    -moz-animation:starYellow 3s infinite linear;
+		    -moz-animation-delay:1s;
+		    -ms-animation:starYellow 3s infinite linear;
+		    -ms-animation-delay:1s;
+		}
+		.greens:after{
+		    width:160px;
+		    height:120px;
+		    top:-15px;
+		    left:360px;
+		    border:1px solid #035849;
+		    border-width:0 0 0 1px;
+		}
+		.yellows{
+		    background-color:yellow;
+		    top:200px;
+		    left:280px;
+		    animation:starYellow 4s infinite linear;
+		    animation-delay:2s;
+		    -o-animation:starYellow 4s infinite linear;
+		    -o-animation-delay:2s;
+		    -webkit-animation:starYellow 4s infinite linear;
+		    -webkit-animation-delay:2s;
+		    -moz-animation:starYellow 4s infinite linear;
+		    -moz-animation-delay:2s;
+		    -ms-animation:starYellow 4s infinite linear;
+		    -ms-animation-delay:2s;
+		    z-index:2;
+		}
+		.yellows:after{
+		    width:209px;
+		    height:164px;
+		    top:-65px;
+		    left:29px;
+		    border:1px solid #008040;
+		    border-width:0 0 0 1px;
+		}
+		.biaoti li{
+			width: 35px;
+			height: 400px;
+			box-shadow: 0px 0px 16px #fff;
+			vertical-align: top;
+			line-height: 35px;
+			color: #fff;
+			font-size: 24px;
+			font-family:'字酷堂黄楷体';
+		 	face:'字酷堂黄楷体';
+		 	font:'字酷堂黄楷体';
+		 	border-radius:6px;
+		    -webkit-border-radius:6px;
+		    -moz-border-radius:6px;
+		    -ms-border-radius:6px;
+		    -o-border-radius:6px;
+		    position: relative;
+		    left: 180px;
+		    top:50px;
+		}
+	</style>
+</head>
+<body>
+	<ol class="bg-flower star">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ol>
+    <span class="stars"></span>
+    <span class="stars pink"></span>
+    <span class="stars yellow"></span>
+    <span class="stars yellows"></span>
+    <span class="stars purple"></span>
+    <span class="stars green"></span>
+    <span class="stars greens"></span>
+    <span class="stars dark"></span>
+    <center>
+    	<span style="background:url(https://chengjiaoyuan.github.io/PinkCode/%E4%BD%9B%E7%BD%AA/BGS.png) no-repeat;display:block;width:800px;height:480px;position:absolute;top:20px;right:0%;z-index:120;"></span>
+    	<span style="display:block;width:500px;height:500px;border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;position:absolute;top:100px;left:37%;font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';font-size:150px;color:#fff;z-index:2;" class="circle">
+			<h6 style="position:relative;top:-400px;font-family:'yuweifc2883c0d817f4f';">佛罪</h6>
+    	</span>
+    	<span style="display:block;width:1000px;height:550px;position:absolute;top:420px;left:24%;z-index:1;border:1px solid #fff;border-radius:8px;-o-border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;-ms-border-radius:8px;">
+    		<img src="https://chengjiaoyuan.github.io/PinkCode/%E4%BD%9B%E7%BD%AA/%E5%B0%81%E9%9D%A2.png" style="border-radius:8px;-o-border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;-ms-border-radius:8px;position:relative;top:50px;"/>
+    		<table style="position:relative;left:-450px;top:-350px;">
+    			<tr>
+    				<td style='font-size:45px;color:#fff;font-family: "Packaging Funny";font:"Packaging Funny";face:"Packaging Funny";' height=300px>F<br/>O<br/><br/>Z<br/>U<br/>I</td>
+    				<td style="border-right:1px solid #fff;" height=300px></td>
+    			</tr>
+    		</table>
+    	</span>
+    	<span style="display:block;position:absolute;top:1000px;left:48%;width:100px;height:600px;font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';font-size:30px;color:#fff;z-index:102;">
+			对<br/>不<br/>起<br/>，<br/>我<br/>从<br/>未<br/>见<br/>他<br/>哭<br/>过<br/>，<br/>哭<br/>的<br/>这<br/>么<br/>伤<br/>心<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.
+    	</span>
+		<svg width="300" height="1400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  style="display:block;position:absolute;top:970px;left:45%;z-index:2;">
+			<path d="M136 1C136 1 -9 89 126 218C126 218 244 306 147 481C50 656 113 741 151 766C189 791 283 935 108 987" fill="none" fill-opacity="0" stroke="#CC3300" stroke-width="2" transform="matrix(1,0,0,1.2,-7,2.2)" xmlns="http://www.w3.org/2000/svg" />
+			<circle cx="109.5" cy="1196.5" r="19.5" fill="rgba(204,51,51,.8)" fill-opacity="1" stroke="none" stroke-width="2" transform="matrix(1,0,0,1,-11,-1)" />
+		</svg>
+		<span style="display:block;width:500px;height:500px;border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;position:absolute;top:1100px;left:20%;font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';color:#fff;z-index:2;" class="circle2">
+			<ol class="staff">
+				<li style="font-size:35px;">制作组</li>
+				<li>原著：<span>玮尊瑾上</span></li>
+				<li>导演：<span>澜殇</span><span> 韶华清尘</span></li>
+				<li>策划：<span>苏瑾然</span><span> 南斗社</span></li>
+				<li>编剧：<span>苏瑾然</span><span> 南斗社</span></li>
+				<li>编剧：<span>木七</span><span> 自由人</span></li>
+				<li>歌策：<span>梓澜</span><span> 南斗社</span></li>
+				<li>后期：<span>狼墨</span><span> 逐风流</span></li>
+				<li>美工：<span>某白</span><span> 九月祭</span></li>
+				<li>视频：<span>Semaa小赛</span><span> 自由人</span></li>
+				<li>宣传：<span>城郊园</span><span style="font-weight:bold;"> Always工作室</span></li>
+			</ol>
+    	</span>
+    	<span style="display:block;width:550px;height:550px;border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;position:absolute;top:1600px;left:55%;font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';color:#fff;z-index:2;" class="circle">
+			<ol class="staff">
+				<li style="font-size:35px;">配音组</li>
+				<li>大圣：<span>墨龍</span><span> 魔音帝国</span></li>
+				<li>幺五：<span>岑先生</span><span> 星之声</span></li>
+				<li>如来：<span>上官佑</span><span> 自由人</span></li>
+				<li>上仙：<span>龙啸</span><span> 自由人</span></li>
+				<li>小猴子：<span>冥小鱼</span><span> 声色留香</span></li>
+				<li>报幕：<span>倒吊男</span><span> 自由人</span></li>
+				<li style="font-size:35px;">片尾曲</li>
+				<li>原曲：<span>花香冷</span></li>
+				<li>歌策：<span>梓澜</span><span> 南斗社</span></li>
+				<li>填词：<span>沈策</span><span> 青青子佩</span></li>
+				<li>演唱：<span>文致</span><span> 雪鸢工作室</span></li>
+				<li>美工：<span>西摩</span><span> 指缚pa工作室</span></li>
+				<li>歌后：<span>星河</span><span> 南斗社</span></li>
+			</ol>
+    	</span>
+    	<span style="display:block;position:absolute;top:2150px;left:41%;width:350px;height:440px;background:url(https://chengjiaoyuan.github.io/PinkCode/%E4%BD%9B%E7%BD%AA/%E7%8C%B4%E5%AD%90.png) no-repeat;border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;z-index:99;box-shadow:0px 0px 30px #89A5A3;" id="zhuan"></span>
+    	<span style="display:block;width:500px;height:500px;border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;position:absolute;top:2580px;left:36%;font-family:'字酷堂黄楷体';face:'字酷堂黄楷体';font:'字酷堂黄楷体';color:#fff;z-index:123;" class="circle3">
+    	<MARQUEE onmouseover='this.stop()' onmouseout='this.start()' direction=up scrollamount=4 WIDTH=500px height=400px style="position:relative;top:50px;">
+    		<ol class="ed">
+    			<li style="font-size:35px;color:#DB3802;">歌词</li>
+    			<li>醉后得一场好眠</li>
+				<li>记忆也 入酒了大半</li>
+				<li>恍似多年前 曾有一人</li>
+				<li>指天踏地 誓永寿延年</li>
+				<li>欲细细探得后续</li>
+				<li>戛然尔 此与我何干</li>
+				<li>复把檀珠握 斩因入禅</li>
+				<li>如沐暖春 哪管秋雨寒</li>
+				<li>我将如意扛铁肩</li>
+				<li>身旁路八千</li>
+				<li>道和义被分割两边</li>
+				<li>阿弥箴言 居其间</li>
+				<li>经文念千遍</li>
+				<li>大道不整 舍自由补全</li>
+				<li>金箍 已不存</li>
+				<li>六根清净 是只讲佛缘</li>
+				<li>桃李 熟又落</li>
+				<li>应已过 山中数多年</li>
+				<li>偶日途经东海地</li>
+				<li>有荒山 旁无水澹澹</li>
+				<li>撩起了回忆 云开月现</li>
+				<li>那年是我 欲举山无眠</li>
+				<li>我将如意扛铁肩</li>
+				<li>身旁路八千</li>
+				<li>道和义被分割两边</li>
+				<li>只身游离 在中间</li>
+				<li>听从了劝勉</li>
+				<li>六根清净 是只讲佛缘</li>
+				<li>忽闻桃李落</li>
+				<li>又一轮 山中数多年</li>
+				<li>川外多好景</li>
+				<li>尤自餐风 把佛珠轻捻</li>
+				<li>可怜 青栀小</li>
+				<li>应由我 竭力护周全</li>
+				<li>胸无山川险</li>
+				<li>一如旧年 道义扛铁肩</li>
+				<li>纵今早迟暮</li>
+				<li>也拼得 背负起亏欠</li>
+				<li>而后再伏首</li>
+				<li>甘愿自缚 受因果熬煎</li>
+				<li>般若颂千遍</li>
+				<li>闭尘心 不问是何年......</li>
+    		</ol>
+    	</MARQUEE>
+    	</span>
+    	<span style="display:block;width:300px;position:absolute;top:446px;left:84%;">
+    		<table width=300px height=400px>
+    			<tr>
+    				<td height=400px style="position:relative;left:52px;">
+    					<svg width="150" height="400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:relative;left:-75px;">
+						<path d="M71 1C71 1 18 88 71 147C71 147 108 212 69 273C69 273 2 370 74 401" fill="none" stroke="#DCA49B" stroke-opacity="1" stroke-width="2"/>
+						</svg>
+    				</td>
+    			</tr>
+    			<tr>
+    				<td height=600px width=300px style="border:2px solid #DCA49B;border-radius:15px;-o-border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;-ms-border-radius:15px;position:relative;left:-100px;top:-5px;box-shadow:0px 0px 10px #D6948D;">
+    					<ol class="link" style="position:relative;left:-20px;top:-70px;">
+    						<li>
+    							<a rel="nofollow" href='http://pan.baidu.com/share/link?shareid=1330605592&uk=123564343' target='_blank' style="color:#fff;" class="drawing">
+    								百度网盘
+    							</a>
+    						</li>
+    						<li>
+    							<a rel="nofollow" href='http://beiwo.ac/html/audioIndexM.html?id=597361a4a0bb9f00620d383b' target='_blank' style="color:#fff;" class="drawing">
+    								被窝正剧
+    							</a>
+    						</li>
+    						<li>
+    							<a rel="nofollow" href='http://t.cn/R9wu81y' target='_blank' style="color:#fff;" class="drawing">
+    								B<br/>站正剧
+    							</a>
+    						</li>
+    						<li>
+    							<a rel="nofollow" href='http://m.ximalaya.com/29004577/sound/44797728' target='_blank' style="color:#fff;" class="drawing">
+    								喜马正剧
+    							</a>
+    						</li>
+    						<li>
+    							<a rel="nofollow" href='https://www.lizhi.fm/1547974/2614587513144826374' target='_blank' style="color:#fff;" class="drawing">
+    								荔枝正剧
+    							</a>
+    						</li>
+    					</ol>
+    					<ol class="link" style="position:relative;left:-20px;top:30px;">
+    						<li>
+    							<a rel="nofollow" href='http://pan.baidu.com/share/link?shareid=551100093&uk=123564343' target='_blank' style="color:#fff;" class="drawing">
+    								佛罪漫画
+    							</a>
+    						</li>
+    						<li>
+    							<a rel="nofollow" href='http://m.ximalaya.com/29004577/sound/44797924' target='_blank' style="color:#fff;" class="drawing">
+    								喜马歌曲
+    							</a>
+    						</li>
+    						<li>
+    							<a rel="nofollow" href='http://beiwo.ac/html/audioIndexM.html?id=59737cdc61ff4b006c617e58' target='_blank' style="color:#fff;" class="drawing">
+    								被窝歌曲
+    							</a>
+    						</li>
+    						<li>
+    							<a rel="nofollow" href='http://5sing.kugou.com/m/Song/Detail/fc/15822570' target='_blank' style="color:#fff;" class="drawing">
+    								5<BR>S<BR>歌曲
+    							</a>
+    						</li>
+    						<li>
+    							<a rel="nofollow" href='https://www.lizhi.fm/1547974/2614584882478279174' target='_blank' style="color:#fff;" class="drawing">
+    								荔枝歌曲
+    							</a>
+    						</li>
+    					</ol>
+    				</td>
+    			</tr>
+    		</table>
+    	</span>
+    	<span style="display:block;width:300px;position:absolute;top:1600px;left:13%;">
+    		<img src="https://chengjiaoyuan.github.io/PinkCode/%E4%BD%9B%E7%BD%AA/IMGS.png" width=600px height=660px style="border-radius:50%;-o-border-radius:50%;-ms-border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;border-bottom:2px solid #fff;"/>
+    	</span>
+    	<span style="display:block;width:500px;height:700px;position:absolute;top:2200px;right:8%;background:url(https://chengjiaoyuan.github.io/PinkCode/%E4%BD%9B%E7%BD%AA/%E8%8E%B2%E8%8A%B1.png) no-repeat;">
+    		<ol class="biaoti">
+    			<li>这是花果山应有的劫数</li>
+    		</ol>
+    	</span>
+	</center>
+</body>
+</html>
