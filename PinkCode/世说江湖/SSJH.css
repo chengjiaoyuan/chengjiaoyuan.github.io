@@ -1,0 +1,131 @@
+﻿#biaoti{
+			font-family:'RS_XingKaifc6f5068b17f4f';
+			font:'RS_XingKaifc6f5068b17f4f';
+			face:'RS_XingKaifc6f5068b17f4f';
+			color: #6C6C6C;
+		}
+		body{
+			margin-left:-960px; WIDTH:1920px;
+			position:relative;left:50%;
+			overflow-x:hidden;background: #F6F3E7;
+		}
+		ol{
+			list-STYLE:none;text-align:center;
+		}
+		ol li{
+			list-STYLE:none;float: left;
+		}
+		a{text-decoration: none;} 
+		::-webkit-scrollbar {WIDTH: 12px;} 
+		::-webkit-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(255,255,255, 0.5); } 
+		::-webkit-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(255,255,255, 0.6); } 
+		::-o-scrollbar {WIDTH: 12px;} 
+		::-o-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(255,255,255, 0.4); } ::-o-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color: rgba(255,255,255, 0.5); } ::-moz-scrollbar {WIDTH: 12px;} ::-moz-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(255,255,255, 0.4); } ::-moz-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(255,255,255, 0.5); } ::-ms-scrollbar {WIDTH: 12px;} ::-ms-scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(255,255,255, 0.4); } ::-ms-scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(255,255,255, 0.5); } ::scrollbar {WIDTH: 12px;} ::scrollbar-track { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(255,255,255, 0.4); } ::scrollbar-thumb { border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px; background-color:rgba(255,255,255, 0.5); }
+		.bg-flower { position: absolute; top: 0; left: 0; WIDTH:1920px; HEIGHT:1730px; background:#F3EFE0; } 
+		.bg-flower li:nth-child(1){ position: absolute; top: 0; left: 0; WIDTH:100%; HEIGHT:780px; background:#000; } 
+		.bg-flower li:nth-child(2){ position: absolute; top: 800px; left: 0; WIDTH:100%; HEIGHT:950px; background: url(https://chengjiaoyuan.github.io/PinkCode/%E4%B8%96%E8%AF%B4%E6%B1%9F%E6%B9%96/%E6%9E%AB%E6%A0%91.png) no-repeat left center;} 
+		.wenziPath { 
+			stroke-dasharray: 1020; stroke-dashoffset: 1020; 
+			animation: draw 10s forwards; 
+			-o-animation: draw 10s forwards; 
+			-webkit-animation: draw 10s forwards; 
+			-moz-animation: draw 10s forwards; 
+			-ms-animation: draw 10s forwards; 
+			z-index:101;
+		}
+		@-webkit-keyframes draw { 90% { stroke-dashoffset: 0; fill:none; } 100% { stroke-dashoffset: 0; fill:#fff; }}
+		@-moz-keyframes draw { 90% { stroke-dashoffset: 0; fill:none; } 100% { stroke-dashoffset: 0; fill:#fff; }}
+		@-ms-keyframes draw { 90% { stroke-dashoffset: 0; fill:none; } 100% { stroke-dashoffset: 0; fill:#fff; }}
+		@-o-keyframes draw { 90% { stroke-dashoffset: 0; fill:none; } 100% { stroke-dashoffset: 0; fill:#fff; }}
+		@keyframes draw { 90% { stroke-dashoffset: 0; fill:none; } 100% { stroke-dashoffset: 0; fill:#fff; }}
+		.staff li{
+			 width:120px;
+			 height:50px;
+			 border-top:1px solid #fff;
+			 border-bottom:1px solid #fff;
+			 padding: 5px;
+			 margin: 6px 0px 6px;
+			 float: left;
+			 font-size: 16px;
+			 text-align: center;
+			 color:#909090;
+		}
+		.staff,.cast{
+			position:relative;
+			top:20px;
+		}
+		.staff li span{
+			font-size: 16px;
+			text-align: right;
+			color:#A64A46;
+			float: right;
+			line-height: 2.5;
+		}
+		.cast td{
+			 width:540px;
+			 height:30px;
+			 line-height:30px;
+			 padding: 2px;
+			 margin: 2px;
+			 float: left;
+			 font-size: 16px;
+			 text-align: left;
+			 color:#909090;
+		}
+		.cast td span{
+			font-size: 16px;
+			text-align: right;
+			color:#A64A46;
+		}
+		.x{display:inline-block;width:346px;border-bottom:1px dashed rgba(73,85,123,.4);}
+		.z{display:inline-block;width:412px;border-bottom:1px dashed rgba(73,85,123,.4);}
+		.xz{display:inline-block;width:383px;border-bottom:1px dashed rgba(73,85,123,.4);}
+		.y{display:inline-block;width:395px;border-bottom:1px dashed rgba(73,85,123,.4);}
+		.xy{display:inline-block;width:390px;border-bottom:1px dashed rgba(73,85,123,.4);}
+		.m{display:inline-block;width:400px;border-bottom:1px dashed rgba(73,85,123,.4);}
+		.xm{display:inline-block;width:420px;border-bottom:1px dashed rgba(73,85,123,.4);}
+		#link td{
+			height: 50px;
+			line-height: 50px;
+			width: 150px;
+			font-size: 15px;
+			font-family: "Georgia", "Times New Roman", "Songti SC", "SimSun", serif; 
+			font: "Georgia", "Times New Roman", "Songti SC", "SimSun", serif; 
+			face: "Georgia", "Times New Roman", "Songti SC", "SimSun", serif; 
+			color: #909090;
+			text-align: center;
+			z-index: 120;
+			border-left: 1px solid #22100E;
+			border-right: 1px solid #22100E;
+			border-bottom: 1px dashed #22100E;
+			border-top: 1px dashed #22100E;
+		}
+		#link td span{
+			height: 50px;
+			line-height: 50px;
+			width:120px;
+			font-size: 15px;
+			font-family: "Georgia", "Times New Roman", "Songti SC", "SimSun", serif; 
+			font: "Georgia", "Times New Roman", "Songti SC", "SimSun", serif; 
+			face: "Georgia", "Times New Roman", "Songti SC", "SimSun", serif; 
+			color: #808080;
+		}
+		#link td a{
+			height: 50px;
+			line-height: 50px;
+			width: 120px;
+			font-size: 15px;
+			font-family: "Georgia", "Times New Roman", "Songti SC", "SimSun", serif; 
+			font: "Georgia", "Times New Roman", "Songti SC", "SimSun", serif; 
+			face: "Georgia", "Times New Roman", "Songti SC", "SimSun", serif; 
+			color: #808080;
+			z-index: 121;
+		}
+		#link td:hover{
+			background-color: rgba(119,54,34,.2);
+			transition:all 1s linear;
+			-webkit-transition:all 1s linear;
+			-moz-transition:all 1s linear;
+			-ms-transition:all 1s linear;
+			-o-transition:all 1s linear;
+		}
