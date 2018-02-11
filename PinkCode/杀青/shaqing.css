@@ -662,6 +662,7 @@
 			font-size: 15px;
 			color: #fff;
 			text-align: left;
+			z-index:300;
 		}
 		#cast td span{
 			color: #AEAEAE;
@@ -675,6 +676,7 @@
 			font-size: 15px;
 			color: #fff;
 			text-align: left;
+			z-index:300;
 		}
 		#staff td span{
 			color: #AEAEAE;
